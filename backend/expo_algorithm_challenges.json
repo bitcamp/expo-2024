@@ -1,0 +1,98 @@
+[
+    {
+        "id": 0,
+        "prize_category": "Best Public Sector Hack - Bloomberg Industry Group"
+    },
+    {
+        "id": 1,
+        "prize_category": "Best Use of Real Estate Data - CoStar Group"
+    },
+    {
+        "id": 2,
+        "prize_category": "Best Financial Hack - Capital One"
+    },
+    {
+        "id": 3,
+        "prize_category": "Best Moonshot Hack - Bitcamp"
+    },
+    {
+        "id": 4,
+        "prize_category": "People's Choice Hack - Bitcamp"
+    },
+    {
+        "id": 5,
+        "prize_category": "Best Machine Learning Hack - Bitcamp"
+    },
+    {
+        "id": 6,
+        "prize_category": "Best First Time Hack - Bitcamp"
+    },
+    {
+        "id": 7,
+        "prize_category": "Best UI/UX Hack - Bitcamp"
+    },
+    {
+        "id": 8,
+        "prize_category": "Best Social Good Hack - Bitcamp"
+    },
+    {
+        "id": 9,
+        "prize_category": "Best Gamification Hack - Bitcamp"
+    },
+    {
+        "id": 10,
+        "prize_category": "Best Use of CockroachDB Serverless - Cockroach Labs"
+    },
+    {
+        "id": 11,
+        "prize_category": "Best Bitcamp Hack - Bitcamp"
+    },
+    {
+        "id": 12,
+        "prize_category": "Most Philanthropic Hack - Bloomberg"
+    },
+    {
+        "id": 13,
+        "prize_category": "Don\u2019t Put All Your Eggs in One Basket - Fannie Mae"
+    },
+    {
+        "id": 14,
+        "prize_category": "Best Razzle Dazzle Hack - Bitcamp"
+    },
+    {
+        "id": 15,
+        "prize_category": "Best Hardware Hack - Bitcamp"
+    },
+    {
+        "id": 16,
+        "prize_category": "Best Digital Forensics Hack - Cipher Tech"
+    },
+    {
+        "id": 17,
+        "prize_category": "Advanced Quantum Track - Bitcamp"
+    },
+    {
+        "id": 18,
+        "prize_category": "Best Use of MongoDB Atlas - Major League Hacking"
+    },
+    {
+        "id": 19,
+        "prize_category": "Most Creative Use of Twilio - Major League Hacking"
+    },
+    {
+        "id": 20,
+        "prize_category": "Best Blockchain Project Using Hedera - Major League Hacking"
+    },
+    {
+        "id": 21,
+        "prize_category": "Best Use of Microsoft Cloud for Your Community - Major League Hacking"
+    },
+    {
+        "id": 22,
+        "prize_category": "Best Domain Name from Domain.com - Major League Hacking"
+    },
+    {
+        "id": 23,
+        "prize_category": "Best Accessibility Hack sponsored by Fidelity - Major League Hacking"
+    }
+]
