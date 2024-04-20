@@ -393,5 +393,5 @@ def data_to_output_json(data):
 
 OUTPUT_FILE_NAME = "expo_algorithm_results.json"
 
-with open(OUTPUT_FILE_NAME, 'w') as json_file:
+with open("../frontend/public/expo_algorithm_results.json", 'w') as json_file:
     json.dump(data_to_output_json(data), json_file, indent=4)
