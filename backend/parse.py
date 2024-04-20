@@ -10,6 +10,7 @@ import random
 import json
 from datetime import datetime, timedelta, time
 
+import pytz
 
 hc = []
 cap = []
@@ -315,12 +316,21 @@ for value in combined:
 
 def add_minutes_to_time(base_time, minutes):
     new_time = base_time + timedelta(minutes=minutes)
-    return new_time.strftime('%H:%M')
+    return new_time
 
 start_time_str = "10:15"
 start_time = datetime.strptime(start_time_str, '%H:%M')
 time_for_hack = 150//max
 print("\n\n\n\n"+str(time_for_hack))
+
+# Set the Eastern Time zone
+eastern = pytz.timezone('US/Eastern')
+
+EXPO_START_TIME = '2024-04-21 09:30:00'
+
+# Convert the string to a datetime object and localize it to Eastern Time
+DT_START = eastern.localize(datetime.strptime(EXPO_START_TIME, '%Y-%m-%d %H:%M:%S'))
+
 
 for value in combined:
     if value != []:
@@ -331,7 +341,7 @@ for value in combined:
         for judging_times in value[2]:
             if(judging_times[1] != "Major League Hacking"):
                 time_to_add = judging_times[3] * time_for_hack
-                judging_times[3] = add_minutes_to_time(start_time, time_to_add)
+                judging_times[3] = str(add_minutes_to_time(DT_START, time_to_add))
             
 
 data = {
@@ -340,5 +350,48 @@ data = {
     "total_times" : max
 }
 
-with open('../frontend/public/expo_algorithm_results.json', 'w') as json_file:
-    json.dump(data, json_file, indent=4)
+
+
+def data_to_output_json(data): 
+    result = []
+    for team in data['combined_values']:
+        virtual = team[0][0] != "Yes"
+        table = team[0][1] if not virtual else ""
+        team_name = team[1]
+        data_challenges = team[2]
+        link = team[3]
+
+        challenges = []
+
+        for challenge in data_challenges:
+            if len(challenge) == 4:
+                prize_category, company, judge, start_time = challenge
+                is_mlh = False
+            elif len(challenge) == 2:
+                prize_category, company = challenge
+                judge = ""
+                start_time = ""
+                is_mlh = True
+    
+            challenges.append({
+                "is_mlh": is_mlh,
+                "prize_category": prize_category,
+                "company": company,
+                "judge": judge,
+                "start_time": start_time
+            })
+
+        result.append({
+            "virtual": virtual,
+            "table": table,
+            "team_name": team_name,
+            "challenges": challenges,
+            "link": link
+        })
+
+    return result
+
+OUTPUT_FILE_NAME = "expo_algorithm_results.json"
+
+with open(OUTPUT_FILE_NAME, 'w') as json_file:
+    json.dump(data_to_output_json(data), json_file, indent=4)
