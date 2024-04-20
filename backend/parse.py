@@ -8,6 +8,7 @@ import itertools
 from typing import List, Dict, Tuple, Optional
 import random
 import json
+from datetime import datetime, timedelta, time
 
 
 hc = []
@@ -84,7 +85,7 @@ def process(csv_file):
             for j in range(0, len(hc[i])):
                 hc[i][j] = category_names.index(hc[i][j])
 
-csv_file = "backend/bitcamp-2023-projects.csv"
+csv_file = "./bitcamp-2023-projects.csv"
 process(csv_file)
 # print(hc)
 # print(cap)
@@ -311,20 +312,33 @@ for value in combined:
                         challenge[2] = challenge[2] + " " + str(inner_list[1])
                         del repeats[challenge_key][idx]
                         break
-                    
+
+def add_minutes_to_time(base_time, minutes):
+    new_time = base_time + timedelta(minutes=minutes)
+    return new_time.strftime('%H:%M')
+
+start_time_str = "10:15"
+start_time = datetime.strptime(start_time_str, '%H:%M')
+time_for_hack = 150//max
+print("\n\n\n\n"+str(time_for_hack))
+
 for value in combined:
     if value != []:
         name = value[1]
         for lst in names_links:
             if name == lst[0]:
                 value.append(lst[1])
+        for judging_times in value[2]:
+            if(judging_times[1] != "Major League Hacking"):
+                time_to_add = judging_times[3] * time_for_hack
+                judging_times[3] = add_minutes_to_time(start_time, time_to_add)
+            
 
 data = {
     "category_names": final_cat_names,
-    "team_names": names_links,
     "combined_values": combined,
     "total_times" : max
 }
 
-with open('frontend/public/expo_algorithm_results.json', 'w') as json_file:
+with open('../frontend/public/expo_algorithm_results.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)

@@ -88,7 +88,12 @@ const sortedTeamDetails = computed(() => {
                 return !aChallenge ? 1 : -1;
             }
 
-            return parseFloat(aChallenge[3]) - parseFloat(bChallenge[3]);
+            const timeToMinutes = time => {
+                const [hours, minutes] = time.split(':').map(Number);
+                return hours * 60 + minutes;
+            };
+
+            return timeToMinutes(aChallenge[3]) - timeToMinutes(bChallenge[3]);
         });
     }
     return props.teamDetails;
@@ -114,28 +119,11 @@ function toggleButton(link: string) {
             }
             i = i + 1;
         }
-        console.log(teamIndex);
         if (teamIndex !== -1) {
             toggleStates.value[teamIndex] = true;
         }
     }
-    console.log(showChallenges.value);
 }
-
-var teamURL = ref("");
-
-const fetchData = async () => {
-    const response = await fetch("/expo_algorithm_results.json");
-    const data = await response.json();
-    teamURL = data.team_names;
-};
-
-// const findTeamUrl = (teamName: string) => {
-//     if (teamName != "") {
-//         const match = teamURL.find(team => team[0] === teamName);
-//         return match[1];
-//     }
-// };
 
 const updateWindowWidth = () => {
     windowWidth.value = window.innerWidth;
@@ -143,7 +131,6 @@ const updateWindowWidth = () => {
 
 onMounted(() => {
     updateWindowWidth();
-    fetchData();
     window.addEventListener('resize', updateWindowWidth);
     toggleStates.value = props.teamDetails.map(team => showChallenges.value.includes(team[3]));
 });

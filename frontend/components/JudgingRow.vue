@@ -9,8 +9,8 @@
       <div class="judging-description-inner">
         <div>{{ judgeName }}</div>
         <div class="middle-char">-</div>
-        <div>{{ newTime }}</div>
-        <!-- <div>{{ timing }}</div> -->
+        <!-- <div>{{ newTime }}</div> -->
+        <div>{{ getFormattedTiming() }}</div>
       </div>
     </div>
     <div class="judging-description-mlh" v-if="companyName === 'Major League Hacking'">
@@ -42,45 +42,21 @@ export default {
       required: true,
     },
   },
-  setup(props) {
-    const totalBlocks = ref(0);
-    const newTime = ref(0);
-
-    const fetchData = async () => {
-      const response = await fetch("/expo_algorithm_results.json");
-      const data = await response.json();
-      var timeForHack = (150 / data.total_times);
-      // timeForHack = (timeForHack % 1 > 0.5) ? Math.ceil(timeForHack) : Math.floor(timeForHack);
-      timeForHack = Math.floor(timeForHack);
-      console.log(timeForHack)
-      totalBlocks.value = Number(props.timing) * timeForHack;
-      const baseTime = "10:15";
-      newTime.value = addMinutesToTime(baseTime, totalBlocks.value);
-      let [hours, minutes] = newTime.value.split(":").map(Number);
-      let period = 'AM';
-      if (hours >= 12) {
-        period = 'PM';
-        if (hours > 12) {
-          hours -= 12;
-        }
+  methods: {
+    getFormattedTiming() {
+      let time = this.timing;
+      if (time.startsWith("0")) {
+        time = time.substring(1);
       }
-      newTime.value = `${hours}:${minutes.toString().padStart(2, '0')} ${period}`;
-    };
-
-    const addMinutesToTime = (baseTime, minutesToAdd) => {
-      const [hours, minutes] = baseTime.split(":").map(Number);
-      const totalMinutes = hours * 60 + minutes + minutesToAdd;
-      var resultHours = Math.floor(totalMinutes / 60);
-      const resultMinutes = totalMinutes % 60;
-      return `${resultHours}:${resultMinutes.toString().padStart(2, '0')}`;
-    };
-
-    onMounted(() => {
-      fetchData();
-    });
-
-    return { totalBlocks, newTime };
-
+      const hour = parseInt(time.split(':')[0]);
+      if (hour < 12) {
+        time += " AM";
+      }
+      else {
+        time += " PM";
+      }
+      return time;
+    }
   },
 };
 </script>

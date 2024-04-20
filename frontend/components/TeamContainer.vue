@@ -1,6 +1,7 @@
 <template>
   <div class="entire-container">
-    <div class="no-submission-container" v-if="state.filteredTeamNames.length === 0 || filteredCombinedValues.length === 0">
+    <div class="no-submission-container"
+      v-if="state.filteredTeamNames.length === 0 || filteredCombinedValues.length === 0">
       <div class="no-submission">No Submissions</div>
     </div>
     <!-- <div v-if="state.filteredTeamNames.length !== 0"> -->
@@ -10,8 +11,10 @@
       <div>{{ category_names }}</div>
     </div>
     <!-- <div class="content-row" v-if="state.filteredTeamNames.length > 0"> -->
-    <div class="content-row" :class="{ 'content-row-hidden': state.filteredTeamNames.length === 0 || filteredCombinedValues.length === 0 }">
-      <ProjectTeamInformation :filtered="state.filteredTeamNames" :challengeDetails="state.filteredChallengeNames" :projectType="state.projectType" :teamDetails="combinedValues" />
+    <div class="content-row"
+      :class="{ 'content-row-hidden': state.filteredTeamNames.length === 0 || filteredCombinedValues.length === 0 }">
+      <ProjectTeamInformation :filtered="state.filteredTeamNames" :challengeDetails="state.filteredChallengeNames"
+        :projectType="state.projectType" :teamDetails="combinedValues" />
     </div>
     <!-- </div> -->
     <div class="bottom-row">

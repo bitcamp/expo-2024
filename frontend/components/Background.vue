@@ -33,7 +33,7 @@ const fetchData = async () => {
     const response = await fetch("/expo_algorithm_results.json");
     const data = await response.json();
     state.categoryNames = data.category_names;
-    state.teamNames = data.team_names.map((team) => team[0]);
+    state.teamNames = data.combined_values.map((group) => group[1]);
 };
 
 onMounted(fetchData);
