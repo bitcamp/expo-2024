@@ -19,6 +19,17 @@ links = []
 all_mlh = []
 in_person = []
 
+def search_header(csv_file, row_index, string):
+    with open(csv_file, 'r', newline='') as file:
+        reader = csv.reader(file)
+        for i, row in enumerate(reader):
+            if i == row_index:
+                for j, value in enumerate(row):
+                    if value == string:
+                        return j
+                return None
+        return None
+
 def process(csv_file):
     global category_names, team_names, links
     with open(csv_file, 'r', newline='', encoding='utf-8') as file:
@@ -26,16 +37,23 @@ def process(csv_file):
         next(reader)
         #for every each category row in the csv, split by commas to get each category
         for row in reader:
-            if (row[2].strip() == "Draft"):
+            status_index = search_header(csv_file, 0, "Project Status")
+            if (row[status_index].strip() == "Draft"):
                 continue
-            team_name = row[0].strip()
+
+            name_index = search_header(csv_file, 0, "Project Title")
+            team_name = row[name_index].strip()
             team_names.append(team_name)
-            link = row[1].strip()
+
+            link_index = search_header(csv_file, 0, "Submission Url")
+            link = row[link_index].strip()
             links.append(link)
 
-            in_person.append(row[15].strip())
+            in_person_index = search_header(csv_file, 0, "Will You Be Present To Demo In Person On Sunday? (You Should Only Select No If You Cannot Make It In Person Due To Religious Obligations Related To Easter Sunday)")
+            in_person.append(row[in_person_index].strip())
             
-            categories = row[9].split(',')
+            categories_index = search_header(csv_file, 0, "Opt-In Prizes")
+            categories = row[categories_index].split(',')
             append = []
             mlh = []
             for category in categories:
@@ -66,7 +84,7 @@ def process(csv_file):
             for j in range(0, len(hc[i])):
                 hc[i][j] = category_names.index(hc[i][j])
 
-csv_file = "./bitcamp-2023-projects.csv"
+csv_file = "backend/bitcamp-2023-projects.csv"
 process(csv_file)
 # print(hc)
 # print(cap)
@@ -308,5 +326,5 @@ data = {
     "total_times" : max
 }
 
-with open('../frontend/public/expo_algorithm_results.json', 'w') as json_file:
+with open('frontend/public/expo_algorithm_results.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)
