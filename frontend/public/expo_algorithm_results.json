@@ -974,8 +974,8 @@
     {
         "id": 30,
         "team_name": "least supportive emotional support animal",
-        "table": "virtual",
-        "in_person": false,
+        "table": "C8",
+        "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507522-least-supportive-emotional-support-animal",
         "challenges": [
             {
@@ -4833,15 +4833,5 @@
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508308-swift-scroll",
         "challenges": []
-    },
-    {
-        "id": 162,
-        "team_name": "Task Buddy",
-        "table": "",
-        "in_person": true,
-        "link": "https://example.com",
-        "challenges": [
-
-        ]
     }
 ]
