@@ -662,8 +662,8 @@
     {
         "id": 19,
         "team_name": "HarvestMate",
-        "table": "virtual",
-        "in_person": false,
+        "table": "T3",
+        "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507377-harvestmate",
         "challenges": [
             {
@@ -672,127 +672,6 @@
                 "company": "Bitcamp",
                 "judge": "Judge 1",
                 "start_time": "2024-04-21 13:00:00-04:00"
-            }
-        ]
-    },
-    {
-        "id": 20,
-        "team_name": "Hello",
-        "table": "N8",
-        "in_person": true,
-        "link": "https://bitcamp2024.devpost.com/submissions/507391-hello",
-        "challenges": [
-            {
-                "is_mlh": false,
-                "challenge_name": "Beginner Quantum Track Hacks",
-                "company": "Bitcamp",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 11:10:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Best First Time Hack",
-                "company": "Bitcamp",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 11:20:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Best Digital Forensics Related Hack",
-                "company": "Cipher Tech",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 12:00:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "University Course Catalog Data Extraction and Query Challenge",
-                "company": "Xficient",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 12:05:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Most Philanthropic Hack",
-                "company": "Bloomberg",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 12:35:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
-                "company": "Fannie Mae",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 12:40:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Best Social Good Hack",
-                "company": "Bitcamp",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 13:00:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts",
-                "company": "Cloudforce",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 13:10:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Best Financial Hack",
-                "company": "Capital One",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 13:20:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Best AI Powered Solution for Defense Contracts",
-                "company": "Bloomberg Industry Group",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 13:30:00-04:00"
-            },
-            {
-                "is_mlh": true,
-                "challenge_name": "Best Domain Name from GoDaddy Registry",
-                "company": "MLH",
-                "judge": "Judge",
-                "start_time": ""
-            },
-            {
-                "is_mlh": true,
-                "challenge_name": "Best DEI Hack sponsored by Fidelity",
-                "company": "MLH",
-                "judge": "Judge",
-                "start_time": ""
-            },
-            {
-                "is_mlh": true,
-                "challenge_name": "Best Use of Taipy",
-                "company": "MLH",
-                "judge": "Judge",
-                "start_time": ""
-            },
-            {
-                "is_mlh": true,
-                "challenge_name": "Best Use of Kintone",
-                "company": "MLH",
-                "judge": "Judge",
-                "start_time": ""
-            },
-            {
-                "is_mlh": true,
-                "challenge_name": "Best Use of Starknet",
-                "company": "MLH",
-                "judge": "Judge",
-                "start_time": ""
-            },
-            {
-                "is_mlh": true,
-                "challenge_name": "Best Use of PropelAuth",
-                "company": "MLH",
-                "judge": "Judge",
-                "start_time": ""
             }
         ]
     },
@@ -1033,50 +912,6 @@
         ]
     },
     {
-        "id": 27,
-        "team_name": "Hello 2",
-        "table": "virtual",
-        "in_person": false,
-        "link": "https://bitcamp2024.devpost.com/submissions/507481-hello-2",
-        "challenges": [
-            {
-                "is_mlh": false,
-                "challenge_name": "Best Bitcamp Hack",
-                "company": "Bitcamp",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 11:30:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Best Social Good Hack",
-                "company": "Bitcamp",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 12:20:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Best Financial Hack",
-                "company": "Capital One",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 12:40:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Best UI/UX Hack",
-                "company": "Bitcamp",
-                "judge": "Judge 2",
-                "start_time": "2024-04-21 12:55:00-04:00"
-            },
-            {
-                "is_mlh": true,
-                "challenge_name": "Best DEI Hack sponsored by Fidelity",
-                "company": "MLH",
-                "judge": "Judge",
-                "start_time": ""
-            }
-        ]
-    },
-    {
         "id": 28,
         "team_name": "Cribzz",
         "table": "P1",
@@ -1156,36 +991,6 @@
                 "company": "Bitcamp",
                 "judge": "Judge 2",
                 "start_time": "2024-04-21 12:25:00-04:00"
-            }
-        ]
-    },
-    {
-        "id": 31,
-        "team_name": "Test 3",
-        "table": "J6",
-        "in_person": true,
-        "link": "https://bitcamp2024.devpost.com/submissions/507544-test-3",
-        "challenges": [
-            {
-                "is_mlh": false,
-                "challenge_name": "Best UI/UX Hack",
-                "company": "Bitcamp",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 11:40:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Best AI Powered Solution for Defense Contracts",
-                "company": "Bloomberg Industry Group",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 13:15:00-04:00"
-            },
-            {
-                "is_mlh": false,
-                "challenge_name": "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts",
-                "company": "Cloudforce",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 13:25:00-04:00"
             }
         ]
     },
@@ -1417,14 +1222,6 @@
                 "start_time": "2024-04-21 12:45:00-04:00"
             }
         ]
-    },
-    {
-        "id": 38,
-        "team_name": "Test 5",
-        "table": "D7",
-        "in_person": true,
-        "link": "https://bitcamp2024.devpost.com/submissions/507709-test-5",
-        "challenges": []
     },
     {
         "id": 39,
@@ -4049,7 +3846,7 @@
     {
         "id": 124,
         "team_name": "Music Catalogue",
-        "table": "M2",
+        "table": "A2",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508210-music-catalogue",
         "challenges": [
@@ -4456,8 +4253,8 @@
     {
         "id": 139,
         "team_name": "Best AI Powered Solution for Defense Contracts",
-        "table": "virtual",
-        "in_person": false,
+        "table": "M8",
+        "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508254-best-ai-powered-solution-for-defense-contracts",
         "challenges": [
             {
@@ -4753,8 +4550,8 @@
     {
         "id": 151,
         "team_name": "Hand",
-        "table": "virtual",
-        "in_person": false,
+        "table": "M4",
+        "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508283-hand",
         "challenges": [
             {
