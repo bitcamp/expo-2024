@@ -120,7 +120,6 @@ def rename_old_cats(file, out):
 
         # replace all old names with new names
         for row in data:
-            print(row["Opt-In Prizes"])
             item_string = row["Opt-In Prizes"]
 
             for item in LOOKUP:
@@ -129,13 +128,16 @@ def rename_old_cats(file, out):
 
             items = item_string.split(",")
 
+            for i, item in enumerate(items):
+                items[i] = item.strip()
+
             new_items = items.copy()
-            for item in enumerate(new_items):
-                item = item.strip()
+            for item in new_items:
+                print(item)
                 if item in OLD_TRACKS:
+                    print("HIIII")
                     row["Bitcamp Track Challenge"] = item
                     # remove the track from the list of items
-                    print("removing", item)
                     new_items.remove(item)
 
             # update the row with the new names
