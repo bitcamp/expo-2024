@@ -73,11 +73,11 @@ export default {
         selectedChallengeIndex !== "none"
           ? props.challengeNames[selectedChallengeIndex]
           : "";
-      if (!selectedChallenge) {
+      if (!selectedChallenge || selectedChallenge == '') {
         state.filteredChallengeNames = "";
       } else {
         state.filteredChallengeNames = props.challengeNames
-          .filter((name) => name.includes(selectedChallenge))
+          .filter((name) => name.includes(selectedChallenge.split(' - ')[0]))
           .toString();
       }
     };

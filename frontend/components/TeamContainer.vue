@@ -31,7 +31,8 @@ export default {
     const combinedValues = ref([]);
     const state = inject('state');
     const filteredCombinedValues = computed(() => {
-      return combinedValues.value.filter(team => {
+      console.log('computing filteredCombinedValues');
+      const result =  combinedValues.value.filter(team => {
         let condition = (state.projectType === 'in-person' && team.in_person) ||
           (state.projectType === 'virtual' && team.in_person) ||
           (state.projectType === 'all');
@@ -39,13 +40,15 @@ export default {
         let challengeCondition = true;
         if (state.filteredChallengeNames !== '') {
           challengeCondition = team.challenges.some(challenge =>
-            challenge.prize_category === state.filteredChallengeNames.split(' - ')[0]);
+            challenge.challenge_name === state.filteredChallengeNames.split(' - ')[0]);
         }
 
         let teamNameCondition = state.filteredTeamNames.includes(team.team_name);
 
         return condition && challengeCondition && teamNameCondition;
       });
+      console.log('result: ', result);
+      return result;
     });
 
 
@@ -60,7 +63,9 @@ export default {
       fetchData();
     });
 
-    watch(() => state.filteredTeamNames, (newValue) => {
+    watch(() => filteredCombinedValues, (newValue) => {
+      // console.log('state.filteredTeamNames', state.filteredTeamNames);
+      console.log('filteredCombinedValues', filteredCombinedValues)
     }, { immediate: true });
 
     return { state, combinedValues, filteredCombinedValues };
