@@ -8,10 +8,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 11:10:00-04:00"
+                "start_time": "2024-04-21 11:54:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:15:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:36:00-04:00"
             }
         ]
     },
@@ -24,10 +45,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "University Course Catalog Data Extraction and Query Challenge",
+                "company": "Xficient",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 11:20:00-04:00"
+                "start_time": "2024-04-21 11:05:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:15:00-04:00"
             }
         ]
     },
@@ -37,7 +79,29 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507106-resolve",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            }
+        ]
     },
     {
         "id": 3,
@@ -48,17 +112,24 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Cybersecurity Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 12:10:00-04:00"
+                "start_time": "2024-04-21 12:29:00-04:00"
             },
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best Razzle Dazzle Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:43:00-04:00"
             }
         ]
     },
@@ -68,7 +139,50 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507115-forecasts-by-the-campfire",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
+                "company": "Fannie Mae",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:26:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:15:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:50:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best DEI Hack sponsored by Fidelity",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            }
+        ]
     },
     {
         "id": 5,
@@ -76,7 +190,36 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507118-upsanddowns",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:08:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:29:00-04:00"
+            }
+        ]
     },
     {
         "id": 6,
@@ -87,10 +230,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:05:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
                 "start_time": "2024-04-21 11:40:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:29:00-04:00"
             }
         ]
     },
@@ -100,7 +264,29 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507159-experience-points",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:33:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Use of Starknet",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            }
+        ]
     },
     {
         "id": 8,
@@ -111,10 +297,24 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:08:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 11:00:00-04:00"
+                "start_time": "2024-04-21 12:15:00-04:00"
             }
         ]
     },
@@ -130,14 +330,21 @@
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 12:30:00-04:00"
+                "start_time": "2024-04-21 10:58:00-04:00"
             },
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:47:00-04:00"
             }
         ]
     },
@@ -153,7 +360,28 @@
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 12:40:00-04:00"
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:54:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "University Course Catalog Data Extraction and Query Challenge",
+                "company": "Xficient",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:08:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:15:00-04:00"
             }
         ]
     },
@@ -169,7 +397,21 @@
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 12:30:00-04:00"
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
+                "company": "Fannie Mae",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:01:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:50:00-04:00"
             }
         ]
     },
@@ -187,7 +429,15 @@
         "table": "virtual",
         "in_person": false,
         "link": "https://bitcamp2024.devpost.com/submissions/507377-harvestmate",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            }
+        ]
     },
     {
         "id": 14,
@@ -198,15 +448,113 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Beginner Quantum Track Hacks",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 10:40:00-04:00"
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Digital Forensics Related Hack",
+                "company": "Cipher Tech",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:26:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:33:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "University Course Catalog Data Extraction and Query Challenge",
+                "company": "Xficient",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:40:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:01:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:08:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
+                "company": "Fannie Mae",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:15:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:29:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts",
+                "company": "Cloudforce",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:43:00-04:00"
             },
             {
                 "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
-                "company": "Bitcamp",
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best DEI Hack sponsored by Fidelity",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Use of Taipy",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Use of Kintone",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Use of Starknet",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Use of PropelAuth",
+                "company": "MLH",
                 "judge": "Judge",
                 "start_time": ""
             }
@@ -220,11 +568,18 @@
         "link": "https://bitcamp2024.devpost.com/submissions/507394-efficace",
         "challenges": [
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:05:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:08:00-04:00"
             }
         ]
     },
@@ -240,7 +595,49 @@
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 11:50:00-04:00"
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "University Course Catalog Data Extraction and Query Challenge",
+                "company": "Xficient",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:54:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:43:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
             }
         ]
     },
@@ -255,15 +652,29 @@
                 "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
-                "judge": "Judge 2",
-                "start_time": "2024-04-21 12:30:00-04:00"
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:51:00-04:00"
             },
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:50:00-04:00"
             }
         ]
     },
@@ -276,10 +687,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:01:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:29:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 10:50:00-04:00"
+                "start_time": "2024-04-21 12:50:00-04:00"
             }
         ]
     },
@@ -289,7 +721,43 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507472-cerebro",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Razzle Dazzle Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:26:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:40:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:36:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best DEI Hack sponsored by Fidelity",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            }
+        ]
     },
     {
         "id": 20,
@@ -300,10 +768,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
+                "company": "Fannie Mae",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:05:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:33:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:01:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 11:40:00-04:00"
+                "start_time": "2024-04-21 12:22:00-04:00"
             }
         ]
     },
@@ -313,7 +802,43 @@
         "table": "virtual",
         "in_person": false,
         "link": "https://bitcamp2024.devpost.com/submissions/507481-hello-2",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:40:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:36:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best DEI Hack sponsored by Fidelity",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            }
+        ]
     },
     {
         "id": 22,
@@ -321,7 +846,22 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507502-cribzz",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:26:00-04:00"
+            }
+        ]
     },
     {
         "id": 23,
@@ -332,17 +872,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 10:50:00-04:00"
+                "start_time": "2024-04-21 11:54:00-04:00"
             },
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:36:00-04:00"
             }
         ]
     },
@@ -352,7 +906,22 @@
         "table": "virtual",
         "in_person": false,
         "link": "https://bitcamp2024.devpost.com/submissions/507522-least-supportive-emotional-support-animal",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Razzle Dazzle Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:08:00-04:00"
+            }
+        ]
     },
     {
         "id": 25,
@@ -360,7 +929,29 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507544-test-3",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts",
+                "company": "Cloudforce",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:36:00-04:00"
+            }
+        ]
     },
     {
         "id": 26,
@@ -368,7 +959,36 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507607-umd-eats",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "University Course Catalog Data Extraction and Query Challenge",
+                "company": "Xficient",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            }
+        ]
     },
     {
         "id": 27,
@@ -376,7 +996,29 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507635-sustainable-shelters",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
+                "company": "Fannie Mae",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:36:00-04:00"
+            }
+        ]
     },
     {
         "id": 28,
@@ -384,7 +1026,43 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507675-vike",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best DEI Hack sponsored by Fidelity",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            }
+        ]
     },
     {
         "id": 29,
@@ -392,7 +1070,43 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507677-debuggies",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:54:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Razzle Dazzle Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:43:00-04:00"
+            }
+        ]
     },
     {
         "id": 30,
@@ -403,17 +1117,24 @@
         "challenges": [
             {
                 "is_mlh": false,
-                "challenge_name": "Best App Dev Track Hack",
+                "challenge_name": "Best First Time Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 12:10:00-04:00"
+                "start_time": "2024-04-21 11:40:00-04:00"
             },
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Razzle Dazzle Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:36:00-04:00"
             }
         ]
     },
@@ -434,15 +1155,36 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "University Course Catalog Data Extraction and Query Challenge",
+                "company": "Xficient",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:40:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:15:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 12:10:00-04:00"
+                "start_time": "2024-04-21 12:36:00-04:00"
             },
             {
                 "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
-                "company": "Bitcamp",
+                "challenge_name": "Best DEI Hack sponsored by Fidelity",
+                "company": "MLH",
                 "judge": "Judge",
                 "start_time": ""
             }
@@ -457,10 +1199,24 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:05:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 10:30:00-04:00"
+                "start_time": "2024-04-21 11:26:00-04:00"
             }
         ]
     },
@@ -473,10 +1229,24 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:01:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 11:10:00-04:00"
+                "start_time": "2024-04-21 12:50:00-04:00"
             }
         ]
     },
@@ -489,10 +1259,38 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 11:40:00-04:00"
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:33:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts",
+                "company": "Cloudforce",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
             }
         ]
     },
@@ -505,10 +1303,24 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:01:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 11:00:00-04:00"
+                "start_time": "2024-04-21 12:15:00-04:00"
             }
         ]
     },
@@ -518,7 +1330,29 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507741-livepresence",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Hardware Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:08:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            }
+        ]
     },
     {
         "id": 38,
@@ -526,7 +1360,29 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507759-california-wildfires-and-housing",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Sustainability Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
+                "company": "Fannie Mae",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:40:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 12:15:00-04:00"
+            }
+        ]
     },
     {
         "id": 39,
@@ -545,10 +1401,31 @@
         "challenges": [
             {
                 "is_mlh": false,
-                "challenge_name": "Best App Dev Track Hack",
+                "challenge_name": "Best Moonshot Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 12:10:00-04:00"
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best App Dev Track Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:08:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
             }
         ]
     },
@@ -561,10 +1438,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 12:20:00-04:00"
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:54:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
             }
         ]
     },
@@ -577,10 +1475,17 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:40:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 12:00:00-04:00"
+                "start_time": "2024-04-21 12:08:00-04:00"
             }
         ]
     },
@@ -595,8 +1500,22 @@
                 "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 10:50:00-04:00"
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:36:00-04:00"
             }
         ]
     },
@@ -609,10 +1528,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts",
+                "company": "Cloudforce",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 11:10:00-04:00"
+                "start_time": "2024-04-21 11:54:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:43:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:50:00-04:00"
             }
         ]
     },
@@ -632,11 +1572,18 @@
         "link": "https://bitcamp2024.devpost.com/submissions/507812-umd-foodies",
         "challenges": [
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:37:00-04:00"
             }
         ]
     },
@@ -646,7 +1593,29 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507815-conscious-cycles",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            }
+        ]
     },
     {
         "id": 48,
@@ -657,10 +1626,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Cybersecurity Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 11:40:00-04:00"
+                "start_time": "2024-04-21 11:05:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Digital Forensics Related Hack",
+                "company": "Cipher Tech",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:43:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:50:00-04:00"
             }
         ]
     },
@@ -670,7 +1660,29 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507825-cash-claw",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            }
+        ]
     },
     {
         "id": 50,
@@ -678,7 +1690,29 @@
         "table": "virtual",
         "in_person": false,
         "link": "https://bitcamp2024.devpost.com/submissions/507831-quest",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:54:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Razzle Dazzle Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:08:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            }
+        ]
     },
     {
         "id": 51,
@@ -689,10 +1723,24 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:33:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 11:50:00-04:00"
+                "start_time": "2024-04-21 12:29:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:43:00-04:00"
             }
         ]
     },
@@ -702,7 +1750,50 @@
         "table": "virtual",
         "in_person": false,
         "link": "https://bitcamp2024.devpost.com/submissions/507849-umd-weather",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Razzle Dazzle Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:01:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "University Course Catalog Data Extraction and Query Challenge",
+                "company": "Xficient",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:36:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts",
+                "company": "Cloudforce",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:43:00-04:00"
+            }
+        ]
     },
     {
         "id": 53,
@@ -713,10 +1804,45 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:40:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:54:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:15:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 11:20:00-04:00"
+                "start_time": "2024-04-21 12:36:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Use of PropelAuth",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
             }
         ]
     },
@@ -729,17 +1855,38 @@
         "challenges": [
             {
                 "is_mlh": false,
-                "challenge_name": "Best Machine Learning Track Hack",
-                "company": "Bitcamp",
+                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
+                "company": "Fannie Mae",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 11:30:00-04:00"
+                "start_time": "2024-04-21 10:44:00-04:00"
             },
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 4",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Machine Learning Track Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:29:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:36:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:43:00-04:00"
             }
         ]
     },
@@ -752,10 +1899,24 @@
         "challenges": [
             {
                 "is_mlh": false,
-                "challenge_name": "Best App Dev Track Hack",
+                "challenge_name": "Best Moonshot Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 12:00:00-04:00"
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:54:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best App Dev Track Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:15:00-04:00"
             }
         ]
     },
@@ -768,10 +1929,24 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:40:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 10:30:00-04:00"
+                "start_time": "2024-04-21 12:08:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "University Course Catalog Data Extraction and Query Challenge",
+                "company": "Xficient",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:15:00-04:00"
             }
         ]
     },
@@ -787,7 +1962,21 @@
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 12:20:00-04:00"
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:36:00-04:00"
             }
         ]
     },
@@ -797,7 +1986,15 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507884-bitcamp-brawlers-disaster-data",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
+                "company": "Fannie Mae",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:50:00-04:00"
+            }
+        ]
     },
     {
         "id": 59,
@@ -805,7 +2002,50 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507898-projectfm",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:26:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:01:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
+                "company": "Fannie Mae",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:36:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:50:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Use of PropelAuth",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            }
+        ]
     },
     {
         "id": 60,
@@ -816,10 +2056,24 @@
         "challenges": [
             {
                 "is_mlh": false,
-                "challenge_name": "Best App Dev Track Hack",
+                "challenge_name": "Best Social Good Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 11:50:00-04:00"
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best App Dev Track Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:26:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:47:00-04:00"
             }
         ]
     },
@@ -832,15 +2086,29 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:15:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 11:00:00-04:00"
+                "start_time": "2024-04-21 12:36:00-04:00"
             },
             {
                 "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
-                "company": "Bitcamp",
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
                 "judge": "Judge",
                 "start_time": ""
             }
@@ -857,8 +2125,22 @@
                 "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
-                "judge": "Judge 2",
-                "start_time": "2024-04-21 11:20:00-04:00"
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
+                "company": "Fannie Mae",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:29:00-04:00"
             }
         ]
     },
@@ -873,13 +2155,34 @@
                 "is_mlh": false,
                 "challenge_name": "Best Cybersecurity Track Hack",
                 "company": "Bitcamp",
-                "judge": "Judge 2",
-                "start_time": "2024-04-21 11:40:00-04:00"
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 11:33:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Digital Forensics Related Hack",
+                "company": "Cipher Tech",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:15:00-04:00"
             },
             {
                 "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
-                "company": "Bitcamp",
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
                 "judge": "Judge",
                 "start_time": ""
             }
@@ -891,7 +2194,22 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507912-extreme-weather-events-and-mortgage-payment",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:33:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
+                "company": "Fannie Mae",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:54:00-04:00"
+            }
+        ]
     },
     {
         "id": 65,
@@ -905,7 +2223,21 @@
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 10:40:00-04:00"
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:54:00-04:00"
             }
         ]
     },
@@ -915,7 +2247,29 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507940-cuttingcorners",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            }
+        ]
     },
     {
         "id": 67,
@@ -926,10 +2280,31 @@
         "challenges": [
             {
                 "is_mlh": false,
-                "challenge_name": "Best Machine Learning Track Hack",
+                "challenge_name": "Best First Time Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 12:30:00-04:00"
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Machine Learning Track Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts",
+                "company": "Cloudforce",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:54:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:22:00-04:00"
             }
         ]
     },
@@ -942,17 +2317,24 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:05:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 10:30:00-04:00"
+                "start_time": "2024-04-21 11:40:00-04:00"
             },
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:50:00-04:00"
             }
         ]
     },
@@ -964,11 +2346,18 @@
         "link": "https://bitcamp2024.devpost.com/submissions/507953-fortnite-battle-pass",
         "challenges": [
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 12:01:00-04:00"
             }
         ]
     },
@@ -988,11 +2377,18 @@
         "link": "https://bitcamp2024.devpost.com/submissions/507975-pocketbot",
         "challenges": [
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:15:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:43:00-04:00"
             }
         ]
     },
@@ -1002,7 +2398,29 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507976-saplng",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Sustainability Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:26:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:36:00-04:00"
+            }
+        ]
     },
     {
         "id": 73,
@@ -1018,7 +2436,43 @@
         "table": "virtual",
         "in_person": false,
         "link": "https://bitcamp2024.devpost.com/submissions/507990-budget-hero",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:01:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            }
+        ]
     },
     {
         "id": 75,
@@ -1028,11 +2482,18 @@
         "link": "https://bitcamp2024.devpost.com/submissions/507992-studygrapher",
         "challenges": [
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:05:00-04:00"
             }
         ]
     },
@@ -1045,10 +2506,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 11:10:00-04:00"
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 12:36:00-04:00"
             }
         ]
     },
@@ -1063,8 +2545,36 @@
                 "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
-                "judge": "Judge 2",
-                "start_time": "2024-04-21 10:50:00-04:00"
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "University Course Catalog Data Extraction and Query Challenge",
+                "company": "Xficient",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:33:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:15:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:43:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Use of PropelAuth",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
             }
         ]
     },
@@ -1074,7 +2584,29 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508015-mindmesh",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 4",
+                "start_time": "2024-04-21 12:15:00-04:00"
+            }
+        ]
     },
     {
         "id": 79,
@@ -1085,17 +2617,24 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:26:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 12:20:00-04:00"
+                "start_time": "2024-04-21 11:54:00-04:00"
             },
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:43:00-04:00"
             }
         ]
     },
@@ -1111,7 +2650,7 @@
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 11:30:00-04:00"
+                "start_time": "2024-04-21 12:29:00-04:00"
             }
         ]
     },
@@ -1126,8 +2665,8 @@
                 "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
-                "judge": "Judge 1",
-                "start_time": "2024-04-21 12:40:00-04:00"
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:36:00-04:00"
             }
         ]
     },
@@ -1139,11 +2678,18 @@
         "link": "https://bitcamp2024.devpost.com/submissions/508062-connective",
         "challenges": [
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 12:36:00-04:00"
             }
         ]
     },
@@ -1153,7 +2699,36 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508065-stranger-danger",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:05:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:26:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Razzle Dazzle Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:33:00-04:00"
+            }
+        ]
     },
     {
         "id": 84,
@@ -1167,7 +2742,21 @@
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 12:40:00-04:00"
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:15:00-04:00"
             }
         ]
     },
@@ -1185,7 +2774,43 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508111-contractscope",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:33:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Razzle Dazzle Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:15:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:29:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Use of Taipy",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            }
+        ]
     },
     {
         "id": 87,
@@ -1196,10 +2821,38 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:05:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:12:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 11:50:00-04:00"
+                "start_time": "2024-04-21 11:26:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:01:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:29:00-04:00"
             }
         ]
     },
@@ -1212,10 +2865,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 12:00:00-04:00"
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Most Philanthropic Hack",
+                "company": "Bloomberg",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:15:00-04:00"
             }
         ]
     },
@@ -1225,7 +2899,29 @@
         "table": "virtual",
         "in_person": false,
         "link": "https://bitcamp2024.devpost.com/submissions/508145-foragr",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:33:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Sustainability Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:36:00-04:00"
+            }
+        ]
     },
     {
         "id": 90,
@@ -1236,10 +2932,24 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:40:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 12:20:00-04:00"
+                "start_time": "2024-04-21 12:15:00-04:00"
             }
         ]
     },
@@ -1252,10 +2962,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 12:40:00-04:00"
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Razzle Dazzle Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
             }
         ]
     },
@@ -1265,7 +2996,29 @@
         "table": "virtual",
         "in_person": false,
         "link": "https://bitcamp2024.devpost.com/submissions/508168-news-swipe",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Moonshot Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Razzle Dazzle Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:36:00-04:00"
+            }
+        ]
     },
     {
         "id": 93,
@@ -1273,7 +3026,15 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508179-chore2do",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:36:00-04:00"
+            }
+        ]
     },
     {
         "id": 94,
@@ -1284,10 +3045,38 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Sustainability Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 11:40:00-04:00"
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Use of PropelAuth",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
             }
         ]
     },
@@ -1300,10 +3089,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:33:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:40:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 10:40:00-04:00"
+                "start_time": "2024-04-21 12:43:00-04:00"
             }
         ]
     },
@@ -1342,8 +3152,8 @@
                 "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
-                "judge": "Judge 2",
-                "start_time": "2024-04-21 11:20:00-04:00"
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:33:00-04:00"
             }
         ]
     },
@@ -1353,7 +3163,15 @@
         "table": "A1",
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508212-clean-up-fast",
-        "challenges": []
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Gamification Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:51:00-04:00"
+            }
+        ]
     },
     {
         "id": 101,
@@ -1367,7 +3185,21 @@
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 12:00:00-04:00"
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:54:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 12:29:00-04:00"
             }
         ]
     },
@@ -1383,7 +3215,7 @@
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 11:30:00-04:00"
+                "start_time": "2024-04-21 10:51:00-04:00"
             }
         ]
     },
@@ -1399,7 +3231,21 @@
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 11:30:00-04:00"
+                "start_time": "2024-04-21 10:37:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 10:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:40:00-04:00"
             }
         ]
     },
@@ -1423,7 +3269,14 @@
                 "challenge_name": "Best Cybersecurity Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 1",
-                "start_time": "2024-04-21 12:00:00-04:00"
+                "start_time": "2024-04-21 11:19:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best First Time Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 11:54:00-04:00"
             }
         ]
     },
@@ -1436,10 +3289,31 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 10:51:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 10:40:00-04:00"
+                "start_time": "2024-04-21 12:29:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Use of PropelAuth",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
             }
         ]
     },
@@ -1454,15 +3328,22 @@
                 "is_mlh": false,
                 "challenge_name": "Best App Dev Track Hack",
                 "company": "Bitcamp",
-                "judge": "Judge 2",
-                "start_time": "2024-04-21 11:00:00-04:00"
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:19:00-04:00"
             },
             {
-                "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
                 "company": "Bitcamp",
-                "judge": "Judge",
-                "start_time": ""
+                "judge": "Judge 4",
+                "start_time": "2024-04-21 11:47:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Sustainability Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:15:00-04:00"
             }
         ]
     },
@@ -1475,15 +3356,29 @@
         "challenges": [
             {
                 "is_mlh": false,
+                "challenge_name": "Best Razzle Dazzle Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 2",
+                "start_time": "2024-04-21 10:58:00-04:00"
+            },
+            {
+                "is_mlh": false,
                 "challenge_name": "Best Machine Learning Track Hack",
                 "company": "Bitcamp",
                 "judge": "Judge 2",
-                "start_time": "2024-04-21 12:10:00-04:00"
+                "start_time": "2024-04-21 12:22:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 3",
+                "start_time": "2024-04-21 12:50:00-04:00"
             },
             {
                 "is_mlh": true,
-                "challenge_name": "People's Choice Hack",
-                "company": "Bitcamp",
+                "challenge_name": "Best Domain Name from GoDaddy Registry",
+                "company": "MLH",
                 "judge": "Judge",
                 "start_time": ""
             }
