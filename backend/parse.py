@@ -353,7 +353,7 @@ data = {
 
 
 def data_to_output_json(data): 
-    result = []
+    projects = []
     for team in data['combined_values']:
         virtual = team[0][0] != "Yes"
         table = team[0][1] if not virtual else ""
@@ -381,17 +381,34 @@ def data_to_output_json(data):
                 "start_time": start_time
             })
 
-        result.append({
+        projects.append({
             "virtual": virtual,
             "table": table,
             "team_name": team_name,
             "challenges": challenges,
             "link": link
         })
+    
+    categories = []
+    for id, category in enumerate(data['category_names']):
+        categories.append({
+            "id": id,
+            "prize_category": category
+        })
+    return projects, categories
 
-    return result
 
 OUTPUT_FILE_NAME = "expo_algorithm_results.json"
+OUTPUT_CHALLENGES_FILE_NAME = "expo_algorithm_challenges.json"
 
+<<<<<<< HEAD
 with open("../frontend/public/expo_algorithm_results.json", 'w') as json_file:
     json.dump(data_to_output_json(data), json_file, indent=4)
+=======
+data, challenges = data_to_output_json(data)
+with open(OUTPUT_FILE_NAME, 'w') as json_file:
+    json.dump(data, json_file, indent=4)
+
+with open(OUTPUT_CHALLENGES_FILE_NAME, 'w') as json_file:
+    json.dump(challenges, json_file, indent=4)
+>>>>>>> 24ecbb7ca449a8da7b2d7a7b8b5ca8e9d0cba26b
