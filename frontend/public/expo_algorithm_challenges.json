@@ -12,10 +12,6 @@
         "prize_category": "Best Cybersecurity Track Hack - Bitcamp"
     },
     {
-        "id": 3,
-        "prize_category": "Beginner Quantum Track Hacks - Bitcamp"
-    },
-    {
         "id": 4,
         "prize_category": "Best Advanced Quantum Track Hack - Bitcamp"
     },
@@ -50,10 +46,6 @@
     {
         "id": 12,
         "prize_category": "Best Gamification Hack - Bitcamp"
-    },
-    {
-        "id": 13,
-        "prize_category": "People's Choice Hack - Bitcamp"
     },
     {
         "id": 14,
