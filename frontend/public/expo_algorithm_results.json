@@ -2039,8 +2039,8 @@
     {
         "id": 65,
         "team_name": "UMD Weather",
-        "table": "virtual",
-        "in_person": false,
+        "table": "A7",
+        "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/507849-umd-weather",
         "challenges": [
             {
@@ -4805,5 +4805,15 @@
         "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508308-swift-scroll",
         "challenges": []
+    },
+    {
+        "id": 162,
+        "team_name": "Task Buddy",
+        "table": "",
+        "in_person": true,
+        "link": "https://example.com",
+        "challenges": [
+
+        ]
     }
 ]
