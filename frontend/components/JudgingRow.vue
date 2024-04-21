@@ -44,18 +44,15 @@ export default {
   },
   methods: {
     getFormattedTiming() {
-      let time = this.timing;
-      if (time.startsWith("0")) {
-        time = time.substring(1);
-      }
-      const hour = parseInt(time.split(':')[0]);
-      if (hour < 12) {
-        time += " AM";
-      }
-      else {
-        time += " PM";
-      }
-      return time;
+      const timePart = this.timing.split(' ')[1];
+      const [hours, minutes] = timePart.split(':');
+
+      let hour = parseInt(hours);
+      const amPm = hour >= 12 ? 'PM' : 'AM';
+      hour = hour % 12;
+      hour = hour ? hour : 12;
+
+      return `${hour}:${minutes} ${amPm}`;
     }
   },
 };

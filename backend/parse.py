@@ -401,14 +401,9 @@ def data_to_output_json(data):
 OUTPUT_FILE_NAME = "expo_algorithm_results.json"
 OUTPUT_CHALLENGES_FILE_NAME = "expo_algorithm_challenges.json"
 
-<<<<<<< HEAD
-with open("../frontend/public/expo_algorithm_results.json", 'w') as json_file:
-    json.dump(data_to_output_json(data), json_file, indent=4)
-=======
 data, challenges = data_to_output_json(data)
 with open(OUTPUT_FILE_NAME, 'w') as json_file:
     json.dump(data, json_file, indent=4)
 
 with open(OUTPUT_CHALLENGES_FILE_NAME, 'w') as json_file:
     json.dump(challenges, json_file, indent=4)
->>>>>>> 24ecbb7ca449a8da7b2d7a7b8b5ca8e9d0cba26b

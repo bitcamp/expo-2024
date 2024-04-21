@@ -30,10 +30,12 @@ const state = reactive({
 });
 
 const fetchData = async () => {
-    const response = await fetch("/expo_algorithm_results.json");
-    const data = await response.json();
-    state.categoryNames = data.category_names;
-    state.teamNames = data.combined_values.map((group) => group[1]);
+    const response_results = await fetch("/expo_algorithm_results.json");
+    const response_challenges = await fetch("/expo_algorithm_challenges.json");
+    const data_results = await response_results.json();
+    const data_challenges = await response_challenges.json();
+    state.teamNames = data_results.map(item => item.team_name);
+    state.categoryNames = data_challenges.map((group) => group.prize_category);
 };
 
 onMounted(fetchData);
