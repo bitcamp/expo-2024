@@ -1481,6 +1481,13 @@
                 "company": "MLH",
                 "judge": "Judge",
                 "start_time": ""
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Advanced Quantum Track Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:30:00-04:00"
             }
         ]
     },
@@ -3651,6 +3658,13 @@
                 "company": "Bitcamp",
                 "judge": "Judge 1",
                 "start_time": "2024-04-21 13:05:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Advanced Quantum Track Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:00:00-04:00"
             }
         ]
     },
@@ -4097,6 +4111,13 @@
                 "company": "MLH",
                 "judge": "Judge",
                 "start_time": ""
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Advanced Quantum Track Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:10:00-04:00"
             }
         ]
     },
@@ -4468,6 +4489,13 @@
                 "company": "Bitcamp",
                 "judge": "Judge 1",
                 "start_time": "2024-04-21 12:10:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Advanced Quantum Track Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:20:00-04:00"
             }
         ]
     },
