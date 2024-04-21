@@ -17,3 +17,4 @@ Our tech stack mimics the [portal](https://github.com/bitcamp/portal) registrati
 Lambda API functions + DynamoDB for the backend (all controlled using https://serverless.com). 
 
 This project is a complete redesign and reconstruction of previous years and will hopefully be adopted in the upcoming years. 
+
