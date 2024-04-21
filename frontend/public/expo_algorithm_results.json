@@ -3754,8 +3754,8 @@
     {
         "id": 119,
         "team_name": "I'm Not Single Club",
-        "table": "virtual",
-        "in_person": false,
+        "table": "P2",
+        "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508191-i-m-not-single-club",
         "challenges": []
     },
