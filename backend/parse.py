@@ -70,7 +70,7 @@ EXCLUDED_CHALLENGES = set([
 
 CHALLENGE_JUDGE_GROUPS = [
     3, #"Best Machine Learning Track Hack - Bitcamp", (3+4)
-    4, #"Best App Dev Track Hack - Bitcamp", (11+2)
+    4, #"Best App Dev Track Hack - Bitcamp", (9+2)
     2, #"Best Cybersecurity Track Hack - Bitcamp", (3+2)
     0, #"Beginner Quantum Track Hacks - Bitcamp", (4+2)
     3, #"Best Advanced Quantum Track Hack - Bitcamp", (4+2)
@@ -340,7 +340,7 @@ def expo_output_to_json(t, H, team_names, links, in_person_list, MLH_challenges)
     EXPO_START_TIME = "2024-04-21 11:00:00"
     EXPO_START = eastern.localize(datetime.strptime(EXPO_START_TIME, "%Y-%m-%d %H:%M:%S"))
 
-    HACK_TIME = 150 // t
+    HACK_TIME = 5
     judgetime_seen = defaultdict(lambda: 1)
 
     result = []
@@ -392,8 +392,7 @@ def expo_output_to_json(t, H, team_names, links, in_person_list, MLH_challenges)
         
         team_json["challenges"] = challenges
         result.append(team_json)
-
-    
+                
     return result
 
 
