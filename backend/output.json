@@ -1,0 +1,143 @@
+[
+    {
+        "id": 0,
+        "team_name": "Hello",
+        "table": "virtual",
+        "in_person": false,
+        "link": "https://bitcamp2024.devpost.com/submissions/507391-hello",
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts",
+                "company": "Cloudforce",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:07:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Digital Forensics Related Hack",
+                "company": "Cipher Tech",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Use of APIs related to Housing/Climate Change",
+                "company": "Fannie Mae",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:21:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best DEI Hack sponsored by Fidelity",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best Use of Kintone",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "team_name": "Hello 2",
+        "table": "virtual",
+        "in_person": false,
+        "link": "https://bitcamp2024.devpost.com/submissions/507481-hello-2",
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Bitcamp Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:21:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Social Good Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:44:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best Financial Hack",
+                "company": "Capital One",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:07:00-04:00"
+            },
+            {
+                "is_mlh": true,
+                "challenge_name": "Best DEI Hack sponsored by Fidelity",
+                "company": "MLH",
+                "judge": "Judge",
+                "start_time": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "team_name": "Test 3",
+        "table": "A1",
+        "in_person": true,
+        "link": "https://bitcamp2024.devpost.com/submissions/507544-test-3",
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Best UI/UX Hack",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 12:21:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts",
+                "company": "Cloudforce",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 10:30:00-04:00"
+            },
+            {
+                "is_mlh": false,
+                "challenge_name": "Best AI Powered Solution for Defense Contracts",
+                "company": "Bloomberg Industry Group",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:44:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "team_name": "Test 5",
+        "table": "A1",
+        "in_person": true,
+        "link": "https://bitcamp2024.devpost.com/submissions/507709-test-5",
+        "challenges": [
+            {
+                "is_mlh": false,
+                "challenge_name": "Beginner Quantum Track Hacks",
+                "company": "Bitcamp",
+                "judge": "Judge 1",
+                "start_time": "2024-04-21 11:07:00-04:00"
+            }
+        ]
+    }
+]

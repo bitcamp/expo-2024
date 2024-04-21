@@ -9,14 +9,20 @@ from typing import List, Dict, Tuple, Optional
 import random
 import json
 import random
+from collections import defaultdict
 
+from datetime import datetime, timedelta
+import pytz
+
+random.seed(10)
 
 DRAFT_COLUMN_NAME = 'Project Status'
 TEAM_COLUMN_NAME = 'Project Title'
 LINK_COLUMN_NAME = 'Submission Url'
-IN_PERSON_COLUMN_NAME = 'Will you be in-person to present?'
+IN_PERSON_COLUMN_NAME = 'Will You Be In Person To Present Your Project?'
 CHALLENGES_COLUMN_NAME = 'Opt-In Prizes'
 TRACK_CHALLENGE_COLUMN_NAME = 'Bitcamp Track Challenge'
+TRACK_HACK_OPT_OUT_RESPONSE = "I don't want to submit to a Bitcamp track challenge. I understand that I can still submit to the other Bitcamp sponsored challenges."
 
 hc = []
 cap = []
@@ -58,16 +64,11 @@ BITCAMP_HACKS = set([
 ])
 
 FULL_CHALLENGE_LIST = [
-    "Best Hardware Hack - Bitcamp",
-    "Best Bitcamp Hack - Bitcamp",
-    "Best First Time Hack - Bitcamp",
-    "Best UI/UX Hack - Bitcamp",
-    "Best Moonshot Hack - Bitcamp",
-    "Best Razzle Dazzle Hack - Bitcamp",
-    "Best Social Good Hack - Bitcamp",
-    "Best Gamification Hack - Bitcamp",
-    "People's Choice Hack - Bitcamp",
-    "Best Sustainability Hack - Bitcamp",
+    "Best Machine Learning Track Hack - Bitcamp",
+    "Best App Dev Track Hack - Bitcamp",
+    "Best Cybersecurity Track Hack - Bitcamp",
+    "Beginner Quantum Track Hacks - Bitcamp",
+    "Best Advanced Quantum Track Hack - Bitcamp"
     
     "Best Hardware Hack - Bitcamp",
     "Best Bitcamp Hack - Bitcamp",
@@ -78,7 +79,7 @@ FULL_CHALLENGE_LIST = [
     "Best Social Good Hack - Bitcamp",
     "Best Gamification Hack - Bitcamp",
     "People's Choice Hack - Bitcamp",
-    "Best Sustainability Hack - Bitcamp"
+    "Best Sustainability Hack - Bitcamp",
 
     "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce",
     "Most Philanthropic Hack - Bloomberg",
@@ -87,9 +88,28 @@ FULL_CHALLENGE_LIST = [
     "Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group",
     "Best Financial Hack - Capital One",
     "University Course Catalog Data Extraction and Query Challenge - Xficient",
+    
+#     "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce",
+# "Best Digital Forensics Related Hack - Cipher Tech",
+# "Best Use of APIs related to Housing/Climate Change - Fannie Mae",
+# "Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group",
+# "Best Bitcamp Hack - Bitcamp",
+# "Best UI/UX Hack - Bitcamp",
+# "Best Social Good Hack - Bitcamp",
+# "Best Financial Hack - Capital One",
+# "Beginner Quantum Track Hacks - Bitcamp",
+# "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce",
+# "Best Digital Forensics Related Hack - Cipher Tech",
+# "Best Use of APIs related to Housing/Climate Change - Fannie Mae",
+# "Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group",
+# "Best Bitcamp Hack - Bitcamp",
+# "Best UI/UX Hack - Bitcamp",
+# "Best Financial Hack - Capital One",
+# "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce",
+# "Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group",
+# "Best UI/UX Hack - Bitcamp",
+# "Beginner Quantum Track Hacks - Bitcamp"
 ]
-
-TRACK_HACK_OPT_OUT_RESPONSE = "I am not signing up for a track"
 
 def get_challenge_maps(full_challenge_list):
     challenge_to_id = {}
@@ -101,90 +121,6 @@ def get_challenge_maps(full_challenge_list):
 
 # Get mapping
 CHALLENGE_TO_ID, ID_TO_CHALLENGE = get_challenge_maps(FULL_CHALLENGE_LIST)
-
-def process_challenges(challenges):
-    result = []
-    MLH_challenges = []
-    for challenge in challenges:
-        team_challenges = challenge.split(",")
-        current_challenges = []
-        current_mlh_challenges = []
-        
-        for tc in team_challenges:
-            tc = tc.strip()
-            if tc in MLH_HACKS:
-                current_mlh_challenges.append(tc)
-            else:
-                current_challenges.append(tc)
-        result.append(current_challenges)
-        MLH_challenges.append(current_mlh_challenges)
-
-    return result, MLH_challenges
-            
-def process_bitcamp_hacks(track_response, challenges):
-    bitcamp_challenges = []
-    other_challenges = []
-    result = []
-
-    for challenge in challenges:
-        if challenge in BITCAMP_HACKS:
-            bitcamp_challenges.append(challenge)
-        else:
-            other_challenges.append(challenge)
-    
-
-    if track_response == TRACK_HACK_OPT_OUT_RESPONSE:
-        max_challenges = max(3, len(bitcamp_challenges))
-        result += (random.sample(bitcamp_challenges, max_challenges))
-    else:
-        max_challenges = max(2, len(bitcamp_challenges))
-        result += (random.sample(bitcamp_challenges, max_challenges))
-        result.append(track_response)
-
-
-def process(csv_file):
-    projects = pd.read_csv(csv_file)
-
-    # Only grab submitted projects
-    submitted_projects = projects[projects[DRAFT_COLUMN_NAME] == 'Submitted']
-
-    team_names = submitted_projects[TEAM_COLUMN_NAME].tolist()
-    links = submitted_projects[LINK_COLUMN_NAME].tolist()
-    in_person = (submitted_projects[IN_PERSON_COLUMN_NAME] == 'Yes').tolist()
-    challenge_fields = submitted_projects[CHALLENGES_COLUMN_NAME].tolist()
-
-    # Separate MLH and other challenges
-    
-    temp_challenges, MLH_challenges = process_challenges(challenge_fields)
-
-    # Get track challenge and limit bitcamp challenges to MAX 3
-    track_response = submitted_projects[TRACK_CHALLENGE_COLUMN_NAME].tolist()
-
-    challenges = []
-    for i, track in enumerate(track_response):
-        challenges.append(process_bitcamp_hacks(track, temp_challenges[i]))
-
-    hc = []
-    for ind_challenges in challenges:
-        ind_hc = []
-        for challenge in ind_challenges:
-            ind_hc.append(CHALLENGE_TO_ID[challenge])
-        hc.append(ind_hc)
-    
-    return team_names, links, in_person, challenges, MLH_challenges, hc
-                    
-
-csv_file = "./bitcamp-2023-projects.csv"
-team_names, links, in_person, challenges, MLH_challenges, hc = process(csv_file)
-
-
-# cap = [5, 2, 5, 4, 4, 4, 4, 4, 4, 4, 2, 4, 4, 2, 4, 4, 4, 1]
-cap = [2, 2, 2, 1, 1, 2, 2, 2,           4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
-
-for challenge_name, id in CHALLENGE_TO_ID:
-    print(f'{challenge_name} - {cap[id]}')
-
-# print(len(cap))
 
 def abstract_expo_alg(hc: List[List[int]], cap: List[int], t_max: int):
     # extracting sizes
@@ -281,135 +217,183 @@ def abstract_expo_alg(hc: List[List[int]], cap: List[int], t_max: int):
     H, J = solve_expo(t)
     return (t, H, J)
 
-t, H, J = abstract_expo_alg(hc, cap, 69)
-# print(t)
-# print()
-# print(H)
-# print()
-# print(J)
-
-# for i in range(len(H)):
-#     for j in range(len(H[i])):
-#         H[i][j] = (category_names[H[i][j][0]], H[i][j][1])
-
-# # print(H)
-
-# final_cat_names = []
-
-# # print(category_names)
-
-# for val in category_names:
-#     if (val[val.index("- ") + 2: ] != "Bitcamp"):
-#         final_cat_names.append(val[val.index("- ") + 2: ] + " - " + val[0:val.index(" -")])
-#     else:
-#         final_cat_names.append(val)
+def process_challenges(challenges):
+    result = []
+    MLH_challenges = []
+    for challenge in challenges:
+        team_challenges = challenge.split(",")
+        current_challenges = []
+        current_mlh_challenges = []
         
-# mlh_challenges = list(set([item for sublist in all_mlh for item in sublist]))
-# final_cat_names = final_cat_names + mlh_challenges
+        for tc in team_challenges:
+            tc = tc.strip()
+            if tc in MLH_HACKS:
+                current_mlh_challenges.append(tc)
+            elif len(tc) > 0:
+                current_challenges.append(tc)
+        result.append(current_challenges)
+        MLH_challenges.append(current_mlh_challenges)
 
-# combined = []
-
-# tables = []
-# for i in range(20):
-#     letter = chr(ord('A') + i)
-#     if letter == 'K' or letter == 'L':
-#         tables.extend([letter + str(j) for j in range(1, 13) if j not in (3, 4, 5)])
-#     else:
-#         tables.extend([letter + str(j) for j in range(1, 13)])
-
-# judge = "Judge"
-# max = 0
-
-# tableCounter = 0
-# in_person_count = 0
-# for i in range(0, len(in_person)):
-#     if in_person[i] == "Yes":
-#         in_person_count += 1
-# in_person_arr = random.sample(range(in_person_count), in_person_count)
-
-# for i in range(len(team_names)):
-#     H_new = []
-#     if (H[i] != []):
-#         for j in range(len(H[i])):
-#             if (H[i][j][0][H[i][j][0].index("- ") + 2: ] == "Bitcamp"):
-#                 H_new.append([H[i][j][0][0:H[i][j][0].index(" -")], H[i][j][0][H[i][j][0].index("- ") + 2: ], judge, H[i][j][1]])
-#             else:
-#                 H_new.append([H[i][j][0][H[i][j][0].index("- ") + 2: ], H[i][j][0][0:H[i][j][0].index(" -")], judge, H[i][j][1]])
+    return result, MLH_challenges
             
-#             if H[i][j][1] > max:
-#                 max = H[i][j][1]
+def process_bitcamp_hacks(track_response, challenges):
+    bitcamp_challenges = []
+    other_challenges = []
+    result = []
+
+    for challenge in challenges:
+        if challenge in BITCAMP_HACKS:
+            bitcamp_challenges.append(challenge)
+        else:
+            other_challenges.append(challenge)
+    # print(bitcamp_challenges)
+    # print(other_challenges)
+
+    if track_response in BITCAMP_TRACK_HACKS:
+        max_challenges = min(2, len(bitcamp_challenges))
+        result = (random.sample(bitcamp_challenges, max_challenges))
+        result.append(track_response)
+    else:
+        max_challenges = min(3, len(bitcamp_challenges))
+        result = (random.sample(bitcamp_challenges, max_challenges))
+
+    result += other_challenges
+
+    return result
+
+def process(csv_file):
+    types = defaultdict(lambda: str)
+    projects = pd.read_csv(csv_file, keep_default_na=False, dtype=types)
+
+    # Only grab submitted projects
+    submitted_projects = projects[projects[DRAFT_COLUMN_NAME] != 'Draft']
+
+    team_names = submitted_projects[TEAM_COLUMN_NAME].tolist()
+    links = submitted_projects[LINK_COLUMN_NAME].tolist()
+    in_person = (submitted_projects[IN_PERSON_COLUMN_NAME] == 'Yes').tolist()
+    challenge_fields = submitted_projects[CHALLENGES_COLUMN_NAME].tolist()
+
+    # Separate MLH and other challenges
     
-#     H_new.sort(key=lambda x: x[-1])
+    temp_challenges, MLH_challenges = process_challenges(challenge_fields)
 
-#     for category in all_mlh[i]:
-#         append = []
-#         append.append(category.split(" - "))
-#         H_new.append(append[0])
+    # Get track challenge and limit bitcamp challenges to MAX 3
+    track_response = submitted_projects[TRACK_CHALLENGE_COLUMN_NAME].tolist()
 
+    challenges = []
+    for i, track in enumerate(track_response):
+        nc = process_bitcamp_hacks(track, temp_challenges[i])
+        # print(nc)
+        challenges.append(nc)
 
-#     if in_person[i] == "Yes":
-#         data = [
-#             ["Yes", tables[in_person_arr[tableCounter]]],
-#             team_names[i],
-#             H_new,
-#         ]
-#         tableCounter += 1
-#     else:
-#         data = [
-#             ["No"],
-#             team_names[i],
-#             H_new,
-#         ]
-#     combined.append(data)
-
-# names_links = []
-# for i in range(len(team_names)):
-#     names_links.append([team_names[i], links[i]])
+    hc = []
+    for ind_challenges in challenges:
+        ind_hc = []
+        for challenge in ind_challenges:
+            ind_hc.append(CHALLENGE_TO_ID[challenge])
+        hc.append(ind_hc)
     
-# repeats = {}    
+    return team_names, links, in_person, challenges, MLH_challenges, hc
 
-# for value in combined:
-#     if value != []:
-#         for challenge in value[2]:
-#             if challenge[1] != "Major League Hacking":
-#                 challenge_key = str(challenge[0]) + " - " + str(challenge[1])
-#                 if challenge_key not in repeats:
-#                     repeats[challenge_key] = [[challenge[3]]]
-#                 else:
-#                     repeats[challenge_key].append([challenge[3]])
 
-# for key, lists in repeats.items():
-#     repeats[key] = sorted(lists, key=lambda x: x[0])
+def parse_challenge_name(challenge_name):
+    return challenge_name.split(" - ")
 
-# for key in repeats:
-#     curr = final_cat_names.index(key)
-#     judgeCount = cap[curr]
-#     inc = 0
-#     for lst in repeats[key]:
-#         lst.append((inc % judgeCount) + 1)
-#         inc+=1
+def expo_output_to_json(t, H, team_names, links, in_person_list, MLH_challenges):
+    eastern = pytz.timezone('US/Eastern')
 
-# for value in combined:
-#     if value != []:
-#         for challenge in value[2]:
-#             if challenge[1] != "Major League Hacking":
-#                 challenge_key = str(challenge[0]) + " - " + str(challenge[1])
-#                 for idx, inner_list in enumerate(repeats[challenge_key]):
-#                     if inner_list[0] == challenge[3]:
-#                         challenge[2] = challenge[2] + " " + str(inner_list[1])
-#                         del repeats[challenge_key][idx]
-#                         break
-                    
-# for value in combined:
-#     if value != []:
-#         name = value[1]
-#         for lst in names_links:
-#             if name == lst[0]:
-#                 value.append(lst[1])
+    EXPO_START_TIME = "2024-04-21 10:30:00"
+    EXPO_START = eastern.localize(datetime.strptime(EXPO_START_TIME, "%Y-%m-%d %H:%M:%S"))
 
-# data = {
-#     "category_names": final_cat_names,
-#     "team_names": names_links,
-#     "combined_values": combined,
-#     "total_times" : max
-# }
+    HACK_TIME = 150 // t
+
+    result = []
+    for id, team in enumerate(H):
+        team_json = {
+            "id": id,
+            "team_name": team_names[id],
+            "table": "A1" if in_person_list[id] else "virtual",
+            "in_person": in_person_list[id],
+            "link": links[id],
+        }
+
+        judgetime_seen = defaultdict(lambda: 1)
+
+        challenges = []
+
+        for timeslot in team:
+            challenge_id, start_slot = timeslot
+            challenge = ID_TO_CHALLENGE[challenge_id]
+
+            start_time = str(EXPO_START + timedelta(minutes=HACK_TIME*start_slot))
+
+            challenge_name, company = parse_challenge_name(challenge)
+            
+            judge_id = challenge + str(start_slot)
+            judge_group = judgetime_seen[judge_id]
+            judgetime_seen[judge_id] += 1
+
+            challenge_json = {
+                "is_mlh": False,
+                "challenge_name": challenge_name,
+                "company": company,
+                "judge": f"Judge {judge_group}",
+                "start_time": start_time,
+            }
+            challenges.append(challenge_json)
+        
+        for challenge in MLH_challenges[id]:
+            challenge_name, company = parse_challenge_name(challenge)
+
+            challenge_json = {
+                "is_mlh": True,
+                "challenge_name": challenge_name,
+                "company": company,
+                "judge": "Judge",
+                "start_time": "",
+            }
+            challenges.append(challenge_json)
+        
+        team_json["challenges"] = challenges
+        result.append(team_json)
+
+    
+    return result
+
+
+def main():
+    csv_file = "./projects-2024.csv"
+    team_names, links, in_person, challenges, MLH_challenges, hc = process(csv_file)
+
+    # cap = [5, 2, 5, 4, 4, 4, 4, 4, 4, 4, 2, 4, 4, 2, 4, 4, 4, 1]
+    cap = [2, 2, 2, 1, 1, 2, 2, 2,           4, 4, 4, 4, 4, 4, 4, 4, 4, 4,  1,1,1,1,1,1,1,1,1]
+
+    # print(len(cap))
+    # print(len(FULL_CHALLENGE_LIST))
+    print(len(CHALLENGE_TO_ID))
+    print(len(ID_TO_CHALLENGE))
+    for challenge_name, id in CHALLENGE_TO_ID.items():
+        print(f'{challenge_name} - {cap[id]}')
+
+    # print(len(cap))
+
+    print(hc)
+
+    t, H, J = abstract_expo_alg(hc, cap, 69)
+
+    print(t)
+    print(150 // t)
+    print(H)
+
+    expo_output = expo_output_to_json(t, H, team_names, links, in_person, MLH_challenges)
+
+    output_path = './output.json'
+
+    with open(output_path, 'w') as f:
+        json.dump(expo_output, f, indent=4)
+
+    print(f"Output written to {output_path}")
+
+
+if __name__ == "__main__":
+    main()
