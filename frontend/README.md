@@ -6,6 +6,7 @@ We are using Nuxt3 + Vue3. Nuxt is built on top of Vue and provides nice-to-have
 - Advanced Routing (file page routing!)
 - Auto imports
 
+
 ## Setup
 
 Make sure to install the dependencies:
