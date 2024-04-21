@@ -4389,8 +4389,8 @@
     {
         "id": 144,
         "team_name": "Mental health assessment ",
-        "table": "virtual",
-        "in_person": false,
+        "table": "B6",
+        "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508268-mental-health-assessment",
         "challenges": [
             {
