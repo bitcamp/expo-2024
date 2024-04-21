@@ -19,7 +19,7 @@ random.seed(10)
 DRAFT_COLUMN_NAME = 'Project Status'
 TEAM_COLUMN_NAME = 'Project Title'
 LINK_COLUMN_NAME = 'Submission Url'
-IN_PERSON_COLUMN_NAME = 'Will You Be In Person To Present Your Project?'
+IN_PERSON_COLUMN_NAME = 'Will You Be Present To Demo In Person On Sunday?'
 CHALLENGES_COLUMN_NAME = 'Opt-In Prizes'
 TRACK_CHALLENGE_COLUMN_NAME = 'Bitcamp Track Challenge'
 TRACK_HACK_OPT_OUT_RESPONSE = "I don't want to submit to a Bitcamp track challenge. I understand that I can still submit to the other Bitcamp sponsored challenges."
@@ -68,7 +68,7 @@ FULL_CHALLENGE_LIST = [
     "Best App Dev Track Hack - Bitcamp",
     "Best Cybersecurity Track Hack - Bitcamp",
     "Beginner Quantum Track Hacks - Bitcamp",
-    "Best Advanced Quantum Track Hack - Bitcamp"
+    "Best Advanced Quantum Track Hack - Bitcamp",
     
     "Best Hardware Hack - Bitcamp",
     "Best Bitcamp Hack - Bitcamp",
@@ -306,6 +306,7 @@ def expo_output_to_json(t, H, team_names, links, in_person_list, MLH_challenges)
     EXPO_START = eastern.localize(datetime.strptime(EXPO_START_TIME, "%Y-%m-%d %H:%M:%S"))
 
     HACK_TIME = 150 // t
+    judgetime_seen = defaultdict(lambda: 1)
 
     result = []
     for id, team in enumerate(H):
@@ -316,8 +317,6 @@ def expo_output_to_json(t, H, team_names, links, in_person_list, MLH_challenges)
             "in_person": in_person_list[id],
             "link": links[id],
         }
-
-        judgetime_seen = defaultdict(lambda: 1)
 
         challenges = []
 
@@ -362,7 +361,7 @@ def expo_output_to_json(t, H, team_names, links, in_person_list, MLH_challenges)
 
 
 def main():
-    csv_file = "./projects-2024.csv"
+    csv_file = "./projects-2024-teammates.csv"
     team_names, links, in_person, challenges, MLH_challenges, hc = process(csv_file)
 
     # cap = [5, 2, 5, 4, 4, 4, 4, 4, 4, 4, 2, 4, 4, 2, 4, 4, 4, 1]
@@ -370,14 +369,14 @@ def main():
 
     # print(len(cap))
     # print(len(FULL_CHALLENGE_LIST))
-    print(len(CHALLENGE_TO_ID))
-    print(len(ID_TO_CHALLENGE))
-    for challenge_name, id in CHALLENGE_TO_ID.items():
-        print(f'{challenge_name} - {cap[id]}')
+    # print(len(CHALLENGE_TO_ID))
+    # print(len(ID_TO_CHALLENGE))
+    # for challenge_name, id in CHALLENGE_TO_ID.items():
+    #     print(f'{challenge_name} - {cap[id]}')
 
     # print(len(cap))
 
-    print(hc)
+    # print(hc)
 
     t, H, J = abstract_expo_alg(hc, cap, 69)
 

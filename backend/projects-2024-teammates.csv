@@ -1,4 +1,4 @@
-Project Title,Submission Url,Project Status,Judging Status,Highest Step Completed,Project Created At,About The Project,"""Try it out"" Links",Video Demo Link,Opt-In Prizes,Built With,Submitter First Name,Submitter Last Name,Submitter Email,Notes,Bitcamp Track Challenge,Will You Be Present To Demo In Person On Sunday?,Tell Us About Your Technology Experience This Weekend.,"What School Do You Attend? If You Are No Longer In School, What University Did You Attend Most Recently?","Did You Register A Go Daddy Registry Domain Name This Weekend? If So, What Domain Did You Register? Why Did You Pick That Name?",Team Colleges/Universities,Additional Team Member Count,Team Member 1 First Name,Team Member 1 Last Name,Team Member 1 Email,...,,,,,
+Project Title,Submission Url,Project Status,Judging Status,Highest Step Completed,Project Created At,About The Project,"""Try it out"" Links",Video Demo Link,Opt-In Prizes,Built With,Submitter First Name,Submitter Last Name,Submitter Email,Notes,Bitcamp Track Challenge,Will You Be Present To Demo In Person On Sunday?,Tell Us About Your Technology Experience This Weekend.,"What School Do You Attend? If You Are No Longer In School, What University Did You Attend Most Recently?","Did You Register A Go Daddy Registry Domain Name This Weekend? If So, What Domain Did You Register? Why Did You Pick That Name?",Team Colleges/Universities,Additional Team Member Count,Team Member 1 First Name,Team Member 1 Last Name,Team Member 1 Email,...,,,,,,,,,
 AI Powered Extractor for Defense Contract,https://bitcamp2024.devpost.com/submissions/507099-ai-powered-extractor-for-defense-contract,Submitted (Gallery/Visible),Pending,Submit,4/19/2024 21:01,"Inspiration
 
 This was an interesting problem statement as it addresses the need for efficiency and accuracy in handling defense contract information. By leveraging AI technologies, we aim to streamline the process of parsing and extracting valuable data from Defense Contract Notices.
@@ -18,8 +18,8 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for AI Powered Extractor for Defense Contract
-",https://github.com/nidhikamath2102/WebScraper,,"Best Bitcamp Hack - Bitcamp, Best First Time Hack - Bitcamp, Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group","python, openai, guardrails, rag, provenancellm",Nidhi,Kamath,kamathnidhi98@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,"We used Provinence LLM for validating our extracted data. It was an interesting find and we found it after a lot of research, trial and errors.",Virginia Tech University,,,2,Kunal,Mahato,mahatokunal41@gmail.com,Manim,Tirkey,mtirkey@vt.edu,,,
-Untitled,,Draft,Pending,Manage team,4/19/2024 21:06,,,,,,Kunal,Mahato,mahatokunal41@gmail.com,,,,,,,,0,,,,,,,,,
+",https://github.com/nidhikamath2102/WebScraper,,"Best Bitcamp Hack - Bitcamp, Best First Time Hack - Bitcamp, Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group","python, openai, guardrails, rag, provenancellm",Nidhi,Kamath,kamathnidhi98@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,"We used Provinence LLM for validating our extracted data. It was an interesting find and we found it after a lot of research, trial and errors.",Virginia Tech University,,,2,Kunal,Mahato,mahatokunal41@gmail.com,Manim,Tirkey,mtirkey@vt.edu,Test,Test,test@gmail.com,,Hello,Hi,hellohi@gmail.com
+Untitled,,Draft,Pending,Manage team,4/19/2024 21:06,,,,,,Kunal,Mahato,mahatokunal41@gmail.com,,,,,,,,0,,,,,,,,,,,,,
 Kadak,https://bitcamp2024.devpost.com/submissions/507102-kadak,Submitted (Gallery/Visible),Pending,Submit,4/19/2024 21:11,"Inspiration
 
 Hard
@@ -47,9 +47,9 @@ working with LLMs and doing AI/ML
 What's next for Kadak
 
 faster processing time
-",,,"Best Bitcamp Hack - Bitcamp, Best UI/UX Hack - Bitcamp, University Course Catalog Data Extraction and Query Challenge - Xficient","flask, python, langchain, pinecone",Sahil,Jagtap,sahil.jagtap45@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,"flask, langchain, pdf reader",George Mason University,,George Mason University,1,Suchita,Hadimani,suchitastargirl@gmail.com,,,,,,
-Resolve,,Draft,Pending,Project overview,4/19/2024 21:27,,,,,"plasmo, react, flask, openai, chromeapi",Andrew,Yang,andrewyang1015@gmail.com,,,,,,,University of Maryland - College Park,1,Andy,Diep,adiep@terpmail.umd.edu,,,,,,
-Untitled,,Draft,Pending,Manage team,4/19/2024 21:38,,,,,,Jack,Sidle,jsidle1@umbc.edu,,,,,,,University of Maryland - Baltimore County,0,,,,,,,,,
+",,,"Best Bitcamp Hack - Bitcamp, Best UI/UX Hack - Bitcamp, University Course Catalog Data Extraction and Query Challenge - Xficient","flask, python, langchain, pinecone",Sahil,Jagtap,sahil.jagtap45@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,"flask, langchain, pdf reader",George Mason University,,George Mason University,1,Suchita,Hadimani,suchitastargirl@gmail.com,,,,,,,,,,
+Resolve,,Draft,Pending,Project overview,4/19/2024 21:27,,,,,"plasmo, react, flask, openai, chromeapi",Andrew,Yang,andrewyang1015@gmail.com,,,,,,,University of Maryland - College Park,1,Andy,Diep,adiep@terpmail.umd.edu,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/19/2024 21:38,,,,,,Jack,Sidle,jsidle1@umbc.edu,,,,,,,University of Maryland - Baltimore County,0,,,,,,,,,,,,,
 MarshiesGuard,https://bitcamp2024.devpost.com/submissions/507111-marshiesguard,Submitted (Gallery/Visible),Pending,Submit,4/19/2024 21:39,"Inspiration
 
 We were tired of constantly being wary of sites or links on the internet, or if our emails were secure. As a result, we decided to make a hub that would check for people whether a link was safe, or if an email had been compromised.
@@ -77,16 +77,16 @@ Ironically, the member who was experienced in backend on our team ended up doing
 What's next for MarshiesGuard
 
 Well, we are hoping to further complete it in the future. There are some implementations we couldn't implement despite the assistance of 5 different mentors T-T, such as a toggle button that is then linked to the hover and turns on or off the hover effects, or the hover effect that immediately fetches the link without actually clicking on the link, and processes it in our extension.
-",https://github.com/ZyadKhan05/MarshiesGuard,,"Best UI/UX Hack - Bitcamp, People's Choice Hack - Bitcamp,  Best Razzle Dazzle Hack - Bitcamp","html, javascript, css, pixelart",Zyad,Khan,zhk6319@gmail.com,,Best Cybersecurity Track Hack - Bitcamp,Yes,"We used HTML, CSS, and JS to create a Google Chrome extension using the Chrome Web Dev tools.","University of Maryland, College Park",,"University of Maryland - College Park, Hillel Academy",2,HassanNakib,Nakib,alhassan.nakib55@gmail.com,egg,egg,eggramani@gmail.com,,,
-Untitled,,Draft,Pending,Manage team,4/19/2024 21:40,,,,,,JonnyRoth2,Roth,jonnyroth12@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,
-Untitled,,Draft,Pending,Manage team,4/19/2024 21:40,,,,,,Yiting,Zheng,sapphire32123@gmail.com,,,,,,,,2,Collin,Chiang,collin.chiang1@gmail.com,Darren,Yang,dyangpers@gmail.com,,,
-Butcamp,,Draft,Pending,Project overview,4/19/2024 21:41,,,,,,Claire,Chen,claire13985@gmail.com,,,,,,,"richard montgomery high school, University of Maryland - College Park",1,Rachel,Kim,yseo7045@gmail.com,,,,,,
-Untitled,,Draft,Pending,Manage team,4/19/2024 21:49,,,,,,JonnyRoth2,Roth,jonnyroth12@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,
-upsanddowns,,Draft,Pending,Project overview,4/19/2024 21:53,,,,,"javascript, python",Declan,Amoako,decavacado@gmail.com,,,,,,,"umbc, University of Maryland - College Park, WWP High School South",3,Varun V,Rao,varunvellorerao@gmail.com,Varun,Kota,varunk3249@gmail.com,,,
-Untitled,,Draft,Pending,Manage team,4/19/2024 21:53,,,,,,JonnyRoth2,Roth,jonnyroth12@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,
-Untitled,,Draft,Pending,Manage team,4/19/2024 21:54,,,,,,Shiqi (Cathy),Wu,cathywu312@gmail.com,,,,,,,,0,,,,,,,,,
-Mortgage Master,,Draft,Pending,Project overview,4/19/2024 21:59,,,,,,Sathvika,Sangoju,sangojusathvika@gmail.com,,,,,,,University of Maryland - College Park,3,Dhruvi,Kadhiwala,kadhiwala.dhruvi@gmail.com,Aman,Talreja,atalreja@terpmail.umd.edu,,,
-Untitled,,Draft,Pending,Manage team,4/19/2024 22:03,,,,,,ayanban928,Banerjee,ayanbanerj@gmail.com,,,,,,,University of Maryland - College Park,1,Raghav,Misra,raghav.m2014@gmail.com,,,,,,
+",https://github.com/ZyadKhan05/MarshiesGuard,,"Best UI/UX Hack - Bitcamp, People's Choice Hack - Bitcamp,  Best Razzle Dazzle Hack - Bitcamp","html, javascript, css, pixelart",Zyad,Khan,zhk6319@gmail.com,,Best Cybersecurity Track Hack - Bitcamp,Yes,"We used HTML, CSS, and JS to create a Google Chrome extension using the Chrome Web Dev tools.","University of Maryland, College Park",,"University of Maryland - College Park, Hillel Academy",2,HassanNakib,Nakib,alhassan.nakib55@gmail.com,egg,egg,eggramani@gmail.com,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/19/2024 21:40,,,,,,JonnyRoth2,Roth,jonnyroth12@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/19/2024 21:40,,,,,,Yiting,Zheng,sapphire32123@gmail.com,,,,,,,,2,Collin,Chiang,collin.chiang1@gmail.com,Darren,Yang,dyangpers@gmail.com,,,,,,,
+Butcamp,,Draft,Pending,Project overview,4/19/2024 21:41,,,,,,Claire,Chen,claire13985@gmail.com,,,,,,,"richard montgomery high school, University of Maryland - College Park",1,Rachel,Kim,yseo7045@gmail.com,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/19/2024 21:49,,,,,,JonnyRoth2,Roth,jonnyroth12@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
+upsanddowns,,Draft,Pending,Project overview,4/19/2024 21:53,,,,,"javascript, python",Declan,Amoako,decavacado@gmail.com,,,,,,,"umbc, University of Maryland - College Park, WWP High School South",3,Varun V,Rao,varunvellorerao@gmail.com,Varun,Kota,varunk3249@gmail.com,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/19/2024 21:53,,,,,,JonnyRoth2,Roth,jonnyroth12@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/19/2024 21:54,,,,,,Shiqi (Cathy),Wu,cathywu312@gmail.com,,,,,,,,0,,,,,,,,,,,,,
+Mortgage Master,,Draft,Pending,Project overview,4/19/2024 21:59,,,,,,Sathvika,Sangoju,sangojusathvika@gmail.com,,,,,,,University of Maryland - College Park,3,Dhruvi,Kadhiwala,kadhiwala.dhruvi@gmail.com,Aman,Talreja,atalreja@terpmail.umd.edu,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/19/2024 22:03,,,,,,ayanban928,Banerjee,ayanbanerj@gmail.com,,,,,,,University of Maryland - College Park,1,Raghav,Misra,raghav.m2014@gmail.com,,,,,,,,,,
 Still in progress....,,Draft,Pending,Additional info,4/19/2024 22:09,"Inspiration
 
 xxx
@@ -102,10 +102,10 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for Still in progress....
-",https://github.com/Cruz-Alexander2?tab=repositories,,,javascript,Cruz-Alexander2,Cruz,alexcruz@umd.edu,,,,xxx,University of Maryland - College Park,,University of Maryland - College Park,2,llienoekul,O'Neill,lukeponeill@gmail.com,Ryley,Haynes,ryley.haynes9@gmail.com,,,
-Untitled,,Draft,Pending,Manage team,4/19/2024 22:40,,,,,,Irene,Lee,irene.haebin.lee@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,
-Untitled,,Draft,Pending,Manage team,4/19/2024 23:00,,,,,,Tharun Kumar Reddy,Polu,polutharun528@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,
-spicy beef ramen,,Draft,Pending,Project overview,4/19/2024 23:01,,,,,python,Jonathan,Wu,jonathanw2856@gmail.com,,,,,,,University of Maryland - College Park,1,Brennen,Le,brennenle@yahoo.com,,,,,,
+",https://github.com/Cruz-Alexander2?tab=repositories,,,javascript,Cruz-Alexander2,Cruz,alexcruz@umd.edu,,,,xxx,University of Maryland - College Park,,University of Maryland - College Park,2,llienoekul,O'Neill,lukeponeill@gmail.com,Ryley,Haynes,ryley.haynes9@gmail.com,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/19/2024 22:40,,,,,,Irene,Lee,irene.haebin.lee@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/19/2024 23:00,,,,,,Tharun Kumar Reddy,Polu,polutharun528@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
+spicy beef ramen,,Draft,Pending,Project overview,4/19/2024 23:01,,,,,python,Jonathan,Wu,jonathanw2856@gmail.com,,,,,,,University of Maryland - College Park,1,Brennen,Le,brennenle@yahoo.com,,,,,,,,,,
 Team Flying Pandas,,Draft,Pending,Project overview,4/19/2024 23:24,"Inspiration
 
 What it does
@@ -119,7 +119,7 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for Team Flying Pandas
-",https://colab.research.google.com/drive/12ix6YETzITI0WbhpvN1JLBlMz4k2EUOX#scrollTo=nfkB0oRvaiMq,,,,Varun,Singh,varun.singh2026@gmail.com,,,,,University of Maryland,,"Lower Moreland High School, University of Maryland - College Park",2,Kevin,Li,kli36@terpmail.umd.edu,Chase,LaBarre,obfuscatedfuture@protonmail.com,,,
+",https://colab.research.google.com/drive/12ix6YETzITI0WbhpvN1JLBlMz4k2EUOX#scrollTo=nfkB0oRvaiMq,,,,Varun,Singh,varun.singh2026@gmail.com,,,,,University of Maryland,,"Lower Moreland High School, University of Maryland - College Park",2,Kevin,Li,kli36@terpmail.umd.edu,Chase,LaBarre,obfuscatedfuture@protonmail.com,,,,,,,
 Experience Points,https://bitcamp2024.devpost.com/submissions/507159-experience-points,Submitted (Gallery/Visible),Pending,Submit,4/19/2024 23:28,"Inspiration
 
 We were inspired by the potential pro-social uses of blockchain technology that have been discussed on podcasts by some of our favorite intellectuals. Starknet functions as a core scaleup solution to the Ethereum and as a team very interested in emerging applications of blockchain technology it demanded our attention.
@@ -147,8 +147,8 @@ As beginner to intermediate programmers we learned the process of quickly learni
 What's next for Experience Points
 
 Integrate experience with a habit tracker to help gamify one's life. Utilize Experience Points as the central voting token of an investment/ charity DAO. Advance decentralized finance as a mechanism of human coordination.
-",https://github.com/adventuringsociety/Starknetproject,,"Best First Time Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH, Best Use of Starknet - MLH","starknet, cairo",Monte,James,montej39@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,"We used the Starknet Web3 Platform to explore various smart contract use-cases, designs andimplementations. We found the documentation quite helpful. We really enjoyed the design philosophy behind this ZK rollup . We got carried away discussing the design philosophy behind it, exploring the implications it has for blockchain economics and civilizations. A turning complete programming language, like Cairo, is quite a feature to include on a blockchain system.","University of Maryland, College Park",vita.courses,University of Maryland - College Park,1,Luke,Champion,lchampi1@terpmail.umd.edu,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 0:53,,,,,,Brian,Lau,blau1@terpmail.umd.edu,,,,,,,University of Maryland - College Park,0,,,,,,,,,
+",https://github.com/adventuringsociety/Starknetproject,,"Best First Time Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH, Best Use of Starknet - MLH","starknet, cairo",Monte,James,montej39@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,"We used the Starknet Web3 Platform to explore various smart contract use-cases, designs andimplementations. We found the documentation quite helpful. We really enjoyed the design philosophy behind this ZK rollup . We got carried away discussing the design philosophy behind it, exploring the implications it has for blockchain economics and civilizations. A turning complete programming language, like Cairo, is quite a feature to include on a blockchain system.","University of Maryland, College Park",vita.courses,University of Maryland - College Park,1,Luke,Champion,lchampi1@terpmail.umd.edu,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 0:53,,,,,,Brian,Lau,blau1@terpmail.umd.edu,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
 Xplore,,Draft,Pending,Project overview,4/20/2024 1:36,"Inspiration
 
 We were inspired by all of our experiences of moving to new cities this past summer for internships. We felt lost after each moving to different cities and found it hard to meet new people who shared the same hobbies as us. We needed a tool we could use to meet new friends we could truly connect with and make memories with. 
@@ -168,7 +168,7 @@ What we learned
 What's next for Xplore
 
 We plan on further perfecting our creation as well as a potential public release once we have everything sorted out. We hope to get criticism and feedback throughout our journey so we provide value for our users to the best of our ability.
-",,,,,r-arutla,Arutla,rohan.arutla@gmail.com,,,,,"University of Maryland, College Park",,University of Maryland - College Park,3,Davayan,Sanyal,davayansa@gmail.com,Sachin,Naraparaju,sachinnarap@gmail.com,,,
+",,,,,r-arutla,Arutla,rohan.arutla@gmail.com,,,,,"University of Maryland, College Park",,University of Maryland - College Park,3,Davayan,Sanyal,davayansa@gmail.com,Sachin,Naraparaju,sachinnarap@gmail.com,,,,,,,
 Warming Wiki,,Draft,Pending,Additional info,4/20/2024 4:08,"Inspiration
 
 What it does
@@ -182,7 +182,7 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for TBD
-",,,"Best Bitcamp Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best Sustainability Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH, Best DEI Hack sponsored by Fidelity - MLH, Most Philanthropic Hack - Bloomberg, Best Use of APIs related to Housing/Climate Change - Fannie Mae",tbd,Aditya,Kishore,adityakishore2004@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,TBD,University of Maryland at College Park,warming.wiki,"University of Maryland - College Park, University of Maryland - University College",3,Sakthi,Chandramohan,sakthichandramohan04@gmail.com,ttoalima,,toalimatamasese@gmail.com,,,
+",,,"Best Bitcamp Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best Sustainability Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH, Best DEI Hack sponsored by Fidelity - MLH, Most Philanthropic Hack - Bloomberg, Best Use of APIs related to Housing/Climate Change - Fannie Mae",tbd,Aditya,Kishore,adityakishore2004@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,TBD,University of Maryland at College Park,warming.wiki,"University of Maryland - College Park, University of Maryland - University College",3,Sakthi,Chandramohan,sakthichandramohan04@gmail.com,ttoalima,,toalimatamasese@gmail.com,,,,,,,
 "BIG, LARGE, OBTUSE DATA ANALYSIS",https://bitcamp2024.devpost.com/submissions/507301-big-large-obtuse-data-analysis,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 8:21,"
 Agile Development 
 Artificial Intelligence (AI)
@@ -242,7 +242,7 @@ Ved Shah
 Leauge of Legends
 Chinese Communist Tools
 
-",,,,"data, vedshah",Heng,Ye,heng@yeheng.org,,Best Advanced Quantum Track Hack,Yes,big data analayzing,Smithtown High School West,bigdata.big,Smithtown High School West,2,Timmy,Papadopoulos,timmypapadopoulos20@gmail.com,Saaketh,Manepalli,saaketh.manepalli@gmail.com,,,
+",,,,"data, vedshah",Heng,Ye,heng@yeheng.org,,Best Advanced Quantum Track Hack,Yes,big data analayzing,Smithtown High School West,bigdata.big,Smithtown High School West,2,Timmy,Papadopoulos,timmypapadopoulos20@gmail.com,Saaketh,Manepalli,saaketh.manepalli@gmail.com,,,,,,,
 CoursifyUMD,,Draft,Pending,Additional info,4/20/2024 8:23,"Inspiration
 
 Students have a difficult time determining what courses to take. We wanted to create a solution that could recommend courses most tailored to them.
@@ -270,7 +270,7 @@ We learned to work with technologies such as OpenAI embeddings, vector databases
 What's next for CoursifyUMD
 
 In the future, we would like to implement more personalized features for users to get more generated curated lists. We'd also like to look into other algorithms that could provide even more relevant results. 
-",https://github.com/rohanshar77/CoursifyUMD/tree/main,https://youtu.be/BwgRIwhSdoI,,"react, pinecone, flask, supabase, openai, webscraping",Saketh,Kura,saketh.kura@gmail.com,,,,"We had a great time at Bitcamp! We worked on several technologies including Pinecone, OpenAI, Flask, and React. We all had good experiences with them.",University of Maryland,,University of Maryland - College Park,1,Rohan,Sharma,rohan77@icloud.com,,,,,,
+",https://github.com/rohanshar77/CoursifyUMD/tree/main,https://youtu.be/BwgRIwhSdoI,,"react, pinecone, flask, supabase, openai, webscraping",Saketh,Kura,saketh.kura@gmail.com,,,,"We had a great time at Bitcamp! We worked on several technologies including Pinecone, OpenAI, Flask, and React. We all had good experiences with them.",University of Maryland,,University of Maryland - College Park,1,Rohan,Sharma,rohan77@icloud.com,,,,,,,,,,
 DataLand ,,Draft,Pending,Project details,4/20/2024 9:51,"Inspiration
 
 My team and I were inspired by Fannie Mae because they presented us with a challenge, and because my team is all about taking on challenges, we took the blind challenge head on and began to develop an interest in the topic of the connection between natural disasters and foreclosure, as people all over the world are experiencing this even today. Our goal is to provide people with the option of being aware of the area they are moving into. 
@@ -293,8 +293,8 @@ We discovered about the connection between foreclosure and natural disasters, an
 What's next for DataLand
 
 DataLand would like to become an extension that you could add so that when people are looking for a home, the app will display users homes that have a low risk of being foreclosed on due to a disaster. 
-",,,Best Use of APIs related to Housing/Climate Change - Fannie Mae,java,Dakota,Sams,samsdakota15@gmail.com,,,,,,,,0,,,,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 10:09,,,,,,Mark,Davis,markdavis0601@gmail.com,,,,,,,,0,,,,,,,,,
+",,,Best Use of APIs related to Housing/Climate Change - Fannie Mae,java,Dakota,Sams,samsdakota15@gmail.com,,,,,,,,0,,,,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 10:09,,,,,,Mark,Davis,markdavis0601@gmail.com,,,,,,,,0,,,,,,,,,,,,,
 Matching Students Abroad,,Draft,Pending,Additional info,4/20/2024 10:16,"Inspiration
 
 My partner and I studied abroad in Singapore and wanted to meet new faces.
@@ -316,13 +316,13 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for Matching Students Abroad
-",,,,typescript,Miranda,Song,songmiranda2002@gmail.com,,,,N/A,University of Maryland,,University of Maryland - College Park,1,Maryann,Vazhapilly,maryann.vazhapilly@gmail.com,,,,,,
-Tell Terry,,Draft,Pending,Manage team,4/20/2024 10:27,,,,,,Chiraag,Nadig,chigu.nadig@gmail.com,,,,,,,"Robbinsville High School, University of Maryland - College Park",1,Krish,Thakker,kthakker00@gmail.com,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 11:12,,,,,,Mark,Davis,markdavis0601@gmail.com,,,,,,,Baltimore Polytechnic Institute,1,Jermiah,Walker,jermiahwalker157@gmail.com,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 11:31,,,,,,Joshua,Worku,workujoshua@yahoo.com,,,,,,,Calvert Hall College High School,0,,,,,,,,,
-The Journeyman's Strife,,Draft,Pending,Manage team,4/20/2024 11:35,,https://github.com/PlantvZombie/Bitcamp2024,,,"godot, asesprite",Winton,Jones,oogabooga1271@gmail.com,,,,,Baltimore Polytechnic Institute,,"Baltimore Polytechnic Institute, Baltimore polytechnic, Baltimore polytecnic institute",2,Walter,Sibrian,walterchats1864@gmail.com,Jakob,Morales,cookiejarjakob@gmail.com,,,
-HarvestMate,,Draft,Pending,Manage team,4/20/2024 11:35,,,,,,Yoseph,Getachew,ytgetachew.cs@gmail.com,,,,,,,"Baltimore Polytechnic Institute, Baltimore  PolyTechnic Institute , Calvert Hall College High School",3,Umar,Muzni,umarmuzni@gmail.com,Joshua,Worku,workujoshua@yahoo.com,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 11:39,,,,,,Madhav,Murikipudi,murikipudimadhav@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,
+",,,,typescript,Miranda,Song,songmiranda2002@gmail.com,,,,N/A,University of Maryland,,University of Maryland - College Park,1,Maryann,Vazhapilly,maryann.vazhapilly@gmail.com,,,,,,,,,,
+Tell Terry,,Draft,Pending,Manage team,4/20/2024 10:27,,,,,,Chiraag,Nadig,chigu.nadig@gmail.com,,,,,,,"Robbinsville High School, University of Maryland - College Park",1,Krish,Thakker,kthakker00@gmail.com,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 11:12,,,,,,Mark,Davis,markdavis0601@gmail.com,,,,,,,Baltimore Polytechnic Institute,1,Jermiah,Walker,jermiahwalker157@gmail.com,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 11:31,,,,,,Joshua,Worku,workujoshua@yahoo.com,,,,,,,Calvert Hall College High School,0,,,,,,,,,,,,,
+The Journeyman's Strife,,Draft,Pending,Manage team,4/20/2024 11:35,,https://github.com/PlantvZombie/Bitcamp2024,,,"godot, asesprite",Winton,Jones,oogabooga1271@gmail.com,,,,,Baltimore Polytechnic Institute,,"Baltimore Polytechnic Institute, Baltimore polytechnic, Baltimore polytecnic institute",2,Walter,Sibrian,walterchats1864@gmail.com,Jakob,Morales,cookiejarjakob@gmail.com,,,,,,,
+HarvestMate,,Draft,Pending,Manage team,4/20/2024 11:35,,,,,,Yoseph,Getachew,ytgetachew.cs@gmail.com,,,,,,,"Baltimore Polytechnic Institute, Baltimore  PolyTechnic Institute , Calvert Hall College High School",3,Umar,Muzni,umarmuzni@gmail.com,Joshua,Worku,workujoshua@yahoo.com,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 11:39,,,,,,Madhav,Murikipudi,murikipudimadhav@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
 Efficace,,Draft,Pending,Project details,4/20/2024 12:16,"Inspiration
 
 As I took my government and politics class this year, I became increasingly disturbed by the political polarization and low voter turnout in the United States. Additionally, I wanted to learn how to create a log-in page and store information. Combined, I was inspired to create a website.
@@ -352,10 +352,10 @@ What's next for Éfficace
 
 With extension networking, I would use the data from the stored stances on political issues to match them  with politicians relevant to the user who have similar ideas. I would also have a learning page to better educate people on politics itself and tips. Lastly, I would improve security and the database, using a paid, online server instead of xampp.
 **Please note that the replit link solely for viewing the website's content, and does not have functional login/signup.
-","https://github.com/HorizonHacks/Efficace/tree/main, https://8651ef4a-c3de-4266-903d-760b241f2f01-00-22zcgpgxptnfj.picard.replit.dev/index.html",https://youtu.be/Oa8B4k0LUK0,"Best Bitcamp Hack - Bitcamp, Best Social Good Hack - Bitcamp, People's Choice Hack - Bitcamp","html5, php",Thomas,Lapp,largolapp@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,,"Wi-Fi was understandably slow at times, but otherwise the hackathon was extremely organized!",Baltimore Polytechnic Institute,,Baltimore Polytechnic Institute,0,,,,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 12:44,,,,,,bhaktiheg,Hegde,bhakti.a.hegde@gmail.com,,,,,,,"University of Maryland - College Park, VIT,Vellore",1,Pragyan,Shukla,prag.shank@gmail.com,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 12:47,,,,"Best Domain Name from GoDaddy Registry - MLH, Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce, Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group, Best Financial Hack - Capital One, University Course Catalog Data Extraction and Query Challenge - Xficient",,Aryan,Agrawal,aryan527@terpmail.umd.edu,,,,,,,University of Maryland - College Park,1,Agastya,Mukherjee,amukhs13@terpmail.umd.edu,,,,,,
-ROOME,,Draft,Pending,Project overview,4/20/2024 13:26,,,,,,Sania,Rashid,sania.rashid928@gmail.com,,,,,,,University of Maryland - College Park,2,sydneyrichman,Richman,sydneyrichmann@gmail.com,Nancy,Puthenpurayil,nancybijo@gmail.com,,,
+","https://github.com/HorizonHacks/Efficace/tree/main, https://8651ef4a-c3de-4266-903d-760b241f2f01-00-22zcgpgxptnfj.picard.replit.dev/index.html",https://youtu.be/Oa8B4k0LUK0,"Best Bitcamp Hack - Bitcamp, Best Social Good Hack - Bitcamp, People's Choice Hack - Bitcamp","html5, php",Thomas,Lapp,largolapp@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,,"Wi-Fi was understandably slow at times, but otherwise the hackathon was extremely organized!",Baltimore Polytechnic Institute,,Baltimore Polytechnic Institute,0,,,,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 12:44,,,,,,bhaktiheg,Hegde,bhakti.a.hegde@gmail.com,,,,,,,"University of Maryland - College Park, VIT,Vellore",1,Pragyan,Shukla,prag.shank@gmail.com,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 12:47,,,,"Best Domain Name from GoDaddy Registry - MLH, Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce, Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group, Best Financial Hack - Capital One, University Course Catalog Data Extraction and Query Challenge - Xficient",,Aryan,Agrawal,aryan527@terpmail.umd.edu,,,,,,,University of Maryland - College Park,1,Agastya,Mukherjee,amukhs13@terpmail.umd.edu,,,,,,,,,,
+ROOME,,Draft,Pending,Project overview,4/20/2024 13:26,,,,,,Sania,Rashid,sania.rashid928@gmail.com,,,,,,,University of Maryland - College Park,2,sydneyrichman,Richman,sydneyrichmann@gmail.com,Nancy,Puthenpurayil,nancybijo@gmail.com,,,,,,,
 Defend.io,,Draft,Pending,Additional info,4/20/2024 14:19,"Inspiration
 
 Our team was inspired by the tendency of all public information about defensive contracts to stay unintelligible and opaque to most people who might be interested in knowing a bit more about them. They   always seem to be hidden in obscure location and concealing jargon. However, for somebody interested in understanding how they affect financial products, this information needs to be easily accessible and digestable. Hence, this project.
@@ -385,7 +385,7 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for Defend.io
-",,,"Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group, Best Financial Hack - Capital One","python, selenium, beautiful-soup, gpt, neon, css, html, json",Md Sami,Alam,alam.sami.md@gmail.com,,,,Great,"Drexel University, UCLA",,"Drexel University, University of California - Los Angeles",3,Emmett,C,emmettlsc@gmail.com,Adith Tom,Alex,aa4643@drexel.edu,,,
+",,,"Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group, Best Financial Hack - Capital One","python, selenium, beautiful-soup, gpt, neon, css, html, json",Md Sami,Alam,alam.sami.md@gmail.com,,,,Great,"Drexel University, UCLA",,"Drexel University, University of California - Los Angeles",3,Emmett,C,emmettlsc@gmail.com,Adith Tom,Alex,aa4643@drexel.edu,,,,,,,
 Cerebro,https://bitcamp2024.devpost.com/submissions/507472-cerebro,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 14:33,"Inspiration
 
 For this hack, we wanted to increase the accessibility of technology for people who may have limitations with traditional input methods, such as a keyboard and mouse. By focusing on hands-free browsing, we aimed to provide an alternative solution that not only addressed these challenges but also empowered users to use the internet with greater freedom and efficiency. Through this hack, we hope to provide a more inclusive online experience where everyone can benefit from modern day technologies, regardless of their physical abilities.
@@ -453,9 +453,9 @@ Further develop the UI to have a more pleasant UX
 Add more functionality such as zooming, tab navigation, and cursor movement
 Possibly pivot away from just a chrome extension to obtain multi-platform support on various browsers.
 
-",https://github.com/Datoneguy246/Cerebro,https://youtu.be/aeKUCiXoC18,"Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best DEI Hack sponsored by Fidelity - MLH, Most Philanthropic Hack - Bloomberg,  Best Razzle Dazzle Hack - Bitcamp","chrome, javascript, face-api, google-web-speech-api, html5, css3",Declan,Scott,datoneguy246@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,N/A,University of Maryland - College Park,N/A,University of Maryland - College Park,2,Tanay,Naik,tanaynaik149@gmail.com,Ryan,Shechtman,rshechtm@terpmail.umd.edu,,,
-Hurrikane,,Draft,Pending,Project overview,4/20/2024 14:35,,,,,,Robert,Barkalov,robert.barkalov@gmail.com,,,,,,,Ravenscroft ,1,Eva,Barkalova,eva.barkalova@gmail.com,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 15:00,,,,,,Danny,Tran,trand5036@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,
+",https://github.com/Datoneguy246/Cerebro,https://youtu.be/aeKUCiXoC18,"Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best DEI Hack sponsored by Fidelity - MLH, Most Philanthropic Hack - Bloomberg,  Best Razzle Dazzle Hack - Bitcamp","chrome, javascript, face-api, google-web-speech-api, html5, css3",Declan,Scott,datoneguy246@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,N/A,University of Maryland - College Park,N/A,University of Maryland - College Park,2,Tanay,Naik,tanaynaik149@gmail.com,Ryan,Shechtman,rshechtm@terpmail.umd.edu,,,,,,,
+Hurrikane,,Draft,Pending,Project overview,4/20/2024 14:35,,,,,,Robert,Barkalov,robert.barkalov@gmail.com,,,,,,,Ravenscroft ,1,Eva,Barkalova,eva.barkalova@gmail.com,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 15:00,,,,,,Danny,Tran,trand5036@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
 Cribzz,,Draft,Pending,Additional info,4/20/2024 15:07,"Inspiration
 
 The inspiration for Cribzz sprang from a common dilemma faced by one of our team members during a temporary work relocation across states. The challenge was more than just finding a new place; it was about sharing that space with someone who not only matched in budget but also in lifestyle and habits.
@@ -545,7 +545,7 @@ Working with the MERN stack was an enlightening experience, especially integrati
 React:
 Our experience with React, although challenging, taught us valuable lessons about the importance of matching technology with team skills and project timelines. React’s component-based architecture and state management features, while powerful, required a deeper initial learning investment than we were able to commit during this fast-paced hackathon.
 
-Overall, the technology experience this weekend was immensely instructive. We appreciated the opportunity to dive deep into MongoDB and the MERN stack, gaining insights that will undoubtedly benefit our future projects. Our challenges with React have also prepared us better for future endeavors, highlighting areas for further learning and development.",University of Maryland - College Park,,University of Maryland - College Park,2,Ohsung,Kwon,kwon43536@gmail.com,Jay,Li,jli35810@terpmail.umd.edu,,,
+Overall, the technology experience this weekend was immensely instructive. We appreciated the opportunity to dive deep into MongoDB and the MERN stack, gaining insights that will undoubtedly benefit our future projects. Our challenges with React have also prepared us better for future endeavors, highlighting areas for further learning and development.",University of Maryland - College Park,,University of Maryland - College Park,2,Ohsung,Kwon,kwon43536@gmail.com,Jay,Li,jli35810@terpmail.umd.edu,,,,,,,
 Puddle,,Draft,Pending,Additional info,4/20/2024 15:27,"Inspiration
 
 
@@ -563,7 +563,7 @@ We've learned about the internal workings of financial management services and h
 ## What's next for Puddle
 In the future, we hope to build Puddle as a native app. 
 
-",,,"Best Bitcamp Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Moonshot Hack - Bitcamp, People's Choice Hack - Bitcamp, Best Financial Hack - Capital One","sveltekit, css3, tailwind, html5, http, javascript, typescript, propelauth, firestore, firebase, figma",Ruadhan,KM,ruadhan.kellermcleer@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,The wifi was great.,University of Maryland - College Park,,"Wilson HS, Woodrow Wilson High School, Jackson-Reed High School, University of Maryland - College Park",3,Gus,Ruben,gusruben@protonmail.com,Josh,Epee,joshuaepee1@gmail.com,,,
+",,,"Best Bitcamp Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Moonshot Hack - Bitcamp, People's Choice Hack - Bitcamp, Best Financial Hack - Capital One","sveltekit, css3, tailwind, html5, http, javascript, typescript, propelauth, firestore, firebase, figma",Ruadhan,KM,ruadhan.kellermcleer@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,The wifi was great.,University of Maryland - College Park,,"Wilson HS, Woodrow Wilson High School, Jackson-Reed High School, University of Maryland - College Park",3,Gus,Ruben,gusruben@protonmail.com,Josh,Epee,joshuaepee1@gmail.com,,,,,,,
 least supportive emotional support animal,https://bitcamp2024.devpost.com/submissions/507522-least-supportive-emotional-support-animal,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 15:36,"Inspiration
 
 We think therapy nowadays is expensive and doesn't always work. Our solution provides easily accessible, free therapy that guarantees you the value you did not pay for. Our app connects you with one of our unlicensed feline therapists, who are less than willing to help you!
@@ -592,7 +592,7 @@ We learned how to use Svelte, Svelte project structure, and how to use the OpenA
 What's next for least supportive emotional support animal
 
 New animals? Gacha? Subscription based service? Crypto mining in the background?
-",https://github.com/spectregray/least-supportive-emotional-support-animal/,,"Best First Time Hack - Bitcamp,  Best Razzle Dazzle Hack - Bitcamp","svelte, javascript, openai, web",selena,Bao,appleselena@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,No,We used SvelteKit. It was a really good experience because we were able to get started and learn it easily with the help of docs and the internet.,"University of Maryland, College Park",,University of Maryland - College Park,1,Jason,Liau,jasonbenjaminliau@gmail.com,,,,,,
+",https://github.com/spectregray/least-supportive-emotional-support-animal/,,"Best First Time Hack - Bitcamp,  Best Razzle Dazzle Hack - Bitcamp","svelte, javascript, openai, web",selena,Bao,appleselena@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,No,We used SvelteKit. It was a really good experience because we were able to get started and learn it easily with the help of docs and the internet.,"University of Maryland, College Park",,University of Maryland - College Park,1,Jason,Liau,jasonbenjaminliau@gmail.com,,,,,,,,,,
 UMD Eats,https://bitcamp2024.devpost.com/submissions/507607-umd-eats,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 17:25,"Inspiration
 
 As UMD students we recognized the poor accessibility on the UMD app on updated meals offered at the dining halls on a daily basis. Our team and I decided to use this hackathon as an opportunity to begin a project that will help update the UMD App in a more efficient manner and alert UMD students when and where their favorite meals will be offered.
@@ -620,8 +620,8 @@ We learned how to trouble shoot our code and debug our design. We also gained ex
 What's next for UMD Eats
 
 We hope to further implement the unique features to our project in the coming months and make it a fully functional website.
-","https://github.com/NithikaRamanathan/UMD-Eats, https://umd-eats-server.vercel.app/#",,"Best Bitcamp Hack - Bitcamp, Best First Time Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH, University Course Catalog Data Extraction and Query Challenge - Xficient","html, css, javascript, python",MeenakshiRS1,Rama Subramanian,mramasub@terpmail.umd.edu,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,"Our team got the opportunity to explore a lot of different concepts and frameworks. We learned more about web development, web scraping, and using github.","University of Maryland, College Park",umd-eats.biz,"University of Maryland - College Park, University of Maryland - University College",3,Sean,Stone,seans1022@gmail.com,atan333,Tan,amytan@terpmail.umd.edu,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 17:43,,,,,,Thejitha,Rajapakshe,thejitha.rajapakshe@gmail.com,,,,,,,Montgomery College,0,,,,,,,,,
+","https://github.com/NithikaRamanathan/UMD-Eats, https://umd-eats-server.vercel.app/#",,"Best Bitcamp Hack - Bitcamp, Best First Time Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH, University Course Catalog Data Extraction and Query Challenge - Xficient","html, css, javascript, python",MeenakshiRS1,Rama Subramanian,mramasub@terpmail.umd.edu,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,"Our team got the opportunity to explore a lot of different concepts and frameworks. We learned more about web development, web scraping, and using github.","University of Maryland, College Park",umd-eats.biz,"University of Maryland - College Park, University of Maryland - University College",3,Sean,Stone,seans1022@gmail.com,atan333,Tan,amytan@terpmail.umd.edu,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 17:43,,,,,,Thejitha,Rajapakshe,thejitha.rajapakshe@gmail.com,,,,,,,Montgomery College,0,,,,,,,,,,,,,
 Climate Change and Affordability in the United States,https://bitcamp2024.devpost.com/submissions/507635-climate-change-and-affordability-in-the-united-states,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 17:45,"Inspiration
 
 As environmentalists, we were interested in the Fannie Mae BitCamp Hackathon Challenge because it connected programming with an issue we are passionate about. 
@@ -649,7 +649,7 @@ We learned how to use the Python libraries Numpy, Matplotlib, and Pandas, as wel
 What's next for Climate Change and Affordability in the United States
 
 Now knowing which states are relatively affordable and resilient to the effects of climate change, we are interested in seeing what can incentivize people to move to those states. 
-",https://github.com/Dakshita24/Bitcamp-2024,,"Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best Use of APIs related to Housing/Climate Change - Fannie Mae","python, open-meteo-forecast, numpy, pandas",Riya,Thapar,riyathapar06@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,We used the Fannie Mae data sets and the OpenMeteo API. We wrote our final program in Python.,University of Maryland College Park,,University of Maryland - College Park,3,Dakshita,Pal,dakshitapal902@gmail.com,Laura,Lai,jing.lauralai@gmail.com,Tulika,Kumar,tulikak13@gmail.com
+",https://github.com/Dakshita24/Bitcamp-2024,,"Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best Use of APIs related to Housing/Climate Change - Fannie Mae","python, open-meteo-forecast, numpy, pandas",Riya,Thapar,riyathapar06@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,We used the Fannie Mae data sets and the OpenMeteo API. We wrote our final program in Python.,University of Maryland College Park,,University of Maryland - College Park,3,Dakshita,Pal,dakshitapal902@gmail.com,Laura,Lai,jing.lauralai@gmail.com,Tulika,Kumar,tulikak13@gmail.com,,,,
 vike,,Draft,Pending,Additional info,4/20/2024 18:14,"Inspiration
 
 All of us are students who have been blessed with the fortunate opportunities given by modern technology. However, not everyone around the world has equal access to these gadgets that we take for granted. Realizing the need to address this issue, our team worked to create a budget friendly alternative to those unable to afford keyboards and mice. 
@@ -677,7 +677,7 @@ The challenges we came across with using a naive Mediapipe implementation ended 
 What's next for Vike
 
 We're hoping to merge both executables so that users can simultaneously use the virtual mouse and keyboard, which we believe would be a substantial improvement in the quality-of-life for programmers around the world.
-",https://vike24.vercel.app/,,"Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best DEI Hack sponsored by Fidelity - MLH, Most Philanthropic Hack - Bloomberg","react, tailwindcss, firebase, opencv, mediapipe, python",Aryan,Sharma,aryan.sharma0714@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,"Our project focused mainly on computer vision which led to us using cv2 and Mediapipe a lot. Additionally, our project involved storing user data, which we did through the use of a Cloud Firestore database.",Centennial High School,N/A,"Centennial High School, Centennial",3,Victor,Liu,victorliu5000@gmail.com,Vinaykarthik,Vimalkumar,vinay7.karthik@gmail.com,Oliver,Leung,pixelesc.com@gmail.com
+",https://vike24.vercel.app/,,"Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best DEI Hack sponsored by Fidelity - MLH, Most Philanthropic Hack - Bloomberg","react, tailwindcss, firebase, opencv, mediapipe, python",Aryan,Sharma,aryan.sharma0714@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,"Our project focused mainly on computer vision which led to us using cv2 and Mediapipe a lot. Additionally, our project involved storing user data, which we did through the use of a Cloud Firestore database.",Centennial High School,N/A,"Centennial High School, Centennial",3,Victor,Liu,victorliu5000@gmail.com,Vinaykarthik,Vimalkumar,vinay7.karthik@gmail.com,Oliver,Leung,pixelesc.com@gmail.com,,,,
 Debuggies,https://bitcamp2024.devpost.com/submissions/507677-debuggies,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 18:15,"The battle with bugs in the computer science field is something faced by newbies and professionals alike. So, we took this literally by creating a game where a player must “fight” common programming bugs and “kill” them all. From NullPointerException bugs to StackOverFlowError bugs, you must keep your wits about you and effectively use tools like breakpoints to defeat hordes of enemies until you fully debug the battlefield. This game is not only fun and challenging, but it will also teach new programmers some of the most common errors, exceptions, and bugs that exist while programming in Java and introduce them to key functions of a debugger. 
 
 Inspiration
@@ -717,7 +717,7 @@ What's next for Debuggies
 After Bitcamp, we plan to add more content to Debuggies! Our work here has only just begun, and while we have some basic enemies, there’s a ton of potential for this game, both in terms of gameplay and educational value. For now, we plan to add more examples of code snippets and increase our variety of bugs. This will add more complexity to our game, making every playthrough more unique, while also giving players more information to learn from.
 
 We also plan on expanding the game’s functionality by introducing different difficulty levels and connecting the game to a database so that high scores can be stored to encourage friendly competition between friends. 
-",https://github.com/wendytu2022/Debuggies,,"Best Bitcamp Hack - Bitcamp, Best Gamification Hack - Bitcamp, Most Philanthropic Hack - Bloomberg, Best Financial Hack - Capital One,  Best Razzle Dazzle Hack - Bitcamp","java, eclipse",Shu-Ye,Lin,shuyelin06@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,The WiFi was great!,"University of Maryland, College Park",,University of Maryland - College Park,3,Anna,Dai,anna.dai916@gmail.com,Brian,Xie,bxie12@terpmail.umd.edu,Wendy,Tu,wendytu2022@gmail.com
+",https://github.com/wendytu2022/Debuggies,,"Best Bitcamp Hack - Bitcamp, Best Gamification Hack - Bitcamp, Most Philanthropic Hack - Bloomberg, Best Financial Hack - Capital One,  Best Razzle Dazzle Hack - Bitcamp","java, eclipse",Shu-Ye,Lin,shuyelin06@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,The WiFi was great!,"University of Maryland, College Park",,University of Maryland - College Park,3,Anna,Dai,anna.dai916@gmail.com,Brian,Xie,bxie12@terpmail.umd.edu,Wendy,Tu,wendytu2022@gmail.com,,,,
 Termbook,,Draft,Pending,Additional info,4/20/2024 18:50,"TermBook
 
 Inspiration
@@ -743,7 +743,7 @@ One challenge we ran into was working with Golang time stamps across the various
 What's next for Termbook
 
 We would like add features like a streak tracker and better tooling for searching and and filtering through journal entries.
-",https://www.termbook.co,,"Best Bitcamp Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH","react, next.js, golang, sqlite, amazon-web-services, tailwind, css, bubbletea, lipgloss, nextauth, vercel",Brian,Bowers,bpb9629@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,We really enjoyed the simplicity and productivity of Golang and the seamless deployment experience of Next.js and Vercel.,Salisbury University,https://www.termbook.co,Salisbury University,1,Isaac,Dugan,isaacd4444@gmail.com,,,,,,
+",https://www.termbook.co,,"Best Bitcamp Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH","react, next.js, golang, sqlite, amazon-web-services, tailwind, css, bubbletea, lipgloss, nextauth, vercel",Brian,Bowers,bpb9629@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,We really enjoyed the simplicity and productivity of Golang and the seamless deployment experience of Next.js and Vercel.,Salisbury University,https://www.termbook.co,Salisbury University,1,Isaac,Dugan,isaacd4444@gmail.com,,,,,,,,,,
 T.O.M. - Tabby of Motivation,https://bitcamp2024.devpost.com/submissions/507695-t-o-m-tabby-of-motivation,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 18:57,"Inspiration
 
 The primary inspiration behind T.O.M. was actually none other than our own lives as college students. With all the near-constant rushing and stress to make it to class, submit assignments on time, pass exams, and put out quality projects, there is little time left for us to catch our breath in between and admire our handiwork. Through T.O.M., we hope to encourage students, namely those in college, to give themselves a much-needed pat on the back every now and then and remind them that regardless of how hard things feel right now, they are doing great and are on track to achieve all their dreams and goals. 
@@ -771,7 +771,7 @@ The main thing that we learned through this project was how to create better and
 What's next for T.O.M. - Tabby of Motivation
 
 In the future, we look to expand the functionality of T.O.M. to be more than just a fun source of encouragement for users. By integrating a GPT model with T.O.M., we aim to allow him to generate schedules for college students based on parameters taken as input, such as the things they need to do in the day and how much time each thing should take. This will require significant JavaScript and Python usage, along with a full stack framework like Django, but it will broadly expand functionality of T.O.M. and enable him to become much more than just a talking tabby (though that function will definitely stay!).
-",https://t-o-m-cat.vercel.app/,,"Best Bitcamp Hack - Bitcamp, Best First Time Hack - Bitcamp, People's Choice Hack - Bitcamp","html/css, javascript, github, vercel, vscode",Stephen,Wu,sswu2005@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,"Our experience with the technologies we used went fairly smoothly. There was a bit of difficulty at the beginning setting up collaboration through GitHub, but everything worked out in the end.",University of Maryland,,University of Maryland - College Park,2,Om,Arya,om.arya0577@gmail.com,Hasan,Ege,hege@terpmail.umd.edu,,,
+",https://t-o-m-cat.vercel.app/,,"Best Bitcamp Hack - Bitcamp, Best First Time Hack - Bitcamp, People's Choice Hack - Bitcamp","html/css, javascript, github, vercel, vscode",Stephen,Wu,sswu2005@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,"Our experience with the technologies we used went fairly smoothly. There was a bit of difficulty at the beginning setting up collaboration through GitHub, but everything worked out in the end.",University of Maryland,,University of Maryland - College Park,2,Om,Arya,om.arya0577@gmail.com,Hasan,Ege,hege@terpmail.umd.edu,,,,,,,
 Xfinity,https://bitcamp2024.devpost.com/submissions/507712-xfinity,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 19:37,"Inspiration
 
 University course catalogs are treasure troves of information crucial for students, faculty, and administrators. Unfortunately, this valuable data is often trapped within unwieldy, unstructured PDFs, making access and utilization challenging. 
@@ -830,7 +830,7 @@ ChatOllama: Implementing ChatOllama for natural language generation was an inter
 
 Llama3: We also experimented with Llama3 for language modeling, which offered advanced capabilities in generating responses to user queries. Its integration with our project provided additional flexibility and options for natural language processing tasks.
 
-GitHub: GitHub served as our primary version control and collaboration platform throughout the hackathon. Its familiar interface and seamless integration with our workflow allowed for efficient code management and collaboration among team members.","University of the District of Columbia, New York University",,"New York University, University of the District of Columbia",1,Ronald,Ngounou,landryzinkoue@yahoo.fr,,,,,,
+GitHub: GitHub served as our primary version control and collaboration platform throughout the hackathon. Its familiar interface and seamless integration with our workflow allowed for efficient code management and collaboration among team members.","University of the District of Columbia, New York University",,"New York University, University of the District of Columbia",1,Ronald,Ngounou,landryzinkoue@yahoo.fr,,,,,,,,,,
 Facial Recognition Security System,https://bitcamp2024.devpost.com/submissions/507727-facial-recognition-security-system,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 20:13,"meow meow meow
 
 Inspiration
@@ -846,8 +846,8 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for Facial Recognition Security System
-",,,,"colab, python, mediapipe, numpy, pillow, scipy, matplotlib, opencv, machine-learning, computer-vision, javascript",David,Liu,davidjinliu@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,meow,University of Maryland,,University of Maryland - College Park,0,,,,,,,,,
-PeerSphere,,Draft,Pending,Project overview,4/20/2024 20:16,,,,,,Joseph,Cho,joseph.cho20@gmail.com,,,,,,,University of Maryland - College Park,3,Aadit,Nilay,aadit@terpmail.umd.edu,akshitab26,Badkundri,akshitab@umd.edu,arnavaggarwal75,Aggarwal,arnavaggarwal907@gmail.com
+",,,,"colab, python, mediapipe, numpy, pillow, scipy, matplotlib, opencv, machine-learning, computer-vision, javascript",David,Liu,davidjinliu@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,meow,University of Maryland,,University of Maryland - College Park,0,,,,,,,,,,,,,
+PeerSphere,,Draft,Pending,Project overview,4/20/2024 20:16,,,,,,Joseph,Cho,joseph.cho20@gmail.com,,,,,,,University of Maryland - College Park,3,Aadit,Nilay,aadit@terpmail.umd.edu,akshitab26,Badkundri,akshitab@umd.edu,arnavaggarwal75,Aggarwal,arnavaggarwal907@gmail.com,,,,
 StructSure,https://bitcamp2024.devpost.com/submissions/507730-structsure,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 20:16,"Inspiration
 
 With the recent collapse of the Francis Scott Key Bridge, we were excited about the opportunity to use the hackathon to assist with reparations on the bridge.  
@@ -871,7 +871,7 @@ What we learned
 How machine learning training works with images.
 
 What's next for StructSure
-",https://github.com/6rm6n/BItcamp24,,"Best Bitcamp Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce","javascript, react, azure, next.js, node.js, vercel",Arman,Mahjoor,amahjoor@gmu.edu,,Best Machine Learning Track Hack - Bitcamp,Yes,Microsoft Azure - it was awesome playing with the free Student Plan.,George Mason University,,George Mason University,1,Joshua,Cancio,jd.cancio1@gmail.com,,,,,,
+",https://github.com/6rm6n/BItcamp24,,"Best Bitcamp Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce","javascript, react, azure, next.js, node.js, vercel",Arman,Mahjoor,amahjoor@gmu.edu,,Best Machine Learning Track Hack - Bitcamp,Yes,Microsoft Azure - it was awesome playing with the free Student Plan.,George Mason University,,George Mason University,1,Joshua,Cancio,jd.cancio1@gmail.com,,,,,,,,,,
 FinHack,,Draft,Pending,Additional info,4/20/2024 20:19,"Inspiration
 
 The capital one paper that was handed out from the sponsor stands
@@ -895,7 +895,7 @@ Having the app working with the buttons and the display area
 What's next for FinHack
 
 A cleaner version where we have a menu screen, and the layout is more polished and maybe even animations for buttons and the definitions when they show up
-",https://replit.com/@lycanrocks1/Bitcamp,,,java,Alex,Yeh,lycanrocks1@gmail.com,,Best App Dev Track Hack - Bitcamp,No,"It was amazing to see the new people and friends, also i was able to learn and tap into a new language while working on this project which served as a learning experience and challenge",Baltimore Polytechnic Institute,NO!,baltimore poly tech,0,,,,,,,,,
+",https://replit.com/@lycanrocks1/Bitcamp,,,java,Alex,Yeh,lycanrocks1@gmail.com,,Best App Dev Track Hack - Bitcamp,No,"It was amazing to see the new people and friends, also i was able to learn and tap into a new language while working on this project which served as a learning experience and challenge",Baltimore Polytechnic Institute,NO!,baltimore poly tech,0,,,,,,,,,,,,,
 StudyHub,,Draft,Pending,Manage team,4/20/2024 20:21,"Inspiration
 
 As
@@ -911,8 +911,8 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for Untitled
-",,,,,chunk2,Mehta,lmml8335@gmail.com,,,,,,,Winston Churchill High School,2,very good player,Li,jiajakeli2123@gmail.com,Alan,Wang,ninety9tencups@gmail.com,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 20:26,,,,,,Sahit,Kadthala,skadthala@yahoo.com,,,,,,,,0,,,,,,,,,
+",,,,,chunk2,Mehta,lmml8335@gmail.com,,,,,,,Winston Churchill High School,2,very good player,Li,jiajakeli2123@gmail.com,Alan,Wang,ninety9tencups@gmail.com,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 20:26,,,,,,Sahit,Kadthala,skadthala@yahoo.com,,,,,,,,0,,,,,,,,,,,,,
 MediCheck AI,https://bitcamp2024.devpost.com/submissions/507740-medicheck-ai,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 20:27,"Inspiration
 
 The inspiration for MediCheck AI stems from a deep-seated concern for healthcare disparities and a firm belief in the power of technology to address them. In many parts of the world, access to quality healthcare is not readily available, particularly in underserved and remote areas. Patients in these regions often face significant challenges in obtaining timely medical attention and diagnoses due to various factors such as limited healthcare infrastructure, shortage of medical professionals, and lack of internet access.
@@ -956,7 +956,7 @@ When designing the application, we were able to familiarize ourselves with web d
 What's next for MediCheck AI
 
 We could release updates to our application in the future. As of right now, our application gives a diagnosis for the patient. Based on the diagnosis, we could incorporate a feature to recommend the patient to different healthcare professionals. For example, the AI could recommend potential dermatologists if a client is concerned about his dry scalp. When we implement this feature, we need to consider new details such as location and healthcare professional rating to recommend the best possible doctor for the patient’s needs.
-",https://github.com/mayitreya/medicheck_ai,https://youtu.be/fgg9zzf1R_A,"Best Bitcamp Hack - Bitcamp, Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp","python, html, css, javascript, github, vscode, ollama",Rahul,Ramasubramanian,rahul24@terpmail.umd.edu,,Best Machine Learning Track Hack - Bitcamp,No,"We used GitHub after struggling to coordinate through other means, which made it easier to manage different versions of the codebase. We also used Flask (a Python library) to write a function that formats the patients' information and feeds it to the LLM. The LLM itself is called MedLLaMa2, which is a fork of Meta's open-source LLaMa2 model. MedLLaMa2 itself is specifically trained on over 10,000 medical examination questions, which is perfect for our case.",University of Maryland College Park,,University of Maryland - College Park,3,Dave,Jose,davedeepujose@gmail.com,Shiven,Chokshi,shiven.chokshi@gmail.com,Mayitreya,Pasumarthy,mayitreya2004@gmail.com
+",https://github.com/mayitreya/medicheck_ai,https://youtu.be/fgg9zzf1R_A,"Best Bitcamp Hack - Bitcamp, Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp","python, html, css, javascript, github, vscode, ollama",Rahul,Ramasubramanian,rahul24@terpmail.umd.edu,,Best Machine Learning Track Hack - Bitcamp,No,"We used GitHub after struggling to coordinate through other means, which made it easier to manage different versions of the codebase. We also used Flask (a Python library) to write a function that formats the patients' information and feeds it to the LLM. The LLM itself is called MedLLaMa2, which is a fork of Meta's open-source LLaMa2 model. MedLLaMa2 itself is specifically trained on over 10,000 medical examination questions, which is perfect for our case.",University of Maryland College Park,,University of Maryland - College Park,3,Dave,Jose,davedeepujose@gmail.com,Shiven,Chokshi,shiven.chokshi@gmail.com,Mayitreya,Pasumarthy,mayitreya2004@gmail.com,,,,
 LivePresence,,Draft,Pending,Additional info,4/20/2024 20:28,"Inspiration
 
 a
@@ -972,9 +972,9 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for a
-",https://github.com/Fredswqa190/BitCamp2024Submission-LivePresence,," Best Hardware Hack - Bitcamp, Best Bitcamp Hack - Bitcamp, Best First Time Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH","python, typescript",Fredswqa190,Han,yhan84273@gmail.com,,Best Advanced Quantum Track Hack,Yes,"We learned significantly more than we ever expected to in this short 36-hour stay. Between building our team up from the ground, to troubleshooting ESP32 errors, to figuring out how flask works, we've been through it all.","Princeton University, University of Maryland",livepresence.co - Highly applicable to our project. We created an AI backed home intrusion detection algorithm using Quantum Convolutional Neural Networks..,"new hyde park memorial high school, Rockville High School, University of Maryland - College Park",2,Stephy,,stephyzhang2006@gmail.com,Amin,Boukari,ambouk3@gmail.com,,,
-Ransomify,,Draft,Pending,Project overview,4/20/2024 20:31,,,,"Best First Time Hack - Bitcamp, People's Choice Hack - Bitcamp",,Justin,Chai,justinbchai@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,,University of Maryland: College Park,,University of Maryland - College Park,0,,,,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 20:32,,,,,,Mark,Schweitzer,markdanielschweitzer@gmail.com,,,,,,,,0,,,,,,,,,
+",https://github.com/Fredswqa190/BitCamp2024Submission-LivePresence,," Best Hardware Hack - Bitcamp, Best Bitcamp Hack - Bitcamp, Best First Time Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH","python, typescript",Fredswqa190,Han,yhan84273@gmail.com,,Best Advanced Quantum Track Hack,Yes,"We learned significantly more than we ever expected to in this short 36-hour stay. Between building our team up from the ground, to troubleshooting ESP32 errors, to figuring out how flask works, we've been through it all.","Princeton University, University of Maryland",livepresence.co - Highly applicable to our project. We created an AI backed home intrusion detection algorithm using Quantum Convolutional Neural Networks..,"new hyde park memorial high school, Rockville High School, University of Maryland - College Park",2,Stephy,,stephyzhang2006@gmail.com,Amin,Boukari,ambouk3@gmail.com,,,,,,,
+Ransomify,,Draft,Pending,Project overview,4/20/2024 20:31,,,,"Best First Time Hack - Bitcamp, People's Choice Hack - Bitcamp",,Justin,Chai,justinbchai@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,,University of Maryland: College Park,,University of Maryland - College Park,0,,,,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 20:32,,,,,,Mark,Schweitzer,markdanielschweitzer@gmail.com,,,,,,,,0,,,,,,,,,,,,,
 test,https://bitcamp2024.devpost.com/submissions/507759-test,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 20:59,"Inspiration
 
 test
@@ -1002,7 +1002,7 @@ test
 What's next for Address Gun Violence In Schools In DC
 
 test
-",,https://youtu.be/hOELcD_h7Yo?si=cIQ227JseipAre8_,"Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp","flutter, dart, esri, android",sgubba1,Gubba,sgubba15@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,The experience was great. We got support from different mentors and learned a lot.,"University of Maryland, College Park",,University of Maryland - College Park,0,,,,,,,,,
+",,https://youtu.be/hOELcD_h7Yo?si=cIQ227JseipAre8_,"Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp","flutter, dart, esri, android",sgubba1,Gubba,sgubba15@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,The experience was great. We got support from different mentors and learned a lot.,"University of Maryland, College Park",,University of Maryland - College Park,0,,,,,,,,,,,,,
 Vistra - The Mirror for Everyone,https://bitcamp2024.devpost.com/submissions/507772-vistra-the-mirror-for-everyone,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 21:12,"Inspiration
 
 Over 1.3 billion people around the world suffer from significant physical disabilities, and our goal is to make technology more accessible to them. From stroke victims and individuals with arthritis who struggle to use touch screen devices to those with amputations and birth defects, there is a need for innovative solutions that empower people with disabilities to fully engage with modern technology. Inspired by the desire to bridge this gap and improve the quality of life for everyone, we decided to create Vistra, a groundbreaking smart mirror accessibility aid.
@@ -1035,7 +1035,7 @@ What's next for Vistra
 • Obtaining a glass two-way mirror and frame for enhanced visibility and visual appeal
 • Improving UI
 • Adding options for customization
-",https://github.com/ahere84/Vistra-Smart-Mirror,https://youtube.com/shorts/wjHxAu6g3js?feature=share," Best Hardware Hack - Bitcamp, Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp","python, javascript, html, gazeflow, openweathermap, spotify, gazerecorder",Andy,Heredia,andyheredia599@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,"GazeRecorder is good, but the recalibration could be faster. If we were to implement our own, we would cut down calibration time or have no calibration at all. Some people wanted to demo but didn't want to wait to calibrate.",Montgomery College,,Montgomery College,2,Yonatan,Tussa,ytussa@montgomerycollege.edu,Melvin,Sere,seremelvin1@gmail.com,,,
+",https://github.com/ahere84/Vistra-Smart-Mirror,https://youtube.com/shorts/wjHxAu6g3js?feature=share," Best Hardware Hack - Bitcamp, Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp","python, javascript, html, gazeflow, openweathermap, spotify, gazerecorder",Andy,Heredia,andyheredia599@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,"GazeRecorder is good, but the recalibration could be faster. If we were to implement our own, we would cut down calibration time or have no calibration at all. Some people wanted to demo but didn't want to wait to calibrate.",Montgomery College,,Montgomery College,2,Yonatan,Tussa,ytussa@montgomerycollege.edu,Melvin,Sere,seremelvin1@gmail.com,,,,,,,
 Remorize,,Draft,Pending,Additional info,4/20/2024 21:13,"Inspiration
 
 Having to note down and memorize everything in your day is a tedious task and creates a chance for miscommunication and misunderstanding, thus came the utility for remorize where we handle all your daily audio data to simplify your day.
@@ -1098,7 +1098,7 @@ Android Studio offered a robust platform for mobile app development, although th
 Flask was great for quickly setting up our backend server, providing simplicity and flexibility, though it sometimes lacks the out-of-the-box functionalities that larger frameworks offer. 
 SQLite served well for our database needs, offering lightweight and easy setup; however, managing complex queries and scalability can be tricky. 
 Working with GPT-4 was enlightening, particularly for generating responsive text from audio; nonetheless, prompt engineering to prevent hallucination required careful handling and deeper understanding of model capabilities. 
-Overall, each technology contributed significantly to our project, enhancing both functionality and my personal skill set.",University of Maryland - College Park,,University of Maryland - College Park,0,,,,,,,,,
+Overall, each technology contributed significantly to our project, enhancing both functionality and my personal skill set.",University of Maryland - College Park,,University of Maryland - College Park,0,,,,,,,,,,,,,
 Lockness AI,,Draft,Pending,Additional info,4/20/2024 21:25,"Inspiration
 
 The Chronic Condition Warehouse (CCW) Virtual Research Data Center (VRDC) is the US government's central collection of ALL public healthcare records. Scientists, researchers, and policy makers regularly use this data for studies and policy recommendations. The VRDC is HIGHLY secure and restrictive (as it should be), and is comprised of thousands of tables (each with up to hundreds of columns). The problem is the documentation for the data structure in VRDC CCW is highly technical and dense, filled with cryptic codes and abbreviations, dispersed among hundreds of pages of PDFs. Even a simple query can cost several thousand dollars, easily ballooning a comprehensive study to the 6-figure range. This can be remedied by the power of generative AI, hosted in a private, secure environment.
@@ -1126,7 +1126,7 @@ We learned a lot about LLMs, how to prompt them, how to work with open-sourced L
 What's next for Lockness AI
 
 We plan to add documentation ingress, to fully automate the process of teaching Lockness AI about the user's data system. We also plan to enhance our LLM pipeline through fine-tuning, using retrieval augmented generation (RAG), using additional specialist models, function calling, and adding the support for web search (for environments that can support external calls). Additionally, we plan to create a simple setup process for research agencies interested in self-hosting our product.
-",https://locknessai.com,,"Best Bitcamp Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH, Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group","python, react.js, flask, cohere, groq, llama-3, chakra-ui, google-cloud, vercel, pandas",Yuvan,Sundrani,yuvan.sundrani@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,"Our tech stack utilized React.js, Python/Flask, Git, Pandas, and open-source AI models like llama-3 and Groq chat. The final product integrated Cohere AI's models.","University Of Maryland, College Park",locknessai.com,University of Maryland - College Park,3,jsteinberg7,,j.steinberg702@gmail.com,Michael,Ilie,mcilieg@gmail.com,ryancwmd,Whittaker,ryancwmd@gmail.com
+",https://locknessai.com,,"Best Bitcamp Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH, Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group","python, react.js, flask, cohere, groq, llama-3, chakra-ui, google-cloud, vercel, pandas",Yuvan,Sundrani,yuvan.sundrani@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,"Our tech stack utilized React.js, Python/Flask, Git, Pandas, and open-source AI models like llama-3 and Groq chat. The final product integrated Cohere AI's models.","University Of Maryland, College Park",locknessai.com,University of Maryland - College Park,3,jsteinberg7,,j.steinberg702@gmail.com,Michael,Ilie,mcilieg@gmail.com,ryancwmd,Whittaker,ryancwmd@gmail.com,,,,
 AI-Driven Defense Contract Insights,https://bitcamp2024.devpost.com/submissions/507786-ai-driven-defense-contract-insights,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 21:29,"Inspiration
 
 The Department of Defense is one of the biggest investors in the world, so we wanted to extract valuable information from their contracts so that the DoD and the contractors make informed decisions and promote transparency among the people. 
@@ -1169,11 +1169,11 @@ What's next for AI-Driven Defense Contract Insights
 
 To create an inverted index search engine and implement a generative AI chat model to search through it effectively. 
 ",https://github.com/anjaneyak10/Hackathon.git,,Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group,"python, tableau, excel, openai, geminiai, google.generativeai",Jayesh Jairaj,Pamnani,jpamnani@umd.edu,,Best Machine Learning Track Hack - Bitcamp,Yes,"1) It was great working with Gemini API to get prompt responses.
-2) We tried to implement RAG Stack but it was difficult to create chunks so we shifted our approach.",University of Maryland - College Park,,University of Maryland - College Park,2,Anjaneya Sanjay,Ketkar,aketkar@umd.edu,Janesh,Hasija,jhasija95@gmail.com,,,
-Message in a Bottle,,Draft,Pending,Manage team,4/20/2024 21:38,,,,,,Jay,Rana,jay.rana1@gmail.com,,,,,,,,0,,,,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 21:38,,,,,,Lakshya,Sajal Kumar,lakshyaa@terpmail.umd.edu,,,,,,,University of Maryland - College Park,0,,,,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 21:44,,,,,,Manasvi,Hosahalli,mh110704@terpmail.umd.edu,,,,,,,University of Maryland - College Park,0,,,,,,,,,
-ResQVision,,Draft,Pending,Project overview,4/20/2024 21:47,,https://github.com/NSP909/cmdfmydebris,,"Best Bitcamp Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best Sustainability Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH, Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce, Best Use of APIs related to Housing/Climate Change - Fannie Mae, Best Financial Hack - Capital One","python, html, css, javascript, node.js, flask, react",Anuraag,Tripathy,anuraagstudy@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,,"University of Maryland, College Park",,University of Maryland - College Park,1,Priyadarshan,Narayanasamy,nspriyadarshan@gmail.com,,,,,,
+2) We tried to implement RAG Stack but it was difficult to create chunks so we shifted our approach.",University of Maryland - College Park,,University of Maryland - College Park,2,Anjaneya Sanjay,Ketkar,aketkar@umd.edu,Janesh,Hasija,jhasija95@gmail.com,,,,,,,
+Message in a Bottle,,Draft,Pending,Manage team,4/20/2024 21:38,,,,,,Jay,Rana,jay.rana1@gmail.com,,,,,,,,0,,,,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 21:38,,,,,,Lakshya,Sajal Kumar,lakshyaa@terpmail.umd.edu,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 21:44,,,,,,Manasvi,Hosahalli,mh110704@terpmail.umd.edu,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
+ResQVision,,Draft,Pending,Project overview,4/20/2024 21:47,,https://github.com/NSP909/cmdfmydebris,,"Best Bitcamp Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best Sustainability Hack - Bitcamp, Best Domain Name from GoDaddy Registry - MLH, Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce, Best Use of APIs related to Housing/Climate Change - Fannie Mae, Best Financial Hack - Capital One","python, html, css, javascript, node.js, flask, react",Anuraag,Tripathy,anuraagstudy@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,,"University of Maryland, College Park",,University of Maryland - College Park,1,Priyadarshan,Narayanasamy,nspriyadarshan@gmail.com,,,,,,,,,,
 BuildKey AI,https://bitcamp2024.devpost.com/submissions/507804-buildkey-ai,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 21:58,"Inspiration
 
 After interviewing the police, emergency medical & fire-fight staff personnel at the BitCamp event. The main problem was data access and friction in decision-making. Such fieldOps teams have lot of data that is scattered in their repositories. If I could train a custom GPT with their data, it could help them with answers to queries vs links. Helping teams with efficiency (low search time) and improved decision-making. Thus helping them serve to save lives and property. 
@@ -1201,8 +1201,8 @@ Azure Copilot, Azure AI search.
 What's next for BuildKey AI
 
 Handle Images and video to get insights.
-","https://github.com/urstrulykkr/BuildKey-AI/tree/main, https://build-key-ai.vercel.app/",,"Best First Time Hack - Bitcamp, Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce, Most Philanthropic Hack - Bloomberg","python, azure, streamlit, github, astro, openai, ai, ml",Kaushik Reddy,Kanumuru,kkaushik@umd.edu,,Best Machine Learning Track Hack - Bitcamp,Yes,Azure AI was really cool!,University of Maryland,,University of Maryland - College Park,0,,,,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 22:04,,,,,,Bryan,Gao,brybryboi215@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,
+","https://github.com/urstrulykkr/BuildKey-AI/tree/main, https://build-key-ai.vercel.app/",,"Best First Time Hack - Bitcamp, Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce, Most Philanthropic Hack - Bloomberg","python, azure, streamlit, github, astro, openai, ai, ml",Kaushik Reddy,Kanumuru,kkaushik@umd.edu,,Best Machine Learning Track Hack - Bitcamp,Yes,Azure AI was really cool!,University of Maryland,,University of Maryland - College Park,0,,,,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 22:04,,,,,,Bryan,Gao,brybryboi215@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
 Miami: HPI vs Annual Rainfall,https://bitcamp2024.devpost.com/submissions/507810-miami-hpi-vs-annual-rainfall,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 22:11,"Inspiration
 
 We recognize that climate change is a huge problem and wanted to see how fluctuations in the rainfall in a city affect the prices for living environments. We chose Miami in particular because of how prone it is to frequent rainfall. 
@@ -1230,7 +1230,7 @@ We learnt from our results that two factors may be related to each other but the
 What's next for Miami: HPI vs Annual Rainfall
 
 We hope to gather more data points and focus more on other climatic conditions that stem from climate change (tornadoes, hurricanes, drought, flood) that affect major cities of the United States. We hope to turn our results into an interactive space for users to predict and understand what their investments in properties in a given region could look like in the future. 
-",https://github.com/arshnoor08/HPI-Rainfall_Analysis_Miami-Dade,,,"r, python",Arshnoor,Bhutani,arshnoor@terpmail.umd.edu,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,"We relied on Posit Cloud for most of our analysis in R. This IDE was available to us entirely online i.e. a desktop version was not required to access additional features. However, the collaborative feature on Posit Cloud was lagging which prompted us to export and share the files with each other to work collaboratively.","University of Maryland, College Park",,University of Maryland - College Park,3,Manya,Garg,mgarg@terpmail.umd.edu,Kashvi,Agarwal,kashvi27.agarwal@gmail.com,mahek,,mahek@umd.edu
+",https://github.com/arshnoor08/HPI-Rainfall_Analysis_Miami-Dade,,,"r, python",Arshnoor,Bhutani,arshnoor@terpmail.umd.edu,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,"We relied on Posit Cloud for most of our analysis in R. This IDE was available to us entirely online i.e. a desktop version was not required to access additional features. However, the collaborative feature on Posit Cloud was lagging which prompted us to export and share the files with each other to work collaboratively.","University of Maryland, College Park",,University of Maryland - College Park,3,Manya,Garg,mgarg@terpmail.umd.edu,Kashvi,Agarwal,kashvi27.agarwal@gmail.com,mahek,,mahek@umd.edu,,,,
 UMD Foodies,https://bitcamp2024.devpost.com/submissions/507812-umd-foodies,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 22:12,"Inspiration
 
 One of our team members loves to go to free food events on campus. She sifts through flyers and emails, but has no way to keep track of all the details in one place. She loves sharing free food events with her friends because as upperclassmen, she understands that everyone might be sick of dining hall food or too tired to cook after a long day of class.
@@ -1262,7 +1262,7 @@ We want to enrich UMD Foodies with social features, enabling users to add and in
 MongoDB: we tried to connect to our app using MongoDB, but we didn't want to dive into Express/Node.js, so after looking around, we found that Firebase was a better choice given our time constraint
 Firebase: this database was a lot simpler to set up than MongoDB, and it integrated smoothly with React
 Google Maps SDK: it took some time to figure out how to integrate with React, and it seemed to remove the website portion of our project (we wanted it to be cross-platform). 
-GitHub/Git: it made sharing this project with each other a lot easier, and it was a good skill to practice","University of Maryland, College Park",,University of Maryland - College Park,2,Sheldon,Douglas,sheldoug19@gmail.com,Samar,Khan,shamchee1110@gmail.com,,,
+GitHub/Git: it made sharing this project with each other a lot easier, and it was a good skill to practice","University of Maryland, College Park",,University of Maryland - College Park,2,Sheldon,Douglas,sheldoug19@gmail.com,Samar,Khan,shamchee1110@gmail.com,,,,,,,
 Conscious Cycles,https://bitcamp2024.devpost.com/submissions/507815-conscious-cycles,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 22:16,"Inspiration
 
 A USCF study showed that ""one in three people learn they’re pregnant past six weeks’ gestation"". That's halfway through the first trimester! This number is disproportionately larger in the population of younger women and women of color. An issue that women who regularly have sex face is understanding the resources available to them and identifying the best time to take a pregnancy test. We wanted to come up with an idea to promote sexual health awareness within these communities. 
@@ -1293,8 +1293,8 @@ We learned about integrating Google Maps into Android and configuring API keys. 
 What's next for Conscious Cycles
 
 Next, we would expand out app to include sexual health resources based on a person's current location so that we can reach an audience wider than UMD students.
-",https://github.com/ZenSeven-ai/PregancyStatus,,"Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp, Most Philanthropic Hack - Bloomberg","android-studio, kotlin",Hadijat,Oke,hadijat257@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,Through this experience I learned a lot about applying different Google APIs to a project. It was frustrating at times but when it works it makes a powerful tool.,"University of Maryland, College Park",,University of Maryland - College Park,1,azulioiscoolio,Cruz,josedcruz5@gmail.com,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 22:17,,,,,,Pouncetail,Yeo,pouncetail@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,
+",https://github.com/ZenSeven-ai/PregancyStatus,,"Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp, Most Philanthropic Hack - Bloomberg","android-studio, kotlin",Hadijat,Oke,hadijat257@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,Through this experience I learned a lot about applying different Google APIs to a project. It was frustrating at times but when it works it makes a powerful tool.,"University of Maryland, College Park",,University of Maryland - College Park,1,azulioiscoolio,Cruz,josedcruz5@gmail.com,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 22:17,,,,,,Pouncetail,Yeo,pouncetail@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
 EzStudy,https://bitcamp2024.devpost.com/submissions/507817-ezstudy,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 22:21,"Inspiration
 
 We were inspired by AI generative tools and wanting to find a task that could be completed faster with AI. As we near finals, studying is always a looming threat floating around in the back of our heads. Thus, we wanted to create something that could make studying easier and relieve our stress just a little. 
@@ -1322,8 +1322,8 @@ We learned how to use Github, Git, and Visual Studio code to push and pull files
 What's next for EzStudy
 
 EzStudy can be expanded to accept more file formats and summarize files more effectively. We also want to add functionality for providing questions based off of text, and allowing users to chat with an AI that can answer questions about the text they provided.
-",http://ezsum.study,https://youtu.be/zhILWDWGliY,"Best First Time Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Digital Forensics Related Hack - Cipher Tech","react, chatgptapi, flask, amazon-web-services, python, javascript, html, css, nginx, gunicorn",Ethan,Everitt,eeverit1@terpmail.umd.edu,,Best Cybersecurity Track Hack - Bitcamp,Yes,"The use of GitHub, Git, and Visual Studio Code to push and pull code back and forth between group members was fairly new to us. It proved to be well worth to use these applications as it saved a lot of time updating new code.",University of Maryland,Ezsum.study,University of Maryland - College Park,1,funnysomething,,adisatheesh4@gmail.com,,,,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 22:36,,,,,,Nick,Duvall,nickduvall03@gmail.com,,,,,,,Salisbury University,0,,,,,,,,,
+",http://ezsum.study,https://youtu.be/zhILWDWGliY,"Best First Time Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Digital Forensics Related Hack - Cipher Tech","react, chatgptapi, flask, amazon-web-services, python, javascript, html, css, nginx, gunicorn",Ethan,Everitt,eeverit1@terpmail.umd.edu,,Best Cybersecurity Track Hack - Bitcamp,Yes,"The use of GitHub, Git, and Visual Studio Code to push and pull code back and forth between group members was fairly new to us. It proved to be well worth to use these applications as it saved a lot of time updating new code.",University of Maryland,Ezsum.study,University of Maryland - College Park,1,funnysomething,,adisatheesh4@gmail.com,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 22:36,,,,,,Nick,Duvall,nickduvall03@gmail.com,,,,,,,Salisbury University,0,,,,,,,,,,,,,
 Cash Claw,https://bitcamp2024.devpost.com/submissions/507825-cash-claw,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 22:41,"Inspiration
 
 We were talking about ways to just get free and easy money and came up with the idea of credit card referral offers.
@@ -1351,9 +1351,9 @@ We learned that people are very adverse to credit cards for whatever reason and 
 What's next for Cash Claw
 
 We can expand the offers that show up when you win. We can include more lucrative offers that can give you $200 or offers for signing up and depositing into a checking account. 
-",https://guanglinwei.github.io/CashClaw/,,"Best Social Good Hack - Bitcamp, Best Gamification Hack - Bitcamp, Best Financial Hack - Capital One","react, css, typescript, html",IdleSicko,Zheng,sonicrules12@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,I enjoyed the wifi availability and power outlet distribution strategy. GitHub made it very easy for us to collaborate with each other and merge our changes together.,University Of Maryland: College Park,,University of Maryland - College Park,3,Vanessa,Li,vqli412@gmail.com,Hanish,Vadlamudi,hanishv15@gmail.com,Guang-Lin,Wei,guanglinwei@gmail.com
+",https://guanglinwei.github.io/CashClaw/,,"Best Social Good Hack - Bitcamp, Best Gamification Hack - Bitcamp, Best Financial Hack - Capital One","react, css, typescript, html",IdleSicko,Zheng,sonicrules12@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,I enjoyed the wifi availability and power outlet distribution strategy. GitHub made it very easy for us to collaborate with each other and merge our changes together.,University Of Maryland: College Park,,University of Maryland - College Park,3,Vanessa,Li,vqli412@gmail.com,Hanish,Vadlamudi,hanishv15@gmail.com,Guang-Lin,Wei,guanglinwei@gmail.com,,,,
 EmotionAI,,Draft,Pending,Project details,4/20/2024 23:03,"WIP
-",,,,wip,Minsi,Hu,mimziwho@gmail.com,,,,,,,"University of Maryland - University College, University of Maryland - College Park",1,Isabelle,Park,ipark12@terpmail.umd.edu,,,,,,
+",,,,wip,Minsi,Hu,mimziwho@gmail.com,,,,,,,"University of Maryland - University College, University of Maryland - College Park",1,Isabelle,Park,ipark12@terpmail.umd.edu,,,,,,,,,,
 Quest,https://bitcamp2024.devpost.com/submissions/507831-quest,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 23:04,"Inspiration
 
 What if life were more like Solo Leveling, where every day presented thrilling new quests, but without the danger of having to fight monsters? Enter Quest—a platform that brings a gamified spark to mundane daily routines and lets you climb the ranks with friends one quirky challenge at a time.
@@ -1383,7 +1383,7 @@ Moreover, we're proud to have created an engaging concept that captures the spir
 What's next for Quest
 
 We hope to immediately start testing Quest with our friends back home and continuing to pack in features—think ML verifications, streak bonuses, team-based quests, and an experience system. There’s also lots of work to be done to strengthen the app’s backbone—smarter authentication, swift vote counts, smart caching, and neater code. Get ready for a leveled-up Quest!
-","https://github.com/avimahesh21/Quest-backend, https://github.com/aneil04/quest",,"Best Bitcamp Hack - Bitcamp, Best Moonshot Hack - Bitcamp, Best Gamification Hack - Bitcamp","firebase, react-native, google-cloud",Alexander,Peal,aapeal04@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,No,"Our tech stack consisted of Firebase, React Native, and Google Cloud. We had a positive experience with each!",Virginia Tech,,Virginia Tech,0,,,,,,,,,
+","https://github.com/avimahesh21/Quest-backend, https://github.com/aneil04/quest",,"Best Bitcamp Hack - Bitcamp, Best Moonshot Hack - Bitcamp, Best Gamification Hack - Bitcamp","firebase, react-native, google-cloud",Alexander,Peal,aapeal04@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,No,"Our tech stack consisted of Firebase, React Native, and Google Cloud. We had a positive experience with each!",Virginia Tech,,Virginia Tech,0,,,,,,,,,,,,,
 Finicial Advisor for College Students,,Draft,Pending,Project details,4/20/2024 23:12,"Inspiration
 
 As college students, it can be difficult to understand how our current spending is affecting our long term financial goals. Our inspiration is our own questions about our spending and the desire to be more fiscally responsible.
@@ -1403,7 +1403,7 @@ We learned the versatility of language-learning models and how to implement them
 What's next for Financial Advisor for College Students
 
 The next thing we can add is a more in depth user interface where users can input their discretionary income so our chatbot has more information to generate financial advice.
-",https://github.com/cstevens5/BitCamp2024/tree/main,,,"python, sql, machine-learning, ai, natural-language-processing, gradio",Sreenidhi,yaratha,yaratha@gmail.com,,,,,,,,0,,,,,,,,,
+",https://github.com/cstevens5/BitCamp2024/tree/main,,,"python, sql, machine-learning, ai, natural-language-processing, gradio",Sreenidhi,yaratha,yaratha@gmail.com,,,,,,,,0,,,,,,,,,,,,,
 UMD Weather,,Draft,Pending,Additional info,4/20/2024 23:19,"Weather App installed within Apple
 
 Users can search up cities, countries or zip code and find out the local time, temperature, humidity, and other unique features
@@ -1427,8 +1427,8 @@ What's next for UMD Weather
 
 Add more unique features and maybe authorization
 ","https://github.com/lcunnin1/WeatherApp, https://weather-mjguio5sb-levente-cunninghams-projects.vercel.app/",," Best Hardware Hack - Bitcamp, Best First Time Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Sustainability Hack - Bitcamp, Most Philanthropic Hack - Bloomberg, University Course Catalog Data Extraction and Query Challenge - Xficient,  Best Razzle Dazzle Hack - Bitcamp","react, javascript, css, python, openweathermap, jsx",Viet,Nguyen,vietnguyen0425@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,No,"We mainly used GitHub and VSCode to accomodate our project needs. 
-It was nice learning about GitHub and how you're able to take snapshots of the code","University of Maryland, College Park",No,University of Maryland - College Park,2,lcunnin1,Cunningham,lcunnin1@terpmail.umd.edu,Will-Josh,Njeumi,willjosh.njeumi@gmail.com,,,
-Untitled,,Draft,Pending,Manage team,4/20/2024 23:34,,,,,,Ostailor,Tailor,ostailor1234@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,
+It was nice learning about GitHub and how you're able to take snapshots of the code","University of Maryland, College Park",No,University of Maryland - College Park,2,lcunnin1,Cunningham,lcunnin1@terpmail.umd.edu,Will-Josh,Njeumi,willjosh.njeumi@gmail.com,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/20/2024 23:34,,,,,,Ostailor,Tailor,ostailor1234@gmail.com,,,,,,,University of Maryland - College Park,0,,,,,,,,,,,,,
 Earth Rumble 5,,Draft,Pending,Additional info,4/20/2024 23:36,"Inspiration
 
 We are long time fans of the show and we want to experiment with motion-tracking. We think this game have the potential to encourage people to stay healthy while having a blast. 
@@ -1463,10 +1463,10 @@ Building Environment of the game
 What's next for Earth Rumble 5
 
 Watch out for our fire-bending feature coming later this fall!
-",,,"Best Bitcamp Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Moonshot Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best Gamification Hack - Bitcamp","python, unity, blender, mediapipe, spline, 3d",Indah,N,indhnformisch@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,"surprisingly fast internet compared to the previous hackathons, thank you!","university of maryland, college park",,,0,,,,,,,,,
-PerLoan,,Draft,Pending,Additional info,4/20/2024 23:40,,,,"Best Bitcamp Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Moonshot Hack - Bitcamp, Best Use of PropelAuth - MLH, Most Philanthropic Hack - Bloomberg, Best Financial Hack - Capital One,  Best Razzle Dazzle Hack - Bitcamp",,Pranav,Palle,pranav4096@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,GitHub was a very useful tool to manage the code of our application as it let us make changes and get them locally very easily.,"University of Maryland, College Park",,,0,,,,,,,,,
-wAIste,,Draft,Pending,Manage team,4/20/2024 23:41,,,,,,Arav,Luthra,aravluthra@gmail.com,,,,,,,,0,,,,,,,,,
-Book Camp,,Draft,Pending,Project overview,4/20/2024 23:41,,,,,"unity, github, csharp",Hailegebriel,Bizuayehu,hailebiz0@gmail.com,,,,,,,University of Maryland - College Park,2,Meron,Abera,meron3319@gmail.com,Kleb,,kaleabnb24@gmail.com,,,
+",,,"Best Bitcamp Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Moonshot Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best Gamification Hack - Bitcamp","python, unity, blender, mediapipe, spline, 3d",Indah,N,indhnformisch@gmail.com,,Best Machine Learning Track Hack - Bitcamp,Yes,"surprisingly fast internet compared to the previous hackathons, thank you!","university of maryland, college park",,,0,,,,,,,,,,,,,
+PerLoan,,Draft,Pending,Additional info,4/20/2024 23:40,,,,"Best Bitcamp Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Moonshot Hack - Bitcamp, Best Use of PropelAuth - MLH, Most Philanthropic Hack - Bloomberg, Best Financial Hack - Capital One,  Best Razzle Dazzle Hack - Bitcamp",,Pranav,Palle,pranav4096@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,GitHub was a very useful tool to manage the code of our application as it let us make changes and get them locally very easily.,"University of Maryland, College Park",,,0,,,,,,,,,,,,,
+wAIste,,Draft,Pending,Manage team,4/20/2024 23:41,,,,,,Arav,Luthra,aravluthra@gmail.com,,,,,,,,0,,,,,,,,,,,,,
+Book Camp,,Draft,Pending,Project overview,4/20/2024 23:41,,,,,"unity, github, csharp",Hailegebriel,Bizuayehu,hailebiz0@gmail.com,,,,,,,University of Maryland - College Park,2,Meron,Abera,meron3319@gmail.com,Kleb,,kaleabnb24@gmail.com,,,,,,,
 AI Counselor,https://bitcamp2024.devpost.com/submissions/507868-ai-counselor,Submitted (Gallery/Visible),Pending,Submit,4/20/2024 23:43,"Inspiration
 
 Our inspiration for this project was the Xficient challenge to build an application that parses through a university course description PDF. As an all freshman team, we know the struggle first hand of choosing classes from a selection of over 2000. Not to mention all of us have had experiences where we had to talk to a counselor, but their schedule was full for over a month. This desperation is what fueled the creation of AI counselor. A solution to help guide college students on their academic journey. While the challenge only required the application to process the first 100 pages, in order for it to truly be used as a tool to assist students, our application parses through the entire 800 page pdf.
@@ -1494,7 +1494,7 @@ Sometimes you have to shoot for the moon, because you never know where you will 
 What's next for AI Counselor
 
 We were limited by the hardware that we had due to the size of the llm. We had to take shortcuts in order to get around the fact we had limited processing power. Another feature we wanted to implement was to parse through multiple PDFs so that the model has more context to go off of. We would also like to implement auto updating the course catalogue to reflect the courses that change over the semester. We could go on and on, but those are the main features we would implement next.
-",https://github.com/TomMitchell123/Bitcamp2024,https://youtu.be/tD3pK2KsXCc,"Best Moonshot Hack - Bitcamp, University Course Catalog Data Extraction and Query Challenge - Xficient","flask, react, python, javascript, ai, llm, json, llama3, ollama, html5, natural-language-processing, github, sql",Sunil,Pateel,spateel@terpmail.umd.edu,,Best Machine Learning Track Hack - Bitcamp,Yes,Most of the technology we interacted with was well documented so finding answers about bugs was not too hard.,University of Maryland,,University of Maryland - College Park,3,Jinson,Jimmy,jjimmy@terpmail.umd.edu,Adithya,Rathni,arathni@terpmail.umd.edu,Thomas,Mitchell,tmitch@terpmail.umd.edu
+",https://github.com/TomMitchell123/Bitcamp2024,https://youtu.be/tD3pK2KsXCc,"Best Moonshot Hack - Bitcamp, University Course Catalog Data Extraction and Query Challenge - Xficient","flask, react, python, javascript, ai, llm, json, llama3, ollama, html5, natural-language-processing, github, sql",Sunil,Pateel,spateel@terpmail.umd.edu,,Best Machine Learning Track Hack - Bitcamp,Yes,Most of the technology we interacted with was well documented so finding answers about bugs was not too hard.,University of Maryland,,University of Maryland - College Park,3,Jinson,Jimmy,jjimmy@terpmail.umd.edu,Adithya,Rathni,arathni@terpmail.umd.edu,Thomas,Mitchell,tmitch@terpmail.umd.edu,,,,
 Wallet-Wise Realty,https://bitcamp2024.devpost.com/submissions/507872-wallet-wise-realty,Submitted (Gallery/Visible),Pending,Submit,4/21/2024 0:00,"Inspiration
 
 Our inspiration for this project was that we wanted to remedy housing shortages and homelessness. In 2023 the Department of Housing and Urban Development found that the amount of homeless Americans starkly increased from 2022 by about 12%. This is extremely worrisome because of the exponential nature of this data. Additionally, many of our group members come from larger cities where homelessness is more apparent. Seeing people sleeping in the freezing cold makes us feel for them and want to do something to fix it. 
@@ -1522,9 +1522,9 @@ From this hackathon, we learned how to not only budget our time effectively, but
 What's next for Wallet-Wise Realty
 
 The next steps for Wallet-Wise Realty would to implement the functionality from the Capital One API as mentioned before. This way, our algorithm would be able to be a lot more sophisticated. With the emergence of big data and data processing as a large field in computer science, we would be excited to use this to dip our toes into the field. We also want to partner with a large firm such as Capital One who does not have this functionality already built in. Doing so, we would have the ability to bring our application to the people who it would benefit the most. 
-",https://github.com/Joshua152/Bitcamp2024,,"Best UI/UX Hack - Bitcamp, Best Financial Hack - Capital One","javascript, html, css, python, firebase, oauth, restapi",Joshua,Au,joshuahyau@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,"Capital One's Nessie API: Although we saw its potential for something innovative, the API was simply too stripped down without access to meaningful consumer data. We were under the impression that the data on the API overview would be accurate however, it was not.",University of Maryland - College Park,,"Monta Vista High School, University of Maryland - University College, University of Maryland - College Park",2,Noah,Der Garabedian,noahd3485@gmail.com,mfleckser,,mfleckser@gmail.com,,,
-Green Companion,,Draft,Pending,Project overview,4/21/2024 0:03,,,,,,Daiwik,Kashyap,daiwik242@gmail.com,,,,,,,Pennsylvania State University,1,Swayam,Bansal,swayambansal01@gmail.com,,,,,,
-Untitled,,Draft,Pending,Manage team,4/21/2024 0:09,,,,,,Alex,Y,blueputty01@gmail.com,,,,,,,West Windsor-Plainsboro High School South,0,,,,,,,,,
+",https://github.com/Joshua152/Bitcamp2024,,"Best UI/UX Hack - Bitcamp, Best Financial Hack - Capital One","javascript, html, css, python, firebase, oauth, restapi",Joshua,Au,joshuahyau@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,"Capital One's Nessie API: Although we saw its potential for something innovative, the API was simply too stripped down without access to meaningful consumer data. We were under the impression that the data on the API overview would be accurate however, it was not.",University of Maryland - College Park,,"Monta Vista High School, University of Maryland - University College, University of Maryland - College Park",2,Noah,Der Garabedian,noahd3485@gmail.com,mfleckser,,mfleckser@gmail.com,,,,,,,
+Green Companion,,Draft,Pending,Project overview,4/21/2024 0:03,,,,,,Daiwik,Kashyap,daiwik242@gmail.com,,,,,,,Pennsylvania State University,1,Swayam,Bansal,swayambansal01@gmail.com,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/21/2024 0:09,,,,,,Alex,Y,blueputty01@gmail.com,,,,,,,West Windsor-Plainsboro High School South,0,,,,,,,,,,,,,
 Bitcamp Brawlers - Disaster Data,https://bitcamp2024.devpost.com/submissions/507884-bitcamp-brawlers-disaster-data,Submitted (Gallery/Visible),Pending,Submit,4/21/2024 0:32,"Inspiration
 
 The Fannie Mae challenge inspired us to analyze natural disaster data and housing effects.
@@ -1552,7 +1552,7 @@ Always start with a concrete idea before going into development
 What's next for Bitcamp Brawlers - Disaster Data
 
 We hope to extend on what we accomplished this weekend in the future
-","https://github.com/madelineanson/Bitcamp-Brawlers, https://github.com/jasonyih/BitcampBackend",,Best Use of APIs related to Housing/Climate Change - Fannie Mae,"react, typescript, fastapi, python",Madeline,Anson,madelineganson@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,I loved working with FastAPI because it was easy to set up and understand. I also loved using React as opposed to JavaScript.,"University of Maryland, College Park",,University of Maryland - College Park,3,Kimber,Gonzalez Lopez,martinezkimber03@gmail.com,marissabc,,mcarper@terpmail.umd.edu,Maria,House Ordonez,mhouseor@terpmail.umd.edu
+","https://github.com/madelineanson/Bitcamp-Brawlers, https://github.com/jasonyih/BitcampBackend",,Best Use of APIs related to Housing/Climate Change - Fannie Mae,"react, typescript, fastapi, python",Madeline,Anson,madelineganson@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,I loved working with FastAPI because it was easy to set up and understand. I also loved using React as opposed to JavaScript.,"University of Maryland, College Park",,University of Maryland - College Park,3,Kimber,Gonzalez Lopez,martinezkimber03@gmail.com,marissabc,,mcarper@terpmail.umd.edu,Maria,House Ordonez,mhouseor@terpmail.umd.edu,,,,
 ProjectFM,https://bitcamp2024.devpost.com/submissions/507898-projectfm,Submitted (Gallery/Visible),Pending,Submit,4/21/2024 1:02,"Inspiration
 
 Our inspiration for ProjectFM stemmed from the desire to empower individuals with comprehensive housing information tailored to their unique needs. We envisioned a platform that seamlessly integrates housing and climate data, leveraging modern technologies to simplify the decision-making process for finding the perfect place to call home.
@@ -1593,7 +1593,7 @@ Enhancing the platform's scalability and performance to accommodate growing user
 Exploring partnerships with real estate agencies and environmental organizations to enrich data offerings and extend our reach.
 Continuously refining the user experience through iterative updates and user feedback integration.
 ProjectFM is poised to evolve into the go-to destination for informed housing decisions, empowering individuals to find their ideal living spaces with confidence and ease.
-","https://projectfm.vercel.app/, https://github.com/Ramareigns/BitCamp-24",,"Best First Time Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Moonshot Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best Use of PropelAuth - MLH, Most Philanthropic Hack - Bloomberg, Best Use of APIs related to Housing/Climate Change - Fannie Mae","nextjs, javascript, html, tailwindcss, typescript, python, propelauth, api",Ramareigns,Wijesinghe,ramithwijesinghe@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,We got to learn a lot about web development and PropelAuth.,University of Maryland,No,University of Maryland - College Park,1,M,Dev,mattbook321@gmail.com,,,,,,
+","https://projectfm.vercel.app/, https://github.com/Ramareigns/BitCamp-24",,"Best First Time Hack - Bitcamp, Best UI/UX Hack - Bitcamp, Best Moonshot Hack - Bitcamp, Best Social Good Hack - Bitcamp, Best Use of PropelAuth - MLH, Most Philanthropic Hack - Bloomberg, Best Use of APIs related to Housing/Climate Change - Fannie Mae","nextjs, javascript, html, tailwindcss, typescript, python, propelauth, api",Ramareigns,Wijesinghe,ramithwijesinghe@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,Yes,We got to learn a lot about web development and PropelAuth.,University of Maryland,No,University of Maryland - College Park,1,M,Dev,mattbook321@gmail.com,,,,,,,,,,
 Address Gun Violence in Schools in DC,https://bitcamp2024.devpost.com/submissions/507900-address-gun-violence-in-schools-in-dc,Submitted (Gallery/Visible),Pending,Submit,4/21/2024 1:04,"Inspiration
 
 As students of an educational institution, we assume that schools are a safe space for us to learn and explore our interests. However, to see it being jeopardized due to a weapon has long lasting effects on people that experience a school shooting. In some cases, students may experience symptoms of post-traumatic stress disorder (PTSD) and have difficulty concentrating on their studies or participating in school activities. Additionally, students who have lost friends or loved ones in these events may struggle with grief and feelings of isolation. So, this topic not only needs to be addressed to protect innocent people from harm's way but it also holds an emotional connection to us as students of schools.
@@ -1621,9 +1621,9 @@ We learned a lot about how to develop an app using Flutter that has multiple pag
 What's next for Address Gun Violence in Schools in DC
 
 We want to find a way to automate the data that is put onto this app, and ideally make one for each state.
-",https://github.com/sgubba1/gunviolenceindcschools-bitcamp,https://youtu.be/hOELcD_h7Yo?si=yNYRN0THKwcRx_HD,"Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp","flutter, dart, esri",avishig,Gupta,avishigupta1115@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,"It was a great experience, and we learned a lot from the mentors that helped us!",University of Maryland - College Park,,University of Maryland - College Park,0,,,,,,,,,
-SkyCast,,Draft,Pending,Project details,4/21/2024 1:05,,,,,,Shyam,Ganapathy,shyamganapathy@live.com,,,Yes,,University Of Maryland,,University of Maryland - College Park,0,,,,,,,,,
-Audit AI,,Draft,Pending,Project overview,4/21/2024 1:06,,,,,,Ateef,Mahmud,ateefayman@gmail.com,,,,,,,"University of Maryland - College Park, Carnegie Mellon University",1,Mehul,Goel,mehulg@andrew.cmu.edu,,,,,,
+",https://github.com/sgubba1/gunviolenceindcschools-bitcamp,https://youtu.be/hOELcD_h7Yo?si=yNYRN0THKwcRx_HD,"Best First Time Hack - Bitcamp, Best Social Good Hack - Bitcamp","flutter, dart, esri",avishig,Gupta,avishigupta1115@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,"It was a great experience, and we learned a lot from the mentors that helped us!",University of Maryland - College Park,,University of Maryland - College Park,0,,,,,,,,,,,,,
+SkyCast,,Draft,Pending,Project details,4/21/2024 1:05,,,,,,Shyam,Ganapathy,shyamganapathy@live.com,,,Yes,,University Of Maryland,,University of Maryland - College Park,0,,,,,,,,,,,,,
+Audit AI,,Draft,Pending,Project overview,4/21/2024 1:06,,,,,,Ateef,Mahmud,ateefayman@gmail.com,,,,,,,"University of Maryland - College Park, Carnegie Mellon University",1,Mehul,Goel,mehulg@andrew.cmu.edu,,,,,,,,,,
 Vacation Location,,Draft,Pending,Additional info,4/21/2024 1:19,"Inspiration
 
 We wanted a program that would enable homeowners to plan for the future and buy houses that would sustain their market value.
@@ -1651,7 +1651,7 @@ We learned how to use the Google Maps API, how to pull data from databases and p
 What's next for Vacation Location
 
 Some next steps include adding more categories that help to indicate whether a location is fit for a vacation house such as income data, education data, and crime data for a given county during a given time frame.
-",,,Best Use of APIs related to Housing/Climate Change - Fannie Mae,"python, javascript, sqlite, svelte, flask, json, query, html, google-maps, css, fema-database, zillow-database, us-county-census-database, vscode, pycharm",Alexander,Tong,alexdthi@gmail.com,,Best App Dev Track Hack - Bitcamp,No,GitHub was extremely useful for allowing my team to easily share code between frontend and backend teams as well as between the two teams.,"University of Maryland, College Park",,"Thomas Jefferson High School for Science and Technology, University of Maryland - College Park",2,Kathy331,Chen,kathychen331@outlook.com,Paolo,Atienza,paoloatienza235@gmail.com,,,
+",,,Best Use of APIs related to Housing/Climate Change - Fannie Mae,"python, javascript, sqlite, svelte, flask, json, query, html, google-maps, css, fema-database, zillow-database, us-county-census-database, vscode, pycharm",Alexander,Tong,alexdthi@gmail.com,,Best App Dev Track Hack - Bitcamp,No,GitHub was extremely useful for allowing my team to easily share code between frontend and backend teams as well as between the two teams.,"University of Maryland, College Park",,"Thomas Jefferson High School for Science and Technology, University of Maryland - College Park",2,Kathy331,Chen,kathychen331@outlook.com,Paolo,Atienza,paoloatienza235@gmail.com,,,,,,,
 Moth Challenege,https://bitcamp2024.devpost.com/submissions/507911-moth-challenege,Submitted (Gallery/Visible),Pending,Submit,4/21/2024 1:25,"The Story Behind ""The Moth Challenge""
 
 Inspiration
@@ -1702,11 +1702,11 @@ Firebase significantly reduced our backend development time, allowing us to focu
 Suggestions for Improvement
 Better support for complex queries in Firestore and clearer pricing guidelines would further enhance Firebase’s utility.
 
-In conclusion, Firebase is highly recommended for its robust features and ease of deployment, making it an excellent choice for rapid development environments like hackathons.",Pennsylvania State University,phishandchips.us,Pennsylvania State University,1,Parth,Kshirsagar,parth.kshirsagar1410@gmail.com,,,,,,
-Untitled,,Draft,Pending,Manage team,4/21/2024 1:27,,,,,,Sherin Feno,Kumaresan,sherink1@umbc.edu,,,,,,,University of Maryland - Baltimore County,0,,,,,,,,,
-Untitled,,Draft,Pending,Manage team,4/21/2024 2:02,,,,,,Mihir,Mahesh,emailmihirmahesh@gmail.com,,,,,,,,0,,,,,,,,,
-CuttingCorners,,Draft,Pending,Project overview,4/21/2024 2:08,,,,,,Kieran,Khan,kierank.pc@gmail.com,,,,,,,University of Maryland - College Park,1,Matthew,Liu,mliu218@terpmail.umd.edu,,,,,,
-GuessExamGrade,,Draft,Pending,Manage team,4/21/2024 2:10,,,,,,junyun,huang,h975894552@gmail.com,,,,,,,University of Maryland - College Park,1,Tim,Zhang,czhang35@terpmail.umd.edu,,,,,,
+In conclusion, Firebase is highly recommended for its robust features and ease of deployment, making it an excellent choice for rapid development environments like hackathons.",Pennsylvania State University,phishandchips.us,Pennsylvania State University,1,Parth,Kshirsagar,parth.kshirsagar1410@gmail.com,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/21/2024 1:27,,,,,,Sherin Feno,Kumaresan,sherink1@umbc.edu,,,,,,,University of Maryland - Baltimore County,0,,,,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/21/2024 2:02,,,,,,Mihir,Mahesh,emailmihirmahesh@gmail.com,,,,,,,,0,,,,,,,,,,,,,
+CuttingCorners,,Draft,Pending,Project overview,4/21/2024 2:08,,,,,,Kieran,Khan,kierank.pc@gmail.com,,,,,,,University of Maryland - College Park,1,Matthew,Liu,mliu218@terpmail.umd.edu,,,,,,,,,,
+GuessExamGrade,,Draft,Pending,Manage team,4/21/2024 2:10,,,,,,junyun,huang,h975894552@gmail.com,,,,,,,University of Maryland - College Park,1,Tim,Zhang,czhang35@terpmail.umd.edu,,,,,,,,,,
 TerpFit,https://bitcamp2024.devpost.com/submissions/507952-terpfit,Submitted (Gallery/Visible),Pending,Submit,4/21/2024 2:28,"Inspiration
 
 Working out at Eppley, waiting for machines, and extending your workouts because you are waiting for long periods. Occasionally, working out alone and wanting someone else to work out with and potentially become friends.
@@ -1734,7 +1734,7 @@ We learned a lot about the React tech stack, Firebase documentation, and command
 What's next for TerpFit
 
 We plan on continuing to work on this project as we are passionate about the finished project and hope to piece all our technologies together to create a functional application.
-",https://github.com/eswar-karavadi/Bitcamp2024,,"Best First Time Hack - Bitcamp, Best UI/UX Hack - Bitcamp, People's Choice Hack - Bitcamp","react-native, firebase, python, javascript, fastapi",Rivan,Parikh,rparikh6@terpmail.umd.edu,,Best App Dev Track Hack - Bitcamp,No,"React-Native, React-Router-Dom, Figma, Firebase Authentication, Firebase Realtime Database, GitHub, Command Line, Python","University of Maryland, College Park",,University of Maryland - College Park,2,Aymaan,Hussain,ahussai8@terpmail.umd.edu,Samik,Wangneo,swangneo@terpmail.umd.edu,,,
+",https://github.com/eswar-karavadi/Bitcamp2024,,"Best First Time Hack - Bitcamp, Best UI/UX Hack - Bitcamp, People's Choice Hack - Bitcamp","react-native, firebase, python, javascript, fastapi",Rivan,Parikh,rparikh6@terpmail.umd.edu,,Best App Dev Track Hack - Bitcamp,No,"React-Native, React-Router-Dom, Figma, Firebase Authentication, Firebase Realtime Database, GitHub, Command Line, Python","University of Maryland, College Park",,University of Maryland - College Park,2,Aymaan,Hussain,ahussai8@terpmail.umd.edu,Samik,Wangneo,swangneo@terpmail.umd.edu,,,,,,,
 fortnite battle pass,https://bitcamp2024.devpost.com/submissions/507953-fortnite-battle-pass,Submitted (Gallery/Visible),Pending,Submit,4/21/2024 2:28,"Inspiration
 
 i really like fortnite and vbucks and the costco churro
@@ -1762,7 +1762,7 @@ i gotta prepare more and think of an actual project idea next time
 What's next for fortnite battle pass
 
 :)
-",https://github.com/jzhu0717/bitcamp24,,"Best First Time Hack - Bitcamp, Best UI/UX Hack - Bitcamp, People's Choice Hack - Bitcamp","react, html5, css, javascript",Joshua,Zhu,joshuazjzhu@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,No,i learned more features about github,"University of Maryland, College Park",,University of Maryland - College Park,0,,,,,,,,,
+",https://github.com/jzhu0717/bitcamp24,,"Best First Time Hack - Bitcamp, Best UI/UX Hack - Bitcamp, People's Choice Hack - Bitcamp","react, html5, css, javascript",Joshua,Zhu,joshuazjzhu@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,No,i learned more features about github,"University of Maryland, College Park",,University of Maryland - College Park,0,,,,,,,,,,,,,
 The Better Bridge Card Game,https://bitcamp2024.devpost.com/submissions/507960-the-better-bridge-card-game,Submitted (Gallery/Visible),Pending,Submit,4/21/2024 2:37,"Inspiration
 
 We all liked the card game Bridge
@@ -1790,7 +1790,7 @@ We learned how to use PyGame, Git, Python
 What's next for The Better Bridge Card Game
 
 Making the betting system work and adding machine learning to the computer players
-",https://github.com/Sonikyu/Bitcamp-2024-Better-Bridge,,,"python, pygame, github, love",John,Riganati,iamjpr3@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,No,"Github worked well for collaboration, PyGame was likely not the right choice for our project",University of Maryland College Park,,"University of Maryland - College Park, Hunter College High School",3,Max,Park,parkr.m465@gmail.com,Alex,Tsai,hanyunetsai@gmail.com,AndyLiao1,,andyliao888@gmail.com
+",https://github.com/Sonikyu/Bitcamp-2024-Better-Bridge,,,"python, pygame, github, love",John,Riganati,iamjpr3@gmail.com,,I don't want to submit to any Bitcamp track-specific challenges. I understand that I can still participate in other Bitcamp sponsored challenges.,No,"Github worked well for collaboration, PyGame was likely not the right choice for our project",University of Maryland College Park,,"University of Maryland - College Park, Hunter College High School",3,Max,Park,parkr.m465@gmail.com,Alex,Tsai,hanyunetsai@gmail.com,AndyLiao1,,andyliao888@gmail.com,,,,
 TaskBuddy,,Draft,Pending,Additional info,4/21/2024 2:43,"Inspiration
 
 Duolingo
@@ -1812,12 +1812,12 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for TaskBuddy
-",,,"Best UI/UX Hack - Bitcamp, Best Moonshot Hack - Bitcamp, Best Gamification Hack - Bitcamp","unreal-engine, ar, mobile",Jeshua,SS,jazzyjeshua@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,I struggled to get Unreal Engine to comply with my phone even though it's fairly new.,Baltimore Polytechnic Institute,,Baltimore Polytechnic Institute,0,,,,,,,,,
-PocketBot,,Draft,Pending,Project overview,4/21/2024 2:55,,,,,,jugrajsingh04,Singh,jsingh18@terpmail.umd.edu,,,,,,,University of Maryland - College Park,1,Vikram,Khandelwal,vikram@syntag.ai,,,,,,
-Saplng,,Draft,Pending,Manage team,4/21/2024 2:56,,,,,,Ryan,DeCamp,ryan.e.decamp@gmail.com,,,,,,,University of Maryland - College Park,2,Jack,Burke,jburke18@terpmail.umd.edu,Caitlyn,Schneider,cschnei@terpmail.umd.edu,,,
-Untitled,,Draft,Pending,Manage team,4/21/2024 2:57,,,,,,Carolyn,Lee,ckl62015@gmail.com,,,,,,,University of Maryland - College Park,3,Michelle,Chung,mchung15@terpmail.umd.edu,Dilan,Kaza,dkaza0001@gmail.com,Rukayat,Fakoya,rukayat.fakoya24@gmail.com
-Untitled,,Draft,Pending,Manage team,4/21/2024 3:02,,,,,,Shashank,Bhardwaj,sbhardw7@umd.edu,,,,,,,,0,,,,,,,,,
-Untitled,,Draft,Pending,Manage team,4/21/2024 3:05,,,,,,Julie,Lin,jlinx2004@icloud.com,,,,,,,University of Maryland - University College,0,,,,,,,,,
-Carbon Cadet,,Draft,Pending,Project overview,4/21/2024 3:05,,,,,,Binny,Chopra,159.binny@gmail.com,,,,,,,,1,Shashank,Bhardwaj,sbhardw7@umd.edu,,,,,,
-Budget Hero,,Draft,Pending,Project overview,4/21/2024 3:08,,,,,"javascript, python, html5, css3, react",Carson,Dalziel,cdalziel@terpmail.umd.edu,,,,,,,University of Maryland - College Park,2,Yuji,Wexler,yuji@terpmail.umd.edu,Noah,,nkasica21@gmail.com,,,
-Untitled,,Draft,Pending,Manage team,4/21/2024 3:12,,,,,,Ethan,Qiu,ecq6096@gmail.com,,,,,,,,0,,,,,,,,,
+",,,"Best UI/UX Hack - Bitcamp, Best Moonshot Hack - Bitcamp, Best Gamification Hack - Bitcamp","unreal-engine, ar, mobile",Jeshua,SS,jazzyjeshua@gmail.com,,Best App Dev Track Hack - Bitcamp,Yes,I struggled to get Unreal Engine to comply with my phone even though it's fairly new.,Baltimore Polytechnic Institute,,Baltimore Polytechnic Institute,0,,,,,,,,,,,,,
+PocketBot,,Draft,Pending,Project overview,4/21/2024 2:55,,,,,,jugrajsingh04,Singh,jsingh18@terpmail.umd.edu,,,,,,,University of Maryland - College Park,1,Vikram,Khandelwal,vikram@syntag.ai,,,,,,,,,,
+Saplng,,Draft,Pending,Manage team,4/21/2024 2:56,,,,,,Ryan,DeCamp,ryan.e.decamp@gmail.com,,,,,,,University of Maryland - College Park,2,Jack,Burke,jburke18@terpmail.umd.edu,Caitlyn,Schneider,cschnei@terpmail.umd.edu,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/21/2024 2:57,,,,,,Carolyn,Lee,ckl62015@gmail.com,,,,,,,University of Maryland - College Park,3,Michelle,Chung,mchung15@terpmail.umd.edu,Dilan,Kaza,dkaza0001@gmail.com,Rukayat,Fakoya,rukayat.fakoya24@gmail.com,,,,
+Untitled,,Draft,Pending,Manage team,4/21/2024 3:02,,,,,,Shashank,Bhardwaj,sbhardw7@umd.edu,,,,,,,,0,,,,,,,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/21/2024 3:05,,,,,,Julie,Lin,jlinx2004@icloud.com,,,,,,,University of Maryland - University College,0,,,,,,,,,,,,,
+Carbon Cadet,,Draft,Pending,Project overview,4/21/2024 3:05,,,,,,Binny,Chopra,159.binny@gmail.com,,,,,,,,1,Shashank,Bhardwaj,sbhardw7@umd.edu,,,,,,,,,,
+Budget Hero,,Draft,Pending,Project overview,4/21/2024 3:08,,,,,"javascript, python, html5, css3, react",Carson,Dalziel,cdalziel@terpmail.umd.edu,,,,,,,University of Maryland - College Park,2,Yuji,Wexler,yuji@terpmail.umd.edu,Noah,,nkasica21@gmail.com,,,,,,,
+Untitled,,Draft,Pending,Manage team,4/21/2024 3:12,,,,,,Ethan,Qiu,ecq6096@gmail.com,,,,,,,,0,,,,,,,,,,,,,
