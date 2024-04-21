@@ -175,13 +175,13 @@ def randomize_old_cats(file, out):
                 # generate random number between 0 and 5
                 random_index = random.randint(0, 100)
                 # PARAMS: 20, 40, 60, 80
-                if random_index < 20:
+                if random_index < 30:
                     row["Bitcamp Track Challenge"] = TRACKS[0]
-                elif random_index < 40:
+                elif random_index < 60: 
                     row["Bitcamp Track Challenge"] = TRACKS[1]
-                elif random_index < 60:
+                elif random_index < 70: # 10 %
                     row["Bitcamp Track Challenge"] = TRACKS[2]
-                else:
+                else: # 30
                     row["Bitcamp Track Challenge"] = ""
 
         # save the new data to a new file
