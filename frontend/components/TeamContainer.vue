@@ -32,24 +32,20 @@ export default {
     const state = inject('state');
     const filteredCombinedValues = computed(() => {
       return combinedValues.value.filter(team => {
-        let condition;
-        if (state.projectType === 'in-person') {
-          condition = team[0][0] === 'Yes';
-        } else if (state.projectType === 'virtual') {
-          condition = team[0][0] === 'No';
-        } else {
-          condition = team[0][0] === 'Yes' || team[0][0] === 'No';
-        }
+        let condition = (state.projectType === 'in-person' && !team.virtual) ||
+          (state.projectType === 'virtual' && team.virtual) ||
+          (state.projectType === 'all');
 
         let challengeCondition = true;
-        if (state.filteredChallengeNames != '') {
-          challengeCondition = team[2].some(challenge => challenge[0] === state.filteredChallengeNames.split(' - ')[0]);
+        if (state.filteredChallengeNames !== '') {
+          challengeCondition = team.challenges.some(challenge =>
+            challenge.prize_category === state.filteredChallengeNames.split(' - ')[0]);
         }
 
-        let teamNameCondition = state.filteredTeamNames.includes(team[1]);
+        let teamNameCondition = state.filteredTeamNames.includes(team.team_name);
 
         return condition && challengeCondition && teamNameCondition;
-      }).map(team => team[1]);
+      });
     });
 
 
@@ -57,10 +53,7 @@ export default {
     const fetchData = async () => {
       const response = await fetch("/expo_algorithm_results.json");
       const data = await response.json();
-      combinedValues.value = data.combined_values.filter((entry) => {
-        const title = entry[1];
-        return title !== "Untitled";
-      });
+      combinedValues.value = data;
     };
 
     onMounted(() => {
@@ -156,6 +149,7 @@ export default {
     margin: auto;
   }
 }
+
 
 .row-header-table::before {
   content: "Table";

@@ -361,7 +361,8 @@ def expo_output_to_json(t, H, team_names, links, in_person_list, MLH_challenges)
 
 
 def main():
-    csv_file = "./projects-2024-teammates.csv"
+    # csv_file = "./projects-2024-teammates.csv"
+    csv_file = "./9am.csv"
     team_names, links, in_person, challenges, MLH_challenges, hc = process(csv_file)
 
     # cap = [5, 2, 5, 4, 4, 4, 4, 4, 4, 4, 2, 4, 4, 2, 4, 4, 4, 1]
@@ -386,7 +387,7 @@ def main():
 
     expo_output = expo_output_to_json(t, H, team_names, links, in_person, MLH_challenges)
 
-    output_path = './output.json'
+    output_path = '../frontend/public/expo_algorithm_results.json'
 
     with open(output_path, 'w') as f:
         json.dump(expo_output, f, indent=4)

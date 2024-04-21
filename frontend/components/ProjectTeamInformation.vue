@@ -2,53 +2,55 @@
     <div class="entire-container">
 
         <div v-for="(teamDetail, index) in sortedTeamDetails" :key="index">
-            <div class="top-row" v-if="filtered.includes(teamDetail[1]) && (challengeDetails === '' || teamDetail[2].some(challenge => challengeDetails.includes(challenge[0]))) &&
+            <div class="top-row" v-if="filtered.includes(teamDetail.team_name) && (challengeDetails === '' || teamDetail.challenges.some(challenge => challengeDetails.includes(challenge.prize_category))) &&
             (projectType === 'all' ||
-                (projectType === 'virtual' && teamDetail[0][0] === 'No') ||
-                (projectType === 'in-person' && teamDetail[0][0] !== 'No'))">
-                <div v-if="teamDetail[0][0] !== 'No'" class="table-header">{{ teamDetail[0][1] }}</div>
-                <div v-if="teamDetail[0][0] === 'No'" class="table-header">
-                    <img src="../assets/images/filmCamera.svg" class="camera-style">
+                (projectType === 'virtual' && teamDetail.virtual) ||
+                (projectType === 'in-person' && !teamDetail.virtual))">
+                <div v-if="!teamDetail.virtual" class="table-header">{{ teamDetail.table }}</div>
+                <div v-if="teamDetail.virtual" class="table-header">
+                    <img src="~/assets/images/filmCamera.svg" class="camera-style">
                 </div>
                 <div class="project-info-container">
                     <div class="button-container">
-                        <a :href="teamDetail[3]" target="_blank" class="team-url-style">
-                            <div class="project-header"> {{ teamDetail[1] }}</div>
+                        <a :href="teamDetail.link" target="_blank" class="team-url-style">
+                            <div class="project-header"> {{ teamDetail.team_name }}</div>
                         </a>
                         <button v-if="windowWidth > 800 && challengeDetails === ''" class="challenges-button"
-                            @click="toggleButton(teamDetail[3])">
+                            @click="toggleButton(teamDetail.link)">
                             <div class="button-text">
                                 show challenges
                             </div>
                             <div class="image-container">
                                 <img src="../assets/images/openChallengesArrow.svg" class="arrow-image-small"
-                                    :class="{ 'arrow-right': !showChallenges.includes(teamDetail[3]), 'arrow-down': showChallenges.includes(teamDetail[3]) }"
+                                    :class="{ 'arrow-right': !showChallenges.includes(teamDetail.link), 'arrow-down': showChallenges.includes(teamDetail.link) }"
                                     alt="Bitcamp sign" />
                             </div>
                         </button>
                         <button v-if="windowWidth < 800 && challengeDetails === ''" class="challenges-button-large"
-                            @click="toggleButton(teamDetail[3])">
+                            @click="toggleButton(teamDetail.link)">
                             <img src="../assets/images/openChallengesArrowLarge.svg" class="arrow-image-large"
-                                :class="{ 'arrow-right': !showChallenges.includes(teamDetail[1]), 'arrow-down': showChallenges.includes(teamDetail[1]) }"
+                                :class="{ 'arrow-right': !showChallenges.includes(teamDetail.team_name), 'arrow-down': showChallenges.includes(teamDetail.team_name) }"
                                 alt="Bitcamp sign" />
 
                         </button>
                     </div>
-                    <div v-if="teamDetail[2].length === 0"
-                        :class="{ 'no-challenges-hidden': !showChallenges.includes(teamDetail[3]), 'no-challenges-shown': showChallenges.includes(teamDetail[3]) }">
+                    <div v-if="teamDetail.challenges.length === 0"
+                        :class="{ 'no-challenges-hidden': !showChallenges.includes(teamDetail.link), 'no-challenges-shown': showChallenges.includes(teamDetail.link) }">
                         No Challenges Selected
                     </div>
                     <div v-if="challengeDetails === ''"
-                        :class="{ 'challenges-hidden': !showChallenges.includes(teamDetail[3]), 'challenges-shown': showChallenges.includes(teamDetail[3]) }">
-                        <JudgingRow v-for="(challenge, challengeIndex) in teamDetail[2]"
-                            :key="`challenge-${index}-${challengeIndex}`" :categoryName="challenge[0]"
-                            :companyName="challenge[1]" :judgeName="challenge[2]" :timing="challenge[3]" />
+                        :class="{ 'challenges-hidden': !showChallenges.includes(teamDetail.link), 'challenges-shown': showChallenges.includes(teamDetail.link) }">
+                        <JudgingRow v-for="(challenge, challengeIndex) in teamDetail.challenges"
+                            :key="`challenge-${index}-${challengeIndex}`" :categoryName="challenge.prize_category"
+                            :companyName="challenge.company" :judgeName="challenge.judge"
+                            :timing="challenge.start_time" />
                     </div>
                     <div v-if="challengeDetails !== ''" class="challenges-shown">
                         <JudgingRow
-                            v-for="(challenge, challengeIndex) in teamDetail[2].filter(challenge => challengeDetails.includes(challenge[0]))"
-                            :key="`challenge-${index}-${challengeIndex}`" :categoryName="challenge[0]"
-                            :companyName="challenge[1]" :judgeName="challenge[2]" :timing="challenge[3]" />
+                            v-for="(challenge, challengeIndex) in teamDetail.challenges.filter(challenge => challengeDetails.includes(challenge.prize_category))"
+                            :key="`challenge-${index}-${challengeIndex}`" :categoryName="challenge.prize_category"
+                            :companyName="challenge.company" :judgeName="challenge.judge"
+                            :timing="challenge.start_time" />
                     </div>
                 </div>
             </div>
@@ -81,20 +83,27 @@ const props = defineProps({
 const sortedTeamDetails = computed(() => {
     if (props.challengeDetails !== "") {
         return [...props.teamDetails].sort((a, b) => {
-            const aChallenge = a[2].find(challenge => props.challengeDetails.includes(challenge[0]));
-            const bChallenge = b[2].find(challenge => props.challengeDetails.includes(challenge[0]));
+
+            const aChallenge = a.challenges.find(challenge => props.challengeDetails.includes(challenge.prize_category));
+            const bChallenge = b.challenges.find(challenge => props.challengeDetails.includes(challenge.prize_category));
 
             if (!aChallenge || !bChallenge) {
                 return !aChallenge ? 1 : -1;
             }
 
-            const timeToMinutes = time => {
-                const [hours, minutes] = time.split(':').map(Number);
-                return hours * 60 + minutes;
-            };
-
-            return timeToMinutes(aChallenge[3]) - timeToMinutes(bChallenge[3]);
+            // const timeToMinutes = time => {
+            //     const [hours, minutes] = time.split(':').map(Number);
+            //     return hours * 60 + minutes;
+            // };
+            console.log(aChallenge.start_time)
+            console.log(bChallenge.start_time)
+            return timeToMinutes(aChallenge.start_time) - timeToMinutes(bChallenge.start_time);
         });
+    }
+    function timeToMinutes(timeString) {
+        const timePart = timeString.split(' ')[1];
+        const [hours, minutes] = timePart.split(':').map(Number);
+        return hours * 60 + minutes;
     }
     return props.teamDetails;
 });
@@ -141,6 +150,11 @@ onUnmounted(() => {
 
 watch([() => props.filtered, () => props.challengeDetails, () => props.projectType], () => {
     showChallenges.value = [];
+    // console.log("\n\n\n\nQuick Start")
+    // console.log("filtered" + props.filtered);
+    // console.log("team" + props.teamDetails);
+    // console.log("challenge" + props.challengeDetails);
+    // console.log("type" + props.projectType);
 }, { deep: true });
 </script>
 <style scoped lang="scss">
