@@ -14,7 +14,7 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 import pytz
 
-# random.seed(10)
+random.seed(10)
 
 DRAFT_COLUMN_NAME = 'Project Status'
 TEAM_COLUMN_NAME = 'Project Title'
@@ -337,7 +337,7 @@ def parse_challenge_name(challenge_name):
 def expo_output_to_json(t, H, team_names, links, in_person_list, MLH_challenges):
     eastern = pytz.timezone('US/Eastern')
 
-    EXPO_START_TIME = "2024-04-21 10:30:00"
+    EXPO_START_TIME = "2024-04-21 11:00:00"
     EXPO_START = eastern.localize(datetime.strptime(EXPO_START_TIME, "%Y-%m-%d %H:%M:%S"))
 
     HACK_TIME = 150 // t
@@ -348,7 +348,7 @@ def expo_output_to_json(t, H, team_names, links, in_person_list, MLH_challenges)
         team_json = {
             "id": id,
             "team_name": team_names[id],
-            "table": TABLES[0] if in_person_list[id] else "virtual",
+            "table": TABLES.pop() if in_person_list[id] else "virtual",
             "in_person": in_person_list[id],
             "link": links[id],
         }
@@ -399,7 +399,7 @@ def expo_output_to_json(t, H, team_names, links, in_person_list, MLH_challenges)
 
 def main():
     # csv_file = "./projects-2024-teammates.csv"
-    csv_file = "./9am.csv"
+    csv_file = "./final10am.csv"
     team_names, links, in_person, challenges, MLH_challenges, hc = process(csv_file)
 
     # cap = [5, 2, 5, 4, 4, 4, 4, 4, 4, 4, 2, 4, 4, 2, 4, 4, 4, 1]
