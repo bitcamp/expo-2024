@@ -1,11 +1,7 @@
 <template>
     <div class="entire-container">
-
         <div v-for="(teamDetail, index) in sortedTeamDetails" :key="index">
-            <div class="top-row" v-if="filtered.includes(teamDetail.team_name) && (challengeDetails === '' || teamDetail.challenges.some(challenge => challengeDetails.includes(challenge.challenge_name))) &&
-            (projectType === 'all' ||
-                (projectType === 'virtual' && !teamDetail.in_person) ||
-                (projectType === 'in-person' && teamDetail.in_person))">
+            <div class="top-row">
                 <div v-if="teamDetail.in_person" class="table-header">{{ teamDetail.table }}</div>
                 <div v-if="!teamDetail.in_person" class="table-header">
                     <img src="~/assets/images/filmCamera.svg" class="camera-style">
@@ -80,24 +76,68 @@ const props = defineProps({
     },
 });
 
+const correctArray = ref([]);
+
 const sortedTeamDetails = computed(() => {
-    // console.log('challengeDetails: ', props.challengeDetails);
-    // console.log('teamDetails: ', props.teamDetails);
-    // let postChallengeFilter = [...props.teamDetails];
-    // if (props.challengeDetails !== '') {
-    //     postChallengeFilter.filter((x) => {
-    //         return x.challenges.includes(props.challengeDetails);
-    //     })
-    // }
-    // props.challenge
+    const postNameFilter = [...props.teamDetails].filter((team) => {
+        return props.filtered.includes(team.team_name);
+    });
+
+    // filter for type
+    const postTypeFilter = postNameFilter.filter((team) => {
+        if (props.projectType == 'all') return true;
+        if (props.projectType == 'virtual') {
+            return !team.in_person;
+        }
+        else {
+            return team.in_person;
+        }
+        // return props.projectType.includes(team.in_person);
+    });
+
+    // filter for challenge
+    let postChallengeFilter = postTypeFilter;
+    if (props.challengeDetails == '') {
+        return postChallengeFilter
+    } else {
+        const challengeFilterValue = props.challengeDetails.split(' - ')[0];
+        postChallengeFilter = postChallengeFilter.filter((team) => {
+            const challenge_names = team.challenges.map(challenge => challenge.challenge_name);
+            return challenge_names.includes(challengeFilterValue);
+        })
+    }
+    // console.log('postChallengeFilter: ', postChallengeFilter);
+    // props.teamDetails = postChallengeFilter;
+
+    const challengeFilterValue = props.challengeDetails.split(' - ')[0];
+    // sort
+    const postSort =  postChallengeFilter.sort((a, b) => {
+        const aChallenge = a.challenges.find(challenge => challenge.challenge_name == challengeFilterValue);
+        const bChallenge = b.challenges.find(challenge => challenge.challenge_name == challengeFilterValue);
+
+        if (!aChallenge || !bChallenge) {
+            return !aChallenge ? 1 : -1;
+        }
+
+        return (new Date(aChallenge.start_time) - new Date(bChallenge.start_time));
+    });
+    console.log('postSort: ', postSort);
+    // correctArray.value = postSort;
+    // console.log('filtered: ', props.filtered);
+    return [...postSort];
 
     if (props.challengeDetails !== "") {
-        
 
-        return [...props.teamDetails].sort((a, b) => {
+        return [...postChallengeFilter].sort((a, b) => {
+            const challengeFilterValue = props.challengeDetails.split(' - ')[0];
+            // console.log('a: ', a);
 
-            const aChallenge = a.challenges.find(challenge => props.challengeDetails.includes(challenge.challenge_name));
-            const bChallenge = b.challenges.find(challenge => props.challengeDetails.includes(challenge.challenge_name));
+            // const aChallenge = a.challenges.find(challenge => props.challengeDetails.includes(challenge.challenge_name));
+            // const bChallenge = b.challenges.find(challenge => props.challengeDetails.includes(challenge.challenge_name));
+
+            const aChallenge = a.challenges.find(challenge => challenge.challenge_name == challengeFilterValue)
+            // const aChallenge = a.challenges.find(challenge.challenge_name == challengeFilterValue);
+            const bChallenge = b.challenges.find(challenge => challenge.challenge_name == challengeFilterValue);
 
             if (!aChallenge || !bChallenge) {
                 return !aChallenge ? 1 : -1;
@@ -107,6 +147,7 @@ const sortedTeamDetails = computed(() => {
             //     const [hours, minutes] = time.split(':').map(Number);
             //     return hours * 60 + minutes;
             // };
+            // console.log('diff: ', (new Date(aChallenge.start_time) - new Date(bChallenge.start_time)));
             return (new Date(aChallenge.start_time) - new Date(bChallenge.start_time));
         });
     }
@@ -159,12 +200,13 @@ onUnmounted(() => {
     window.removeEventListener('resize', updateWindowWidth);
 });
 
-watch([() => props.filtered, () => props.challengeDetails, () => props.projectType], () => {
+watch([() => props.filtered, () => props.challengeDetails, () => props.projectType, () => sortedTeamDetails], () => {
     showChallenges.value = [];
     // console.log("\n\n\n\nQuick Start")
     // console.log("filtered" + props.filtered);
     // console.log("team" + props.teamDetails);
     // console.log("challenge" + props.challengeDetails);
+    console.log('sortedTeamDetails: ', sortedTeamDetails.value);
     // console.log("type" + props.projectType);
 }, { deep: true });
 </script>
