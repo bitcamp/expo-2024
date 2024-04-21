@@ -1,0 +1,114 @@
+[
+    {
+        "id": 0,
+        "prize_category": "Best Machine Learning Track Hack - Bitcamp"
+    },
+    {
+        "id": 1,
+        "prize_category": "Best App Dev Track Hack - Bitcamp"
+    },
+    {
+        "id": 2,
+        "prize_category": "Best Cybersecurity Track Hack - Bitcamp"
+    },
+    {
+        "id": 3,
+        "prize_category": "Beginner Quantum Track Hacks - Bitcamp"
+    },
+    {
+        "id": 4,
+        "prize_category": "Best Advanced Quantum Track Hack - Bitcamp"
+    },
+    {
+        "id": 5,
+        "prize_category": "Best Hardware Hack - Bitcamp"
+    },
+    {
+        "id": 6,
+        "prize_category": "Best Bitcamp Hack - Bitcamp"
+    },
+    {
+        "id": 7,
+        "prize_category": "Best First Time Hack - Bitcamp"
+    },
+    {
+        "id": 8,
+        "prize_category": "Best UI/UX Hack - Bitcamp"
+    },
+    {
+        "id": 9,
+        "prize_category": "Best Moonshot Hack - Bitcamp"
+    },
+    {
+        "id": 10,
+        "prize_category": "Best Razzle Dazzle Hack - Bitcamp"
+    },
+    {
+        "id": 11,
+        "prize_category": "Best Social Good Hack - Bitcamp"
+    },
+    {
+        "id": 12,
+        "prize_category": "Best Gamification Hack - Bitcamp"
+    },
+    {
+        "id": 13,
+        "prize_category": "People's Choice Hack - Bitcamp"
+    },
+    {
+        "id": 14,
+        "prize_category": "Best Sustainability Hack - Bitcamp"
+    },
+    {
+        "id": 15,
+        "prize_category": "Best use of AI/ML Innovation for the Francis Scott Key Bridge Recovery Efforts - Cloudforce"
+    },
+    {
+        "id": 16,
+        "prize_category": "Most Philanthropic Hack - Bloomberg"
+    },
+    {
+        "id": 17,
+        "prize_category": "Best Digital Forensics Related Hack - Cipher Tech"
+    },
+    {
+        "id": 18,
+        "prize_category": "Best Use of APIs related to Housing/Climate Change - Fannie Mae"
+    },
+    {
+        "id": 19,
+        "prize_category": "Best AI Powered Solution for Defense Contracts - Bloomberg Industry Group"
+    },
+    {
+        "id": 20,
+        "prize_category": "Best Financial Hack - Capital One"
+    },
+    {
+        "id": 21,
+        "prize_category": "University Course Catalog Data Extraction and Query Challenge - Xficient"
+    },
+    {
+        "id": 22,
+        "prize_category": "Best Domain Name from GoDaddy Registry - MLH"
+    },
+    {
+        "id": 23,
+        "prize_category": "Best DEI Hack sponsored by Fidelity - MLH"
+    },
+    {
+        "id": 24,
+        "prize_category": "Best Use of Taipy - MLH"
+    },
+    {
+        "id": 25,
+        "prize_category": "Best Use of PropelAuth - MLH"
+    },
+    {
+        "id": 26,
+        "prize_category": "Best Use of Kintone - MLH"
+    },
+    {
+        "id": 27,
+        "prize_category": "Best Use of Starknet - MLH"
+    }
+]
