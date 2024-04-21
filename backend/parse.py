@@ -40,6 +40,7 @@ MLH_HACKS = set([
     "Best Use of PropelAuth - MLH",
     "Best Use of Kintone - MLH",
     "Best Use of Starknet - MLH",
+    "People's Choice Hack - Bitcamp",
 ])
 
 BITCAMP_TRACK_HACKS = set([
@@ -59,7 +60,7 @@ BITCAMP_HACKS = set([
     "Best Razzle Dazzle Hack - Bitcamp",
     "Best Social Good Hack - Bitcamp",
     "Best Gamification Hack - Bitcamp",
-    "People's Choice Hack - Bitcamp",
+    # "People's Choice Hack - Bitcamp",
     "Best Sustainability Hack - Bitcamp"
 ])
 
@@ -227,11 +228,12 @@ def process_challenges(challenges):
         
         for tc in team_challenges:
             tc = tc.strip()
-            if tc in MLH_HACKS:
-                current_mlh_challenges.append(tc)
-            elif len(tc) > 0:
-                current_challenges.append(tc)
-        result.append(current_challenges)
+            if tc == "People's Choice Hack - Bitcamp":
+                if tc in MLH_HACKS:
+                    current_mlh_challenges.append(tc)
+                elif len(tc) > 0:
+                    current_challenges.append(tc)
+            result.append(current_challenges)
         MLH_challenges.append(current_mlh_challenges)
 
     return result, MLH_challenges
@@ -340,6 +342,8 @@ def expo_output_to_json(t, H, team_names, links, in_person_list, MLH_challenges)
                 "start_time": start_time,
             }
             challenges.append(challenge_json)
+
+        challenges.sort(key=lambda x: x["start_time"])
         
         for challenge in MLH_challenges[id]:
             challenge_name, company = parse_challenge_name(challenge)

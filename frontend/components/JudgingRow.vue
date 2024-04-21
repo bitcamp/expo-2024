@@ -4,7 +4,7 @@
       <div class="category-name">{{ categoryName }}</div>
       <!-- <div class="middle-char"></div> -->
     </div>
-    <div class="judging-description" v-if="companyName !== 'Major League Hacking'">
+    <div class="judging-description" v-if="companyName !== 'MLH'">
       <div>{{ companyName }}</div>
       <div class="judging-description-inner">
         <div>{{ judgeName }}</div>
@@ -13,7 +13,7 @@
         <div>{{ getFormattedTiming() }}</div>
       </div>
     </div>
-    <div class="judging-description-mlh" v-if="companyName === 'Major League Hacking'">
+    <div class="judging-description-mlh" v-if="companyName === 'MLH' ">
       <div>{{ companyName }}</div>
       <div>Consult MLH</div>
     </div>
@@ -44,6 +44,7 @@ export default {
   },
   methods: {
     getFormattedTiming() {
+      if (!this.timing) return '';
       const timePart = this.timing.split(' ')[1];
       const [hours, minutes] = timePart.split(':');
 

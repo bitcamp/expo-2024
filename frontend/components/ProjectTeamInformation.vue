@@ -2,12 +2,12 @@
     <div class="entire-container">
 
         <div v-for="(teamDetail, index) in sortedTeamDetails" :key="index">
-            <div class="top-row" v-if="filtered.includes(teamDetail.team_name) && (challengeDetails === '' || teamDetail.challenges.some(challenge => challengeDetails.includes(challenge.prize_category))) &&
+            <div class="top-row" v-if="filtered.includes(teamDetail.team_name) && (challengeDetails === '' || teamDetail.challenges.some(challenge => challengeDetails.includes(challenge.challenge_name))) &&
             (projectType === 'all' ||
-                (projectType === 'virtual' && teamDetail.virtual) ||
-                (projectType === 'in-person' && !teamDetail.virtual))">
-                <div v-if="!teamDetail.virtual" class="table-header">{{ teamDetail.table }}</div>
-                <div v-if="teamDetail.virtual" class="table-header">
+                (projectType === 'virtual' && !teamDetail.in_person) ||
+                (projectType === 'in-person' && teamDetail.in_person))">
+                <div v-if="teamDetail.in_person" class="table-header">{{ teamDetail.table }}</div>
+                <div v-if="!teamDetail.in_person" class="table-header">
                     <img src="~/assets/images/filmCamera.svg" class="camera-style">
                 </div>
                 <div class="project-info-container">
@@ -41,14 +41,14 @@
                     <div v-if="challengeDetails === ''"
                         :class="{ 'challenges-hidden': !showChallenges.includes(teamDetail.link), 'challenges-shown': showChallenges.includes(teamDetail.link) }">
                         <JudgingRow v-for="(challenge, challengeIndex) in teamDetail.challenges"
-                            :key="`challenge-${index}-${challengeIndex}`" :categoryName="challenge.prize_category"
+                            :key="`challenge-${index}-${challengeIndex}`" :categoryName="challenge.challenge_name"
                             :companyName="challenge.company" :judgeName="challenge.judge"
                             :timing="challenge.start_time" />
                     </div>
                     <div v-if="challengeDetails !== ''" class="challenges-shown">
                         <JudgingRow
-                            v-for="(challenge, challengeIndex) in teamDetail.challenges.filter(challenge => challengeDetails.includes(challenge.prize_category))"
-                            :key="`challenge-${index}-${challengeIndex}`" :categoryName="challenge.prize_category"
+                            v-for="(challenge, challengeIndex) in teamDetail.challenges.filter(challenge => challengeDetails.includes(challenge.challenge_name))"
+                            :key="`challenge-${index}-${challengeIndex}`" :categoryName="challenge.challenge_name"
                             :companyName="challenge.company" :judgeName="challenge.judge"
                             :timing="challenge.start_time" />
                     </div>
@@ -81,11 +81,23 @@ const props = defineProps({
 });
 
 const sortedTeamDetails = computed(() => {
+    // console.log('challengeDetails: ', props.challengeDetails);
+    // console.log('teamDetails: ', props.teamDetails);
+    // let postChallengeFilter = [...props.teamDetails];
+    // if (props.challengeDetails !== '') {
+    //     postChallengeFilter.filter((x) => {
+    //         return x.challenges.includes(props.challengeDetails);
+    //     })
+    // }
+    // props.challenge
+
     if (props.challengeDetails !== "") {
+        
+
         return [...props.teamDetails].sort((a, b) => {
 
-            const aChallenge = a.challenges.find(challenge => props.challengeDetails.includes(challenge.prize_category));
-            const bChallenge = b.challenges.find(challenge => props.challengeDetails.includes(challenge.prize_category));
+            const aChallenge = a.challenges.find(challenge => props.challengeDetails.includes(challenge.challenge_name));
+            const bChallenge = b.challenges.find(challenge => props.challengeDetails.includes(challenge.challenge_name));
 
             if (!aChallenge || !bChallenge) {
                 return !aChallenge ? 1 : -1;
@@ -95,11 +107,10 @@ const sortedTeamDetails = computed(() => {
             //     const [hours, minutes] = time.split(':').map(Number);
             //     return hours * 60 + minutes;
             // };
-            console.log(aChallenge.start_time)
-            console.log(bChallenge.start_time)
-            return timeToMinutes(aChallenge.start_time) - timeToMinutes(bChallenge.start_time);
+            return (new Date(aChallenge.start_time) - new Date(bChallenge.start_time));
         });
     }
+    
     function timeToMinutes(timeString) {
         const timePart = timeString.split(' ')[1];
         const [hours, minutes] = timePart.split(':').map(Number);

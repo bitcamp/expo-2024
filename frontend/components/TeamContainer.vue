@@ -32,8 +32,8 @@ export default {
     const state = inject('state');
     const filteredCombinedValues = computed(() => {
       return combinedValues.value.filter(team => {
-        let condition = (state.projectType === 'in-person' && !team.virtual) ||
-          (state.projectType === 'virtual' && team.virtual) ||
+        let condition = (state.projectType === 'in-person' && team.in_person) ||
+          (state.projectType === 'virtual' && team.in_person) ||
           (state.projectType === 'all');
 
         let challengeCondition = true;
