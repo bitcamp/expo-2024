@@ -133,15 +133,13 @@ def rename_old_cats(file, out):
 
             new_items = items.copy()
             for item in new_items:
-                print(item)
                 if item in OLD_TRACKS:
-                    print("HIIII")
                     row["Bitcamp Track Challenge"] = item
                     # remove the track from the list of items
                     new_items.remove(item)
 
             # update the row with the new names
-            update = ", ".join(items)
+            update = ", ".join(new_items)
             # match anything in item_string that matches OLD_TRACKS and put it in "Bitcamp Track Challenge"
             # for track in OLD_TRACKS:
             #     if track in item_string:
