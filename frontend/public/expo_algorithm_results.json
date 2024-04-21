@@ -4682,8 +4682,8 @@
     {
         "id": 154,
         "team_name": "Money Town",
-        "table": "virtual",
-        "in_person": false,
+        "table": "D7",
+        "in_person": true,
         "link": "https://bitcamp2024.devpost.com/submissions/508291-money-town",
         "challenges": [
             {
